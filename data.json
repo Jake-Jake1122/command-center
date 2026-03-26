@@ -1,0 +1,823 @@
+{
+  "lastUpdated": "Mar 26, 2026 at 05:32 PM UTC",
+  "weather": [
+{"location":"Denver, CO","icon":"☀️  ","temp":"+70°F","high":"-","low":"-","humidity":"23%","forecast":""},
+{"location":"Silverton, CO","icon":"☀️  ","temp":"+46°F","high":"-","low":"-","humidity":"46%","forecast":""},
+{"location":"Salt Lake City, UT","icon":"☀️  ","temp":"+60°F","high":"-","low":"-","humidity":"39%","forecast":""},
+{"location":"Park City, UT","icon":"☀️  ","temp":"+54°F","high":"-","low":"-","humidity":"51%","forecast":""}
+],
+  "snow": [
+  {"resort": "Arapahoe Basin", "snow24": 0, "snow48": 0, "forecast": "Dry"},
+  {"resort": "Copper Mountain", "snow24": 0, "snow48": 0, "forecast": "Dry"},
+  {"resort": "Winter Park", "snow24": 0, "snow48": 0, "forecast": "Dry"},
+  {"resort": "Brighton", "snow24": 0, "snow48": 0, "forecast": "Dry"},
+  {"resort": "Alta", "snow24": 0, "snow48": 0, "forecast": "Dry"}
+],
+  "calendar": [],
+  "emails": [],
+  "tasks": {"bugs":[],"todos":[{"text":"Contact Venmo - locked out after new phone, can't log in","priority":"medium"},{"text":"Set up Twitter - manage a Twitter account","priority":"medium"},{"text":"Baker / PNW post - TODAY (Mar 24)","priority":"medium"},{"text":"French Alps storm post - when storm hits (~Mar 26-27?)","priority":"medium"}]},
+  "cronBrief": "☀️ **SNOWLINE MORNING BRIEF** - Thursday, Mar 26\n\n⚠️ **AVY DANGER:**\n\n**COLORADO:**\n• Front Range: ⚪ No Rating\n• Vail & Summit County: 🟠 Considerable\n• Sawatch: 🟡 Moderate\n• Aspen: 🟡 Moderate\n• Gunnison: 🟡 Moderate\n• Grand Mesa: 🟢 Low\n• North San Juan: 🟡 Moderate\n• South San Juan: 🟡 Moderate\n\n**UTAH:**\n• Salt Lake: 🟠 Considerable\n• Ogden: 🟠 Considerable\n• Provo: 🟡 Moderate\n• Uintas: 🟡 Moderate\n• Skyline: ⚪ No Rating\n• Logan: 🟠 Considerable\n• Moab: 🟡 Moderate\n• Abajos: ⚪ No Rating\n\n**CALIFORNIA:**\n• Tahoe: 🟡 Moderate\n• Eastern Sierra: 🟡 Moderate\n• Shasta: 🟢 Low\n\n🚨 **SPECIAL ADVISORIES:**\nNone active\n\n⚠️ **AVY PROBLEMS TO WATCH:**\n• **Wet Loose & Wet Slab** - Primary concern across ALL regions. Unseasonably hot temps = short or zero refreeze windows. If you sink boot-top deep in wet snow, get off steep slopes.\n• **Persistent Slab** (CO/UT) - Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues.\n• CAIC: \"Avalanches being reported daily. Travel early if at all.\"\n• UAC: Conditions \"unprecedented in our lifetimes\"\n\n🌨️ **STORM WATCH:**\n**Colorado:** Light system grazing mountains Thu night → Friday. Expecting <1\" above 10k'. Cooling into Friday with highs dropping ~10°F. Slight chance showers Sat PM.\n**Utah/California:** Dry through weekend. Warm pattern continues.\n\n📢 **SOCIAL WORTHY:**\n• 🔥 UAC's \"unprecedented conditions\" quote - great for engagement\n• Week of wet avy activity - educational wet slide content opportunity\n• Cooling trend Friday = brief window of corn conditions Sat AM\n• Classic late March wet slide cycle storyline\n",
+  "cronDigest": "DAILY DIGEST CHECK — Mar 26, 2026\n\n1. Winter Park — 🟢 0\"\n2. Steamboat — 🟢 0\"\n3. Snowbird — 🟢 0\"\n4. Brighton — 🟢 0\"\n5. Copper Mountain — 🟢 0\"\n\nAll exact matches ✓ (spring melt conditions — all stations showing SWE decrease)\n",
+  "snotelData": [
+  {
+    "name": "IKON RESORTS",
+    "lat": "",
+    "lon": "",
+    "snotelStation": "",
+    "snotelName": "",
+    "source": ""
+  },
+  {
+    "name": "Grandvalira Andorra",
+    "lat": "Ikon",
+    "lon": "Andorra",
+    "snotelStation": "Encamp/Canillo",
+    "snotelName": "42.5397",
+    "source": "1.7314"
+  },
+  {
+    "name": "Mt Buller",
+    "lat": "Ikon",
+    "lon": "Australia",
+    "snotelStation": "VIC",
+    "snotelName": "-37.15",
+    "source": "146.45"
+  },
+  {
+    "name": "Thredbo",
+    "lat": "Ikon",
+    "lon": "Australia",
+    "snotelStation": "NSW",
+    "snotelName": "-36.5",
+    "source": "148.3067"
+  },
+  {
+    "name": "Ischgl",
+    "lat": "Ikon",
+    "lon": "Austria",
+    "snotelStation": "Tyrol",
+    "snotelName": "47.01",
+    "source": "10.3"
+  },
+  {
+    "name": "Kitzbühel",
+    "lat": "Ikon",
+    "lon": "Austria",
+    "snotelStation": "Tyrol",
+    "snotelName": "47.4467",
+    "source": "12.3928"
+  },
+  {
+    "name": "Banff Sunshine Village",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "Alberta",
+    "snotelName": "51.1044",
+    "source": "-115.7661"
+  },
+  {
+    "name": "Lake Louise Ski Resort",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "Alberta",
+    "snotelName": "51.4183",
+    "source": "-116.1642"
+  },
+  {
+    "name": "Mount Norquay",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "Alberta",
+    "snotelName": "51.1889",
+    "source": "-115.5831"
+  },
+  {
+    "name": "Cypress",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "British Columbia",
+    "snotelName": "49.3972",
+    "source": "-123.2069"
+  },
+  {
+    "name": "Panorama",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "British Columbia",
+    "snotelName": "50.45",
+    "source": "-116.15"
+  },
+  {
+    "name": "RED Mountain",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "British Columbia",
+    "snotelName": "49.0853",
+    "source": "-117.8236"
+  },
+  {
+    "name": "Revelstoke",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "British Columbia",
+    "snotelName": "51.0656",
+    "source": "-118.1956"
+  },
+  {
+    "name": "Sun Peaks",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "British Columbia",
+    "snotelName": "50.8817",
+    "source": "-119.8883"
+  },
+  {
+    "name": "Blue Mountain Ontario",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "Ontario",
+    "snotelName": "44.5072",
+    "source": "-80.2942"
+  },
+  {
+    "name": "Le Massif de Charlevoix",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "Quebec",
+    "snotelName": "47.65",
+    "source": "-70.2"
+  },
+  {
+    "name": "Tremblant",
+    "lat": "Ikon",
+    "lon": "Canada",
+    "snotelStation": "Quebec",
+    "snotelName": "46.2094",
+    "source": "-74.5847"
+  },
+  {
+    "name": "Valle Nevado",
+    "lat": "Ikon",
+    "lon": "Chile",
+    "snotelStation": "Santiago Metropolitan",
+    "snotelName": "-33.35",
+    "source": "-70.2667"
+  },
+  {
+    "name": "Chamonix",
+    "lat": "Ikon",
+    "lon": "France",
+    "snotelStation": "Auvergne-Rhône-Alpes",
+    "snotelName": "45.9237",
+    "source": "6.8694"
+  },
+  {
+    "name": "Cervino",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Aosta Valley",
+    "snotelName": "45.9333",
+    "source": "7.6333"
+  },
+  {
+    "name": "Courmayeur",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Aosta Valley",
+    "snotelName": "45.8",
+    "source": "6.9667"
+  },
+  {
+    "name": "La Thuile",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Aosta Valley",
+    "snotelName": "45.7167",
+    "source": "6.95"
+  },
+  {
+    "name": "Monterosa",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Aosta Valley",
+    "snotelName": "45.8333",
+    "source": "7.75"
+  },
+  {
+    "name": "Pila",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Aosta Valley",
+    "snotelName": "45.7",
+    "source": "7.3167"
+  },
+  {
+    "name": "3 Peaks Dolomites",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "South Tyrol",
+    "snotelName": "46.6333",
+    "source": "12.3"
+  },
+  {
+    "name": "Alta Badia",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "South Tyrol",
+    "snotelName": "46.6167",
+    "source": "11.9"
+  },
+  {
+    "name": "Kronplatz",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "South Tyrol",
+    "snotelName": "46.75",
+    "source": "11.95"
+  },
+  {
+    "name": "Rio Pusteria",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "South Tyrol",
+    "snotelName": "46.75",
+    "source": "11.6667"
+  },
+  {
+    "name": "Val Gardena",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "South Tyrol",
+    "snotelName": "46.5667",
+    "source": "11.6667"
+  },
+  {
+    "name": "Alpe Lusia",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Trentino",
+    "snotelName": "46.3",
+    "source": "11.6667"
+  },
+  {
+    "name": "San Martino di Castrozza",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Trentino",
+    "snotelName": "46.25",
+    "source": "11.8"
+  },
+  {
+    "name": "Val di Fassa",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Trentino",
+    "snotelName": "46.45",
+    "source": "11.6667"
+  },
+  {
+    "name": "Val di Fiemme",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Trentino",
+    "snotelName": "46.3",
+    "source": "11.5"
+  },
+  {
+    "name": "Arabba",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Veneto",
+    "snotelName": "46.5",
+    "source": "11.8667"
+  },
+  {
+    "name": "Civetta",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Veneto",
+    "snotelName": "46.4",
+    "source": "12"
+  },
+  {
+    "name": "Cortina d'Ampezzo",
+    "lat": "Ikon",
+    "lon": "Italy",
+    "snotelStation": "Veneto",
+    "snotelName": "46.5369",
+    "source": "12.1392"
+  },
+  {
+    "name": "Annupuri",
+    "lat": "Ikon",
+    "lon": "Japan",
+    "snotelStation": "Hokkaido",
+    "snotelName": "42.85",
+    "source": "140.85"
+  },
+  {
+    "name": "Grand Hirafu",
+    "lat": "Ikon",
+    "lon": "Japan",
+    "snotelStation": "Hokkaido",
+    "snotelName": "42.85",
+    "source": "140.7"
+  },
+  {
+    "name": "Hanazono",
+    "lat": "Ikon",
+    "lon": "Japan",
+    "snotelStation": "Hokkaido",
+    "snotelName": "42.85",
+    "source": "140.75"
+  },
+  {
+    "name": "Niseko Village",
+    "lat": "Ikon",
+    "lon": "Japan",
+    "snotelStation": "Hokkaido",
+    "snotelName": "42.85",
+    "source": "140.7"
+  },
+  {
+    "name": "Arai Mountain Resort",
+    "lat": "Ikon",
+    "lon": "Japan",
+    "snotelStation": "Niigata",
+    "snotelName": "37.0833",
+    "source": "138.4"
+  },
+  {
+    "name": "Mt Hutt",
+    "lat": "Ikon",
+    "lon": "New Zealand",
+    "snotelStation": "Canterbury",
+    "snotelName": "-43.5",
+    "source": "171.55"
+  },
+  {
+    "name": "Coronet Peak",
+    "lat": "Ikon",
+    "lon": "New Zealand",
+    "snotelStation": "Otago",
+    "snotelName": "-45.0069",
+    "source": "168.7731"
+  },
+  {
+    "name": "The Remarkables",
+    "lat": "Ikon",
+    "lon": "New Zealand",
+    "snotelStation": "Otago",
+    "snotelName": "-45.0319",
+    "source": "168.7597"
+  },
+  {
+    "name": "St. Moritz",
+    "lat": "Ikon",
+    "lon": "Switzerland",
+    "snotelStation": "Graubünden",
+    "snotelName": "46.5",
+    "source": "9.8333"
+  },
+  {
+    "name": "Zermatt",
+    "lat": "Ikon",
+    "lon": "Switzerland",
+    "snotelStation": "Valais",
+    "snotelName": "46.0167",
+    "source": "7.75"
+  },
+  {
+    "name": "Alyeska Resort",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Alaska",
+    "snotelName": "60.9667",
+    "source": "-149.1"
+  },
+  {
+    "name": "Bear Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "California",
+    "snotelName": "34.2186",
+    "source": "-116.8604"
+  },
+  {
+    "name": "June Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "California",
+    "snotelName": "37.7647",
+    "source": "-119.0781"
+  },
+  {
+    "name": "Mammoth Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "California",
+    "snotelName": "37.6308",
+    "source": "-119.0326"
+  },
+  {
+    "name": "Palisades Tahoe",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "California",
+    "snotelName": "39.1855",
+    "source": "-120.2574"
+  },
+  {
+    "name": "Sierra-at-Tahoe",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "California",
+    "snotelName": "38.8",
+    "source": "-120.0667"
+  },
+  {
+    "name": "Snow Summit",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "California",
+    "snotelName": "34.2333",
+    "source": "-116.9106"
+  },
+  {
+    "name": "Snow Valley",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "California",
+    "snotelName": "34.2167",
+    "source": "-116.9"
+  },
+  {
+    "name": "Arapahoe Basin",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.6324",
+    "source": "-105.871"
+  },
+  {
+    "name": "Aspen Highlands",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.1407",
+    "source": "-106.8709"
+  },
+  {
+    "name": "Aspen Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.1576",
+    "source": "-106.8201"
+  },
+  {
+    "name": "Buttermilk ",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.1896",
+    "source": "-106.8711"
+  },
+  {
+    "name": "Copper Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.4817",
+    "source": "-106.15"
+  },
+  {
+    "name": "Eldora",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.9369",
+    "source": "-105.5899"
+  },
+  {
+    "name": "Snowmass Aspen",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.1806",
+    "source": "-106.9517"
+  },
+  {
+    "name": "Steamboat",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "40.4537",
+    "source": "-106.7587"
+  },
+  {
+    "name": "Winter Park Resort",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Colorado",
+    "snotelName": "39.8864",
+    "source": "-105.7625"
+  },
+  {
+    "name": "Dollar Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Idaho",
+    "snotelName": "43.6667",
+    "source": "-114.325"
+  },
+  {
+    "name": "Schweitzer",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Idaho",
+    "snotelName": "48.3747",
+    "source": "-116.6325"
+  },
+  {
+    "name": "Sun Valley",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Idaho",
+    "snotelName": "43.6651",
+    "source": "-114.3972"
+  },
+  {
+    "name": "Sugarloaf",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Maine",
+    "snotelName": "45.0306",
+    "source": "-70.3131"
+  },
+  {
+    "name": "Sunday River",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Maine",
+    "snotelName": "44.4694",
+    "source": "-70.8583"
+  },
+  {
+    "name": "Boyne Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Michigan",
+    "snotelName": "45.1631",
+    "source": "-84.9297"
+  },
+  {
+    "name": "The Highlands",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Michigan",
+    "snotelName": "45.45",
+    "source": "-85"
+  },
+  {
+    "name": "Big Sky",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Montana",
+    "snotelName": "45.2811",
+    "source": "-111.4302"
+  },
+  {
+    "name": "Loon Mountain",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "New Hampshire",
+    "snotelName": "44.0369",
+    "source": "-71.6206"
+  },
+  {
+    "name": "Taos Ski Valley",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "New Mexico",
+    "snotelName": "36.5823",
+    "source": "-105.4517"
+  },
+  {
+    "name": "Mt. Bachelor",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Oregon",
+    "snotelName": "43.9789",
+    "source": "-121.6869"
+  },
+  {
+    "name": "Blue Mountain Pennsylvania",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Pennsylvania",
+    "snotelName": "40.85",
+    "source": "-75.4833"
+  },
+  {
+    "name": "Camelback",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Pennsylvania",
+    "snotelName": "41.0667",
+    "source": "-75.3167"
+  },
+  {
+    "name": "Alta",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Utah",
+    "snotelName": "40.5784",
+    "source": "-111.6328"
+  },
+  {
+    "name": "Brighton",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Utah",
+    "snotelName": "40.5981",
+    "source": "-111.5831"
+  },
+  {
+    "name": "Deer Valley",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Utah",
+    "snotelName": "40.611",
+    "source": "-111.4999"
+  },
+  {
+    "name": "Snowbasin",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Utah",
+    "snotelName": "41.1994",
+    "source": "-111.8593"
+  },
+  {
+    "name": "Snowbird",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Utah",
+    "snotelName": "40.5665",
+    "source": "-111.6523"
+  },
+  {
+    "name": "Solitude",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Utah",
+    "snotelName": "40.6163",
+    "source": "-111.6032"
+  },
+  {
+    "name": "Killington",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Vermont",
+    "snotelName": "43.6042",
+    "source": "-72.8147"
+  },
+  {
+    "name": "Pico",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Vermont",
+    "snotelName": "43.6389",
+    "source": "-72.8333"
+  },
+  {
+    "name": "Stratton",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Vermont",
+    "snotelName": "43.1139",
+    "source": "-72.9075"
+  },
+  {
+    "name": "Sugarbush",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Vermont",
+    "snotelName": "44.1314",
+    "source": "-72.8931"
+  },
+  {
+    "name": "Alpental",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Washington",
+    "snotelName": "47.4361",
+    "source": "-121.4354"
+  },
+  {
+    "name": "Crystal Mountain Resort",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Washington",
+    "snotelName": "46.9294",
+    "source": "-121.4944"
+  },
+  {
+    "name": "The Summit at Snoqualmie",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Washington",
+    "snotelName": "47.4018",
+    "source": "-121.4217"
+  },
+  {
+    "name": "Snowshoe",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "West Virginia",
+    "snotelName": "38.4103",
+    "source": "-79.9936"
+  },
+  {
+    "name": "Jackson Hole",
+    "lat": "Ikon",
+    "lon": "USA",
+    "snotelStation": "Wyoming",
+    "snotelName": "43.5934",
+    "source": "-110.8523"
+  },
+  {
+    "name": "EPIC RESORTS",
+    "lat": "",
+    "lon": "",
+    "snotelStation": "",
+    "snotelName": "",
+    "source": ""
+  },
+  {
+    "name": "Falls Creek",
+    "lat": "Epic",
+    "lon": "Australia",
+    "snotelStation": "VIC",
+    "snotelName": "-36.8653",
+    "source": "147.2797"
+  },
+  {
+    "name": "Mount Hotham",
+    "lat": "Epic",
+    "lon": "Australia",
+    "snotelStation": "VIC",
+    "snotelName": "-36.9833",
+    "source": "147.3333"
+  },
+  {
+    "name": "Perisher",
+    "lat": "Epic",
+    "lon": "Australia",
+    "snotelStation": "NSW",
+    "snotelName": "-36.4089",
+    "source": "148.4047"
+  },
+  {
+    "name": "Mayrhofen & Hintertux",
+    "lat": "Epic",
+    "lon": "Austria",
+    "snotelStation": "Tyrol",
+    "snotelName": "47.1667",
+    "source": "11.8667"
+  },
+  {
+    "name": "Saalbach",
+    "lat": "Epic",
+    "lon": "Austria",
+    "snotelStation": "Salzburg",
+    "snotelName": "47.38",
+    "source": "12.8"
+  },
+  {
+    "name": "Silvretta Montafon",
+    "lat": "Epic",
+    "lon": "Austria",
+    "snotelStation": "Vorarlberg",
+    "snotelName": "46.8833",
+    "source": "10.05"
+  },
+  {
+    "name": "Ski Arlberg",
+    "lat": "Epic",
+    "lon": "Austria",
+    "snotelStation": "Tyrol/Vorarlberg",
+    "snotelName": "47.1333",
+    "source": "10.1667"
+  },
+  {
+    "name": "Sölden",
+    "lat": "Epic",
+    "lon": "Austria",
+    "snotelStation": "Tyrol",
+    "snotelName": "46.9667",
+    "source": "10.9833"
+  }
+]
+}

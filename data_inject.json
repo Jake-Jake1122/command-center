@@ -1,0 +1,18 @@
+{
+  "lastUpdated": "Mar 26, 2026 at 01:09 PM MST",
+  "weather": [{"location":"Denver, CO","icon":"⛅","temp":"+69°F","high":"-","low":"-","humidity":"H:30%","forecast":""},{"location":"Silverton, CO","icon":"⛈","temp":"+46°F","high":"-","low":"-","humidity":"H:50%","forecast":""},{"location":"Salt Lake City, UT","icon":"⛅","temp":"+62°F","high":"-","low":"-","humidity":"H:31%","forecast":""},{"location":"Park City, UT","icon":"☀️","temp":"+57°F","high":"-","low":"-","humidity":"H:53%","forecast":""}],
+  "snow": [{"resort":"Arapahoe Basin","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Copper Mountain","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Winter Park","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Brighton","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Alta","snow24":0,"snow48":0,"forecast":"Dry"}],
+  "calendar": [
+  {
+    "day": "26",
+    "month": "MAR",
+    "title": "effi@pubgenius.io's birthday",
+    "time": "All day"
+  }
+],
+  "emails": [],
+  "tasks": {"bugs":[],"todos":[{"text":"Contact Venmo - locked out after new phone","priority":"medium"},{"text":"Set up Twitter - manage a Twitter account","priority":"medium"},{"text":"Baker / PNW post","priority":"medium"},{"text":"French Alps storm post - when storm hits (~Mar 26-27)","priority":"high"}]},
+  "cronBrief": "☀️ **SNOWLINE MORNING BRIEF** - Thursday, Mar 26\n\n⚠️ **AVY DANGER:**\n\n**COLORADO:**\n• Front Range: ⚪ No Rating\n• Vail & Summit County: 🟠 Considerable\n• Sawatch: 🟡 Moderate\n• Aspen: 🟡 Moderate\n• Gunnison: 🟡 Moderate\n• Grand Mesa: 🟢 Low\n• North San Juan: 🟡 Moderate\n• South San Juan: 🟡 Moderate\n\n**UTAH:**\n• Salt Lake: 🟠 Considerable\n• Ogden: 🟠 Considerable\n• Provo: 🟡 Moderate\n• Uintas: 🟡 Moderate\n• Skyline: ⚪ No Rating\n• Logan: 🟠 Considerable\n• Moab: 🟡 Moderate\n• Abajos: ⚪ No Rating\n\n**CALIFORNIA:**\n• Tahoe: 🟡 Moderate\n• Eastern Sierra: 🟡 Moderate\n• Shasta: 🟢 Low\n\n🚨 **SPECIAL ADVISORIES:**\nNone active\n\n⚠️ **AVY PROBLEMS TO WATCH:**\n• **Wet Loose & Wet Slab** - Primary concern across ALL regions. Unseasonably hot temps = short or zero refreeze windows. If you sink boot-top deep in wet snow, get off steep slopes.\n• **Persistent Slab** (CO/UT) - Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues.\n• CAIC: \"Avalanches being reported daily. Travel early if at all.\"\n• UAC: Conditions \"unprecedented in our lifetimes\"\n\n🌨️ **STORM WATCH:**\n**Colorado:** Light system grazing mountains Thu night → Friday. Expecting <1\" above 10k'. Cooling into Friday with highs dropping ~10°F. Slight chance showers Sat PM.\n**Utah/California:** Dry through weekend. Warm pattern continues.\n\n📢 **SOCIAL WORTHY:**\n• 🔥 UAC's \"unprecedented conditions\" quote - great for engagement\n• Week of wet avy activity - educational wet slide content opportunity\n• Cooling trend Friday = brief window of corn conditions Sat AM\n• Classic late March wet slide cycle storyline\n",
+  "cronDigest": "DAILY DIGEST CHECK — Mar 26, 2026\n\n1. Winter Park — 🟢 0\"\n2. Steamboat — 🟢 0\"\n3. Snowbird — 🟢 0\"\n4. Brighton — 🟢 0\"\n5. Copper Mountain — 🟢 0\"\n\nAll exact matches ✓ (spring melt conditions — all stations showing SWE decrease)\n",
+  "snotelData": []
+}
