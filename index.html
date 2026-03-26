@@ -20,6 +20,7 @@
       --accent-yellow: #d29922;
       --accent-red: #f85149;
       --accent-purple: #a371f7;
+      --accent-orange: #f0883e;
     }
     
     body {
@@ -31,10 +32,7 @@
       padding: 1rem;
     }
     
-    .container {
-      max-width: 1400px;
-      margin: 0 auto;
-    }
+    .container { max-width: 1600px; margin: 0 auto; }
     
     header {
       display: flex;
@@ -45,22 +43,12 @@
       border-bottom: 1px solid var(--border);
     }
     
-    h1 {
-      font-size: 1.5rem;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-    
-    .last-updated {
-      color: var(--text-muted);
-      font-size: 0.875rem;
-    }
+    h1 { font-size: 1.5rem; font-weight: 600; }
+    .last-updated { color: var(--text-muted); font-size: 0.875rem; }
     
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 1rem;
     }
     
@@ -70,6 +58,9 @@
       border-radius: 8px;
       padding: 1rem;
     }
+    
+    .card.full-width { grid-column: 1 / -1; }
+    .card.half-width { grid-column: span 2; }
     
     .card-header {
       display: flex;
@@ -88,125 +79,114 @@
       color: var(--text-secondary);
     }
     
-    .card-icon {
-      font-size: 1.25rem;
-    }
+    .card-icon { font-size: 1.25rem; }
     
-    /* Weather Section */
+    /* Weather */
     .weather-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 0.75rem;
     }
-    
     .weather-item {
       background: var(--bg-tertiary);
       padding: 0.75rem;
       border-radius: 6px;
     }
+    .weather-location { font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.25rem; }
+    .weather-temp { font-size: 1.5rem; font-weight: 600; }
+    .weather-details { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
     
-    .weather-location {
-      font-size: 0.75rem;
-      color: var(--text-secondary);
-      margin-bottom: 0.25rem;
+    /* Snow */
+    .snow-table { width: 100%; font-size: 0.875rem; }
+    .snow-table th { text-align: left; color: var(--text-secondary); font-weight: 500; padding: 0.5rem 0.25rem; border-bottom: 1px solid var(--border); }
+    .snow-table td { padding: 0.5rem 0.25rem; border-bottom: 1px solid var(--border); }
+    .snow-value { font-weight: 600; color: var(--accent-blue); }
+    .snow-value.fresh { color: var(--accent-green); }
+    
+    /* Avy Section */
+    .avy-columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
     }
-    
-    .weather-temp {
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
-    
-    .weather-details {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      margin-top: 0.25rem;
-    }
-    
-    .weather-forecast {
-      font-size: 0.75rem;
-      color: var(--accent-blue);
-      margin-top: 0.25rem;
-    }
-    
-    /* Snow Conditions */
-    .snow-table {
-      width: 100%;
+    .avy-column h3 {
       font-size: 0.875rem;
-    }
-    
-    .snow-table th {
-      text-align: left;
-      color: var(--text-secondary);
-      font-weight: 500;
-      padding: 0.5rem 0.25rem;
-      border-bottom: 1px solid var(--border);
-    }
-    
-    .snow-table td {
-      padding: 0.5rem 0.25rem;
-      border-bottom: 1px solid var(--border);
-    }
-    
-    .snow-value {
       font-weight: 600;
-      color: var(--accent-blue);
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
     }
-    
-    .snow-value.fresh {
-      color: var(--accent-green);
-    }
-    
-    /* SNOTEL Search */
-    .search-container {
+    .avy-zone {
       display: flex;
-      gap: 0.5rem;
-      margin-bottom: 0.75rem;
-      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0.25rem 0;
+      font-size: 0.8rem;
     }
+    .avy-zone-name { color: var(--text-secondary); }
+    .avy-rating { font-weight: 600; }
+    .avy-rating.low { color: var(--accent-green); }
+    .avy-rating.moderate { color: var(--accent-yellow); }
+    .avy-rating.considerable { color: var(--accent-orange); }
+    .avy-rating.high { color: var(--accent-red); }
+    .avy-rating.extreme { color: #ff0000; }
+    .avy-rating.no-rating { color: var(--text-muted); }
     
-    .search-input {
-      flex: 1;
-      min-width: 200px;
-      padding: 0.5rem 0.75rem;
+    /* Avy Problems */
+    .avy-problem {
       background: var(--bg-tertiary);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      color: var(--text-primary);
-      font-size: 0.875rem;
-    }
-    
-    .search-input:focus {
-      outline: none;
-      border-color: var(--accent-blue);
-    }
-    
-    .btn {
       padding: 0.5rem 0.75rem;
-      background: var(--bg-tertiary);
-      border: 1px solid var(--border);
       border-radius: 6px;
-      color: var(--text-primary);
-      font-size: 0.75rem;
-      cursor: pointer;
-      text-decoration: none;
-      white-space: nowrap;
+      margin-bottom: 0.5rem;
+      font-size: 0.8rem;
     }
-    
-    .btn:hover {
-      background: var(--border);
+    .avy-problem-title { font-weight: 600; color: var(--accent-yellow); }
+    .avy-problem-desc { color: var(--text-secondary); margin-top: 0.25rem; }
+    .advisory-item {
+      background: var(--accent-red);
+      color: white;
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 500;
     }
+    .no-advisory { color: var(--text-muted); font-style: italic; font-size: 0.8rem; }
     
-    .search-result {
+    /* Storm Watch */
+    .storm-item {
       background: var(--bg-tertiary);
       padding: 0.75rem;
       border-radius: 6px;
-      font-size: 0.875rem;
-      display: none;
+      margin-bottom: 0.5rem;
     }
+    .storm-region { font-weight: 600; color: var(--accent-blue); font-size: 0.8rem; }
+    .storm-forecast { font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem; }
     
-    .search-result.active {
-      display: block;
+    /* Social Worthy */
+    .social-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
     }
+    .social-item:last-child { border-bottom: none; }
+    .social-icon { flex-shrink: 0; }
+    
+    /* Daily Digest */
+    .digest-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.35rem 0;
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .digest-item:last-child { border-bottom: none; }
+    .digest-resort { color: var(--text-secondary); }
+    .digest-status { font-weight: 500; }
+    .digest-status.match { color: var(--accent-green); }
+    .digest-status.mismatch { color: var(--accent-red); }
     
     /* Calendar */
     .calendar-item {
@@ -215,164 +195,62 @@
       padding: 0.5rem 0;
       border-bottom: 1px solid var(--border);
     }
-    
-    .calendar-item:last-child {
-      border-bottom: none;
-    }
-    
-    .calendar-date {
-      min-width: 50px;
-      text-align: center;
-    }
-    
-    .calendar-day {
-      font-size: 1.25rem;
-      font-weight: 600;
-    }
-    
-    .calendar-month {
-      font-size: 0.625rem;
-      text-transform: uppercase;
-      color: var(--text-muted);
-    }
-    
-    .calendar-event {
-      flex: 1;
-    }
-    
-    .calendar-title {
-      font-weight: 500;
-    }
-    
-    .calendar-time {
-      font-size: 0.75rem;
-      color: var(--text-secondary);
-    }
-    
-    .calendar-today {
-      background: var(--bg-tertiary);
-      margin: -0.5rem -0.5rem;
-      padding: 0.5rem;
-      border-radius: 6px;
-    }
+    .calendar-item:last-child { border-bottom: none; }
+    .calendar-date { min-width: 45px; text-align: center; }
+    .calendar-day { font-size: 1.25rem; font-weight: 600; }
+    .calendar-month { font-size: 0.625rem; text-transform: uppercase; color: var(--text-muted); }
+    .calendar-event { flex: 1; }
+    .calendar-title { font-weight: 500; font-size: 0.875rem; }
+    .calendar-time { font-size: 0.75rem; color: var(--text-secondary); }
     
     /* Email */
-    .email-item {
-      padding: 0.5rem 0;
-      border-bottom: 1px solid var(--border);
-    }
+    .email-item { padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+    .email-item:last-child { border-bottom: none; }
+    .email-from { font-weight: 500; font-size: 0.875rem; }
+    .email-subject { font-size: 0.8rem; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .email-date { font-size: 0.7rem; color: var(--text-muted); }
     
-    .email-item:last-child {
-      border-bottom: none;
+    /* SNOTEL */
+    .search-container { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap; }
+    .search-input {
+      flex: 1; min-width: 150px; padding: 0.5rem 0.75rem;
+      background: var(--bg-tertiary); border: 1px solid var(--border);
+      border-radius: 6px; color: var(--text-primary); font-size: 0.875rem;
     }
-    
-    .email-from {
-      font-weight: 500;
-      font-size: 0.875rem;
+    .search-input:focus { outline: none; border-color: var(--accent-blue); }
+    .btn {
+      padding: 0.5rem 0.75rem; background: var(--bg-tertiary);
+      border: 1px solid var(--border); border-radius: 6px;
+      color: var(--text-primary); font-size: 0.75rem;
+      cursor: pointer; text-decoration: none; white-space: nowrap;
     }
-    
-    .email-subject {
-      font-size: 0.875rem;
-      color: var(--text-secondary);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    
-    .email-date {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }
-    
-    .email-urgent {
-      border-left: 3px solid var(--accent-yellow);
-      padding-left: 0.5rem;
-    }
-    
-    /* Cron Outputs */
-    .cron-output {
-      background: var(--bg-tertiary);
-      padding: 0.75rem;
-      border-radius: 6px;
-      font-family: 'SF Mono', Monaco, monospace;
-      font-size: 0.75rem;
-      white-space: pre-wrap;
-      word-break: break-word;
-      max-height: 300px;
-      overflow-y: auto;
-      margin-bottom: 0.75rem;
-    }
-    
-    .cron-label {
-      font-size: 0.75rem;
-      color: var(--text-secondary);
-      margin-bottom: 0.25rem;
-      font-weight: 500;
-    }
+    .btn:hover { background: var(--border); }
+    .search-result { background: var(--bg-tertiary); padding: 0.75rem; border-radius: 6px; font-size: 0.875rem; display: none; }
+    .search-result.active { display: block; }
     
     /* Tasks */
-    .task-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.5rem;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid var(--border);
-    }
-    
-    .task-item:last-child {
-      border-bottom: none;
-    }
-    
-    .task-priority {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      margin-top: 0.4rem;
-      flex-shrink: 0;
-    }
-    
+    .task-item { display: flex; align-items: flex-start; gap: 0.5rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
+    .task-item:last-child { border-bottom: none; }
+    .task-priority { width: 8px; height: 8px; border-radius: 50%; margin-top: 0.4rem; flex-shrink: 0; }
     .task-priority.high { background: var(--accent-red); }
     .task-priority.medium { background: var(--accent-yellow); }
     .task-priority.low { background: var(--accent-green); }
+    .task-text { flex: 1; font-size: 0.8rem; }
+    .task-section { margin-top: 0.75rem; }
+    .task-section:first-child { margin-top: 0; }
+    .task-section-title { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.35rem; font-weight: 600; }
     
-    .task-text {
-      flex: 1;
-      font-size: 0.875rem;
+    .empty-state { color: var(--text-muted); font-size: 0.875rem; font-style: italic; padding: 1rem 0; text-align: center; }
+    
+    @media (max-width: 900px) {
+      .avy-columns { grid-template-columns: 1fr; }
+      .card.half-width { grid-column: span 1; }
     }
-    
-    .task-section {
-      margin-top: 1rem;
-    }
-    
-    .task-section-title {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-    }
-    
-    /* Full width cards */
-    .card.full-width {
-      grid-column: 1 / -1;
-    }
-    
-    /* Empty state */
-    .empty-state {
-      color: var(--text-muted);
-      font-size: 0.875rem;
-      font-style: italic;
-      padding: 1rem 0;
-      text-align: center;
-    }
-    
-    /* Mobile adjustments */
     @media (max-width: 640px) {
       body { padding: 0.75rem; }
       .weather-grid { grid-template-columns: 1fr; }
       .grid { grid-template-columns: 1fr; }
       header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
-      .search-container { flex-direction: column; }
-      .btn { text-align: center; }
     }
   </style>
 </head>
@@ -384,61 +262,85 @@
     </header>
     
     <div class="grid">
-      <!-- Weather -->
+      <!-- Row 1: Weather + Storm Watch + Snow -->
       <div class="card">
         <div class="card-header">
           <span class="card-title">Weather</span>
           <span class="card-icon">🌤️</span>
         </div>
-        <div class="weather-grid" id="weather-grid">
-          <!-- Weather items injected here -->
-        </div>
+        <div class="weather-grid" id="weather-grid"></div>
       </div>
       
-      <!-- Snow Conditions -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Storm Watch</span>
+          <span class="card-icon">🌨️</span>
+        </div>
+        <div id="storm-watch"></div>
+      </div>
+      
       <div class="card">
         <div class="card-header">
           <span class="card-title">Snow Conditions</span>
           <span class="card-icon">🏔️</span>
         </div>
         <table class="snow-table">
-          <thead>
-            <tr>
-              <th>Resort</th>
-              <th>24h</th>
-              <th>48h</th>
-              <th>Forecast</th>
-            </tr>
-          </thead>
-          <tbody id="snow-tbody">
-            <!-- Snow data injected here -->
-          </tbody>
+          <thead><tr><th>Resort</th><th>24h</th><th>48h</th><th>Forecast</th></tr></thead>
+          <tbody id="snow-tbody"></tbody>
         </table>
       </div>
       
-      <!-- Calendar -->
+      <!-- Row 2: Avy Danger (full width) -->
+      <div class="card full-width">
+        <div class="card-header">
+          <span class="card-title">Avalanche Danger</span>
+          <span class="card-icon">⚠️</span>
+        </div>
+        <div class="avy-columns" id="avy-danger"></div>
+      </div>
+      
+      <!-- Row 3: Avy Problems + Social Worthy -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Avy Problems & Advisories</span>
+          <span class="card-icon">🚨</span>
+        </div>
+        <div id="avy-problems"></div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Social Worthy</span>
+          <span class="card-icon">📢</span>
+        </div>
+        <div id="social-worthy"></div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Daily Digest Check</span>
+          <span class="card-icon">📊</span>
+        </div>
+        <div id="daily-digest"></div>
+      </div>
+      
+      <!-- Row 4: Calendar + Email + SNOTEL -->
       <div class="card">
         <div class="card-header">
           <span class="card-title">Calendar</span>
           <span class="card-icon">📅</span>
         </div>
-        <div id="calendar-list">
-          <!-- Calendar items injected here -->
-        </div>
+        <div id="calendar-list"></div>
       </div>
       
-      <!-- Email -->
       <div class="card">
         <div class="card-header">
           <span class="card-title">Needs Reply</span>
           <span class="card-icon">📧</span>
         </div>
-        <div id="email-list">
-          <!-- Email items injected here -->
-        </div>
+        <div id="email-list"></div>
       </div>
       
-      <!-- SNOTEL Search -->
       <div class="card">
         <div class="card-header">
           <span class="card-title">SNOTEL Lookup</span>
@@ -447,65 +349,45 @@
         <div class="search-container">
           <input type="text" class="search-input" id="snotel-search" placeholder="Search resort or zone...">
           <a href="https://nwcc-apps.sc.egov.usda.gov/imap/#version=2&elements=&networks=!&states=!&counties=!&hucs=&minElevation=&maxElevation=&elementSelectType=any&activeOnly=true&activeForecastPointsOnly=true&hucLabels=false&hucIdLabels=false&hucParameterLabels=true&stationLabels=&overlays=&hucOverlays=&basinOpacity=75&basinNoDataOpacity=25&basemapOpacity=100&maskOpacity=0&mode=data&openSections=dataElement,parameter,date,basin,options,elements,location,networks&controlsOpen=true&popup=&popupMulti=&popupBasin=&base=esriNgwm&displayType=station&basinType=6&dataElement=WTEQ&depth=-8&parameter=PCTMED&frequency=DAILY&duration=I&customDuration=&dayPart=E&monthPart=E&forecastPubDay=1&forecastExceedance=50&useMixedPast=true&seqColor=1&divColor=7&scaleType=D&scaleMin=&scaleMax=&referencePeriodType=POR&referenceBegin=1991&referenceEnd=2020&minimumYears=20&hucAssociations=true&relativeDate=-31&lat=41.812&lon=-110.127&zoom=6.0" target="_blank" class="btn">SNOTEL iMap</a>
-          <a href="https://earth.google.com/web/search/39.4817%09-106.15/@39.89517682,-105.44585026,3236.53214516a,3996221.05939507d,35y,0h,0t,0r/data=CiwiJgokCcHnKH09JUhAERT7KAx8gkdAGUW5Tf95Fl7AIVGNcfln6F7AQgIIAToDCgEwQgIIAEoNCP___________wEQAA?authuser=0" target="_blank" class="btn">Google Earth</a>
+          <a href="https://earth.google.com/web/" target="_blank" class="btn">Google Earth</a>
         </div>
-        <div class="search-result" id="snotel-result">
-          <!-- Search results injected here -->
-        </div>
+        <div class="search-result" id="snotel-result"></div>
       </div>
       
-      <!-- Bugs & To-Do -->
-      <div class="card">
+      <!-- Row 5: Bugs & To-Do (full width) -->
+      <div class="card full-width">
         <div class="card-header">
           <span class="card-title">Bugs & To-Do</span>
           <span class="card-icon">☑️</span>
         </div>
-        <div id="tasks-list">
-          <!-- Tasks injected here -->
-        </div>
-      </div>
-      
-      <!-- Cron Outputs - Full Width -->
-      <div class="card full-width">
-        <div class="card-header">
-          <span class="card-title">Morning Brief</span>
-          <span class="card-icon">📋</span>
-        </div>
-        <div class="cron-label">Daily Brief (last run)</div>
-        <div class="cron-output" id="cron-brief">Loading...</div>
-        <div class="cron-label">Daily Digest Check (last run)</div>
-        <div class="cron-output" id="cron-digest">Loading...</div>
+        <div id="tasks-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;"></div>
       </div>
     </div>
   </div>
   
   <script>
-    // Dashboard data - this gets replaced when I regenerate the dashboard
-    const DASHBOARD_DATA = {"lastUpdated": "Mar 26, 2026 at 01:17 PM MST", "weather": [{"location": "Denver, CO", "icon": "\u26c5", "temp": "+69\u00b0F", "high": "-", "low": "-", "humidity": "H:30%", "forecast": ""}, {"location": "Silverton, CO", "icon": "\u26c8", "temp": "+46\u00b0F", "high": "-", "low": "-", "humidity": "H:50%", "forecast": ""}, {"location": "Salt Lake City, UT", "icon": "\u26c5", "temp": "+62\u00b0F", "high": "-", "low": "-", "humidity": "H:31%", "forecast": ""}, {"location": "Park City, UT", "icon": "\u2600\ufe0f", "temp": "+57\u00b0F", "high": "-", "low": "-", "humidity": "H:53%", "forecast": ""}], "snow": [{"resort": "Arapahoe Basin", "snow24": 0, "snow48": 0, "forecast": "Dry"}, {"resort": "Copper Mountain", "snow24": 0, "snow48": 0, "forecast": "Dry"}, {"resort": "Winter Park", "snow24": 0, "snow48": 0, "forecast": "Dry"}, {"resort": "Brighton", "snow24": 0, "snow48": 0, "forecast": "Dry"}, {"resort": "Alta", "snow24": 0, "snow48": 0, "forecast": "Dry"}], "calendar": [{"day": "26", "month": "MAR", "title": "effi@pubgenius.io's birthday", "time": "All day"}], "emails": [], "tasks": {"bugs": [{"text": "Stevens Pass 14d returning 0\" + MMS instead of SMS (flagged to Daniel)", "priority": "high"}, {"text": "UTC timezone bug \u2014 NWS grouping by UTC instead of local timezone (flagged to Daniel)", "priority": "high"}, {"text": "Whistler forecast \"unable to process\" (flagged to Daniel)", "priority": "high"}, {"text": "Top 10 resort list showing 0\" entries \u2014 need 1\" minimum threshold", "priority": "medium"}, {"text": "Forecast window inconsistency \u2014 need consistent 7-day across all resorts/channels", "priority": "medium"}, {"text": "Berthoud Pass avy returning \"outside CAIC forecast areas\" \u2014 incorrect", "priority": "medium"}, {"text": "Snow report indentation inconsistent \u2014 24h flush left, others indented", "priority": "low"}, {"text": "Clickable CAIC link on web chatbot \u2014 currently plain text", "priority": "low"}, {"text": "Intermittent data failures on first query \u2014 timeout/race condition", "priority": "medium"}, {"text": "Paywall message incorrect \u2014 says 7 days should say 14 days", "priority": "medium"}, {"text": "Contact form not connected to Resend (flagged to Daniel)", "priority": "medium"}, {"text": "Powder alerts \u2014 confirm 1\" threshold + firing for all favorited resorts", "priority": "medium"}], "todos": [{"text": "Send Madison $250-300 onboarding stipend", "priority": "high"}, {"text": "Madison IC agreement \u2014 flag Vandana", "priority": "high"}, {"text": "Follow up with Vandana about TMs", "priority": "medium"}, {"text": "Order beanies \u2014 4inLanyards, by April 1", "priority": "high"}, {"text": "Order Yetis x12 \u2014 Crestline or Corporate Gear, by April 7", "priority": "medium"}, {"text": "Order stickers \u2014 Sticker Mule, by April 10", "priority": "medium"}, {"text": "Order Snow Phone Network chapsticks + carabiners \u2014 4imprint, by April 10", "priority": "medium"}, {"text": "Build B2B Outreach Google Sheet", "priority": "medium"}, {"text": "One-pager for resort meetings", "priority": "medium"}, {"text": "Final contract payment to dev team \u2014 confirm TSL stable first", "priority": "low"}, {"text": "File state TM Snow Phone Network \u2014 wait until resort login page live end of April", "priority": "low"}, {"text": "File state TM Peel Good", "priority": "low"}, {"text": "B2B Target Resort Deep Dive doc \u2014 in progress", "priority": "medium"}, {"text": "B2B Dev Spec for Daniel/Azwa", "priority": "medium"}, {"text": "Migration Spec for Daniel/Kevin", "priority": "medium"}], "waiting": [{"text": "Daniel \u2014 full bug list response", "priority": "medium"}, {"text": "Daniel \u2014 migration spec + pricing", "priority": "medium"}, {"text": "Powder alerts threshold confirmed at 1\"", "priority": "low"}, {"text": "Confirm migration + B2B dashboard builds running parallel", "priority": "medium"}]}, "cronBrief": "\u2600\ufe0f **SNOWLINE MORNING BRIEF** - Thursday, Mar 26\n\n\u26a0\ufe0f **AVY DANGER:**\n\n**COLORADO:**\n\u2022 Front Range: \u26aa No Rating\n\u2022 Vail & Summit County: \ud83d\udfe0 Considerable\n\u2022 Sawatch: \ud83d\udfe1 Moderate\n\u2022 Aspen: \ud83d\udfe1 Moderate\n\u2022 Gunnison: \ud83d\udfe1 Moderate\n\u2022 Grand Mesa: \ud83d\udfe2 Low\n\u2022 North San Juan: \ud83d\udfe1 Moderate\n\u2022 South San Juan: \ud83d\udfe1 Moderate\n\n**UTAH:**\n\u2022 Salt Lake: \ud83d\udfe0 Considerable\n\u2022 Ogden: \ud83d\udfe0 Considerable\n\u2022 Provo: \ud83d\udfe1 Moderate\n\u2022 Uintas: \ud83d\udfe1 Moderate\n\u2022 Skyline: \u26aa No Rating\n\u2022 Logan: \ud83d\udfe0 Considerable\n\u2022 Moab: \ud83d\udfe1 Moderate\n\u2022 Abajos: \u26aa No Rating\n\n**CALIFORNIA:**\n\u2022 Tahoe: \ud83d\udfe1 Moderate\n\u2022 Eastern Sierra: \ud83d\udfe1 Moderate\n\u2022 Shasta: \ud83d\udfe2 Low\n\n\ud83d\udea8 **SPECIAL ADVISORIES:**\nNone active\n\n\u26a0\ufe0f **AVY PROBLEMS TO WATCH:**\n\u2022 **Wet Loose & Wet Slab** - Primary concern across ALL regions. Unseasonably hot temps = short or zero refreeze windows. If you sink boot-top deep in wet snow, get off steep slopes.\n\u2022 **Persistent Slab** (CO/UT) - Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues.\n\u2022 CAIC: \"Avalanches being reported daily. Travel early if at all.\"\n\u2022 UAC: Conditions \"unprecedented in our lifetimes\"\n\n\ud83c\udf28\ufe0f **STORM WATCH:**\n**Colorado:** Light system grazing mountains Thu night \u2192 Friday. Expecting <1\" above 10k'. Cooling into Friday with highs dropping ~10\u00b0F. Slight chance showers Sat PM.\n**Utah/California:** Dry through weekend. Warm pattern continues.\n\n\ud83d\udce2 **SOCIAL WORTHY:**\n\u2022 \ud83d\udd25 UAC's \"unprecedented conditions\" quote - great for engagement\n\u2022 Week of wet avy activity - educational wet slide content opportunity\n\u2022 Cooling trend Friday = brief window of corn conditions Sat AM\n\u2022 Classic late March wet slide cycle storyline\n", "cronDigest": "DAILY DIGEST CHECK \u2014 Mar 26, 2026\n\n1. Winter Park \u2014 \ud83d\udfe2 0\"\n2. Steamboat \u2014 \ud83d\udfe2 0\"\n3. Snowbird \u2014 \ud83d\udfe2 0\"\n4. Brighton \u2014 \ud83d\udfe2 0\"\n5. Copper Mountain \u2014 \ud83d\udfe2 0\"\n\nAll exact matches \u2713 (spring melt conditions \u2014 all stations showing SWE decrease)\n", "snotelData": []};
-// Render functions
+    const DASHBOARD_DATA = {"lastUpdated":"","weather":[],"snow":[],"calendar":[],"emails":[],"tasks":{"bugs":[],"todos":[],"waiting":[]},"avyDanger":{"colorado":[],"utah":[],"california":[]},"avyProblems":[],"specialAdvisories":[],"stormWatch":[],"socialWorthy":[],"dailyDigest":[],"snotelData":[]};
+    
+    function renderUpdateTime() {
+      document.getElementById('update-time').textContent = DASHBOARD_DATA.lastUpdated || '--';
+    }
+    
     function renderWeather() {
-      const container = document.getElementById('weather-grid');
-      if (!DASHBOARD_DATA.weather.length) {
-        container.innerHTML = '<div class="empty-state">No weather data</div>';
-        return;
-      }
-      container.innerHTML = DASHBOARD_DATA.weather.map(w => `
+      const el = document.getElementById('weather-grid');
+      if (!DASHBOARD_DATA.weather?.length) { el.innerHTML = '<div class="empty-state">No weather data</div>'; return; }
+      el.innerHTML = DASHBOARD_DATA.weather.map(w => `
         <div class="weather-item">
           <div class="weather-location">${w.location}</div>
           <div class="weather-temp">${w.icon} ${w.temp}</div>
-          <div class="weather-details">H: ${w.high} / L: ${w.low} · ${w.humidity}</div>
-          ${w.forecast ? `<div class="weather-forecast">${w.forecast}</div>` : ''}
+          <div class="weather-details">${w.humidity}</div>
         </div>
       `).join('');
     }
     
     function renderSnow() {
-      const tbody = document.getElementById('snow-tbody');
-      if (!DASHBOARD_DATA.snow.length) {
-        tbody.innerHTML = '<tr><td colspan="4" class="empty-state">No snow data</td></tr>';
-        return;
-      }
-      tbody.innerHTML = DASHBOARD_DATA.snow.map(s => `
+      const el = document.getElementById('snow-tbody');
+      if (!DASHBOARD_DATA.snow?.length) { el.innerHTML = '<tr><td colspan="4" class="empty-state">No data</td></tr>'; return; }
+      el.innerHTML = DASHBOARD_DATA.snow.map(s => `
         <tr>
           <td>${s.resort}</td>
           <td class="snow-value ${s.snow24 > 0 ? 'fresh' : ''}">${s.snow24}"</td>
@@ -515,14 +397,91 @@
       `).join('');
     }
     
-    function renderCalendar() {
-      const container = document.getElementById('calendar-list');
-      if (!DASHBOARD_DATA.calendar.length) {
-        container.innerHTML = '<div class="empty-state">No upcoming events</div>';
-        return;
+    function renderAvyDanger() {
+      const el = document.getElementById('avy-danger');
+      const states = [
+        { name: 'Colorado', key: 'colorado', emoji: '🏔️' },
+        { name: 'Utah', key: 'utah', emoji: '⛷️' },
+        { name: 'California', key: 'california', emoji: '🌲' }
+      ];
+      el.innerHTML = states.map(state => {
+        const zones = DASHBOARD_DATA.avyDanger?.[state.key] || [];
+        return `
+          <div class="avy-column">
+            <h3>${state.emoji} ${state.name}</h3>
+            ${zones.length ? zones.map(z => `
+              <div class="avy-zone">
+                <span class="avy-zone-name">${z.zone}</span>
+                <span class="avy-rating ${z.ratingClass}">${z.rating}</span>
+              </div>
+            `).join('') : '<div class="empty-state">No data</div>'}
+          </div>
+        `;
+      }).join('');
+    }
+    
+    function renderAvyProblems() {
+      const el = document.getElementById('avy-problems');
+      let html = '';
+      
+      // Special advisories first
+      if (DASHBOARD_DATA.specialAdvisories?.length) {
+        html += DASHBOARD_DATA.specialAdvisories.map(a => `<div class="advisory-item">🚨 ${a}</div>`).join('');
+      } else {
+        html += '<div class="no-advisory">No special advisories active</div>';
       }
-      container.innerHTML = DASHBOARD_DATA.calendar.map((e, i) => `
-        <div class="calendar-item ${i === 0 ? 'calendar-today' : ''}">
+      
+      // Avy problems
+      if (DASHBOARD_DATA.avyProblems?.length) {
+        html += DASHBOARD_DATA.avyProblems.map(p => `
+          <div class="avy-problem">
+            <div class="avy-problem-title">${p.type}</div>
+            <div class="avy-problem-desc">${p.description}</div>
+          </div>
+        `).join('');
+      }
+      
+      el.innerHTML = html || '<div class="empty-state">No problems listed</div>';
+    }
+    
+    function renderStormWatch() {
+      const el = document.getElementById('storm-watch');
+      if (!DASHBOARD_DATA.stormWatch?.length) { el.innerHTML = '<div class="empty-state">No active storms</div>'; return; }
+      el.innerHTML = DASHBOARD_DATA.stormWatch.map(s => `
+        <div class="storm-item">
+          <div class="storm-region">${s.region}</div>
+          <div class="storm-forecast">${s.forecast}</div>
+        </div>
+      `).join('');
+    }
+    
+    function renderSocialWorthy() {
+      const el = document.getElementById('social-worthy');
+      if (!DASHBOARD_DATA.socialWorthy?.length) { el.innerHTML = '<div class="empty-state">Nothing flagged</div>'; return; }
+      el.innerHTML = DASHBOARD_DATA.socialWorthy.map(s => `
+        <div class="social-item">
+          <span class="social-icon">${s.icon || '📌'}</span>
+          <span>${s.text}</span>
+        </div>
+      `).join('');
+    }
+    
+    function renderDailyDigest() {
+      const el = document.getElementById('daily-digest');
+      if (!DASHBOARD_DATA.dailyDigest?.length) { el.innerHTML = '<div class="empty-state">No digest data</div>'; return; }
+      el.innerHTML = DASHBOARD_DATA.dailyDigest.map(d => `
+        <div class="digest-item">
+          <span class="digest-resort">${d.resort}</span>
+          <span class="digest-status ${d.match ? 'match' : 'mismatch'}">${d.status}</span>
+        </div>
+      `).join('');
+    }
+    
+    function renderCalendar() {
+      const el = document.getElementById('calendar-list');
+      if (!DASHBOARD_DATA.calendar?.length) { el.innerHTML = '<div class="empty-state">No upcoming events</div>'; return; }
+      el.innerHTML = DASHBOARD_DATA.calendar.map(e => `
+        <div class="calendar-item">
           <div class="calendar-date">
             <div class="calendar-day">${e.day}</div>
             <div class="calendar-month">${e.month}</div>
@@ -536,13 +495,10 @@
     }
     
     function renderEmails() {
-      const container = document.getElementById('email-list');
-      if (!DASHBOARD_DATA.emails.length) {
-        container.innerHTML = '<div class="empty-state">✓ Inbox clear - no replies needed</div>';
-        return;
-      }
-      container.innerHTML = DASHBOARD_DATA.emails.map(e => `
-        <div class="email-item ${e.urgent ? 'email-urgent' : ''}">
+      const el = document.getElementById('email-list');
+      if (!DASHBOARD_DATA.emails?.length) { el.innerHTML = '<div class="empty-state">✓ Inbox clear</div>'; return; }
+      el.innerHTML = DASHBOARD_DATA.emails.map(e => `
+        <div class="email-item">
           <div class="email-from">${e.from}</div>
           <div class="email-subject">${e.subject}</div>
           <div class="email-date">${e.date}</div>
@@ -551,99 +507,60 @@
     }
     
     function renderTasks() {
-      const container = document.getElementById('tasks-list');
-      let html = '';
+      const el = document.getElementById('tasks-list');
+      const sections = [
+        { key: 'bugs', title: '🐛 Bugs', data: DASHBOARD_DATA.tasks?.bugs },
+        { key: 'todos', title: '✅ To-Do', data: DASHBOARD_DATA.tasks?.todos },
+        { key: 'waiting', title: '⏳ Waiting On', data: DASHBOARD_DATA.tasks?.waiting }
+      ];
       
-      if (DASHBOARD_DATA.tasks.bugs.length) {
-        html += '<div class="task-section"><div class="task-section-title">Bugs</div>';
-        html += DASHBOARD_DATA.tasks.bugs.map(t => `
-          <div class="task-item">
-            <div class="task-priority ${t.priority}"></div>
-            <div class="task-text">${t.text}</div>
-          </div>
-        `).join('');
-        html += '</div>';
-      }
-      
-      if (DASHBOARD_DATA.tasks.todos.length) {
-        html += '<div class="task-section"><div class="task-section-title">To-Do</div>';
-        html += DASHBOARD_DATA.tasks.todos.map(t => `
-          <div class="task-item">
-            <div class="task-priority ${t.priority}"></div>
-            <div class="task-text">${t.text}</div>
-          </div>
-        `).join('');
-        html += '</div>';
-      }
-      
-      if (DASHBOARD_DATA.tasks.waiting && DASHBOARD_DATA.tasks.waiting.length) {
-        html += '<div class="task-section"><div class="task-section-title">⏳ Waiting On</div>';
-        html += DASHBOARD_DATA.tasks.waiting.map(t => `
-          <div class="task-item">
-            <div class="task-priority ${t.priority}"></div>
-            <div class="task-text">${t.text}</div>
-          </div>
-        `).join('');
-        html += '</div>';
-      }
-      
-      if (!html) {
-        html = '<div class="empty-state">No tasks</div>';
-      }
-      
-      container.innerHTML = html;
-    }
-    
-    function renderCron() {
-      document.getElementById('cron-brief').textContent = DASHBOARD_DATA.cronBrief || 'No data yet';
-      document.getElementById('cron-digest').textContent = DASHBOARD_DATA.cronDigest || 'No data yet';
-    }
-    
-    function renderUpdateTime() {
-      document.getElementById('update-time').textContent = DASHBOARD_DATA.lastUpdated;
+      el.innerHTML = sections.filter(s => s.data?.length).map(s => `
+        <div class="task-section">
+          <div class="task-section-title">${s.title}</div>
+          ${s.data.map(t => `
+            <div class="task-item">
+              <div class="task-priority ${t.priority}"></div>
+              <div class="task-text">${t.text}</div>
+            </div>
+          `).join('')}
+        </div>
+      `).join('') || '<div class="empty-state">No tasks</div>';
     }
     
     // SNOTEL Search
-    const searchInput = document.getElementById('snotel-search');
-    const searchResult = document.getElementById('snotel-result');
-    
-    searchInput.addEventListener('input', function() {
+    document.getElementById('snotel-search')?.addEventListener('input', function() {
       const query = this.value.toLowerCase().trim();
-      if (!query) {
-        searchResult.classList.remove('active');
-        return;
-      }
-      
-      const matches = DASHBOARD_DATA.snotelData.filter(s => 
-        s.name.toLowerCase().includes(query)
-      ).slice(0, 5);
-      
+      const result = document.getElementById('snotel-result');
+      if (!query) { result.classList.remove('active'); return; }
+      const matches = (DASHBOARD_DATA.snotelData || []).filter(s => s.name.toLowerCase().includes(query)).slice(0, 5);
       if (matches.length) {
-        searchResult.innerHTML = matches.map(m => `
-          <div style="margin-bottom: 0.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+        result.innerHTML = matches.map(m => `
+          <div style="margin-bottom:0.5rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border);">
             <strong>${m.name}</strong><br>
-            <span style="color: var(--text-secondary); font-size: 0.75rem;">
+            <span style="color:var(--text-secondary);font-size:0.75rem;">
               ${m.lat}, ${m.lon}<br>
-              ${m.snotelStation ? `SNOTEL: ${m.snotelStation} (${m.snotelName})` : `Source: ${m.source}`}
+              ${m.snotelStation ? `SNOTEL: ${m.snotelStation} (${m.snotelName})` : `Source: ${m.source || 'N/A'}`}
             </span>
           </div>
         `).join('');
-        searchResult.classList.add('active');
       } else {
-        searchResult.innerHTML = '<div style="color: var(--text-muted);">No matches found</div>';
-        searchResult.classList.add('active');
+        result.innerHTML = '<div style="color:var(--text-muted)">No matches</div>';
       }
+      result.classList.add('active');
     });
     
-    // Initialize
     function init() {
       renderUpdateTime();
       renderWeather();
       renderSnow();
+      renderAvyDanger();
+      renderAvyProblems();
+      renderStormWatch();
+      renderSocialWorthy();
+      renderDailyDigest();
       renderCalendar();
       renderEmails();
       renderTasks();
-      renderCron();
     }
     
     init();
