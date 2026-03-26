@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mar 26, 2026 at 01:09 PM MST",
+  "lastUpdated": "Mar 26, 2026 at 01:15 PM MST",
   "weather": [{"location":"Denver, CO","icon":"⛅","temp":"+69°F","high":"-","low":"-","humidity":"H:30%","forecast":""},{"location":"Silverton, CO","icon":"⛈","temp":"+46°F","high":"-","low":"-","humidity":"H:50%","forecast":""},{"location":"Salt Lake City, UT","icon":"⛅","temp":"+62°F","high":"-","low":"-","humidity":"H:31%","forecast":""},{"location":"Park City, UT","icon":"☀️","temp":"+57°F","high":"-","low":"-","humidity":"H:53%","forecast":""}],
   "snow": [{"resort":"Arapahoe Basin","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Copper Mountain","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Winter Park","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Brighton","snow24":0,"snow48":0,"forecast":"Dry"},{"resort":"Alta","snow24":0,"snow48":0,"forecast":"Dry"}],
   "calendar": [
@@ -11,7 +11,45 @@
   }
 ],
   "emails": [],
-  "tasks": {"bugs":[],"todos":[{"text":"Contact Venmo - locked out after new phone","priority":"medium"},{"text":"Set up Twitter - manage a Twitter account","priority":"medium"},{"text":"Baker / PNW post","priority":"medium"},{"text":"French Alps storm post - when storm hits (~Mar 26-27)","priority":"high"}]},
+  "tasks": {
+  "bugs": [
+    {"text": "Stevens Pass 14d returning 0\" + MMS instead of SMS (flagged to Daniel)", "priority": "high"},
+    {"text": "UTC timezone bug — NWS grouping by UTC instead of local timezone (flagged to Daniel)", "priority": "high"},
+    {"text": "Whistler forecast \"unable to process\" (flagged to Daniel)", "priority": "high"},
+    {"text": "Top 10 resort list showing 0\" entries — need 1\" minimum threshold", "priority": "medium"},
+    {"text": "Forecast window inconsistency — need consistent 7-day across all resorts/channels", "priority": "medium"},
+    {"text": "Berthoud Pass avy returning \"outside CAIC forecast areas\" — incorrect", "priority": "medium"},
+    {"text": "Snow report indentation inconsistent — 24h flush left, others indented", "priority": "low"},
+    {"text": "Clickable CAIC link on web chatbot — currently plain text", "priority": "low"},
+    {"text": "Intermittent data failures on first query — timeout/race condition", "priority": "medium"},
+    {"text": "Paywall message incorrect — says 7 days should say 14 days", "priority": "medium"},
+    {"text": "Contact form not connected to Resend (flagged to Daniel)", "priority": "medium"},
+    {"text": "Powder alerts — confirm 1\" threshold + firing for all favorited resorts", "priority": "medium"}
+  ],
+  "todos": [
+    {"text": "Send Madison $250-300 onboarding stipend", "priority": "high"},
+    {"text": "Madison IC agreement — flag Vandana", "priority": "high"},
+    {"text": "Follow up with Vandana about TMs", "priority": "medium"},
+    {"text": "Order beanies — 4inLanyards, by April 1", "priority": "high"},
+    {"text": "Order Yetis x12 — Crestline or Corporate Gear, by April 7", "priority": "medium"},
+    {"text": "Order stickers — Sticker Mule, by April 10", "priority": "medium"},
+    {"text": "Order Snow Phone Network chapsticks + carabiners — 4imprint, by April 10", "priority": "medium"},
+    {"text": "Build B2B Outreach Google Sheet", "priority": "medium"},
+    {"text": "One-pager for resort meetings", "priority": "medium"},
+    {"text": "Final contract payment to dev team — confirm TSL stable first", "priority": "low"},
+    {"text": "File state TM Snow Phone Network — wait until resort login page live end of April", "priority": "low"},
+    {"text": "File state TM Peel Good", "priority": "low"},
+    {"text": "B2B Target Resort Deep Dive doc — in progress", "priority": "medium"},
+    {"text": "B2B Dev Spec for Daniel/Azwa", "priority": "medium"},
+    {"text": "Migration Spec for Daniel/Kevin", "priority": "medium"}
+  ],
+  "waiting": [
+    {"text": "Daniel — full bug list response", "priority": "medium"},
+    {"text": "Daniel — migration spec + pricing", "priority": "medium"},
+    {"text": "Powder alerts threshold confirmed at 1\"", "priority": "low"},
+    {"text": "Confirm migration + B2B dashboard builds running parallel", "priority": "medium"}
+  ]
+},
   "cronBrief": "☀️ **SNOWLINE MORNING BRIEF** - Thursday, Mar 26\n\n⚠️ **AVY DANGER:**\n\n**COLORADO:**\n• Front Range: ⚪ No Rating\n• Vail & Summit County: 🟠 Considerable\n• Sawatch: 🟡 Moderate\n• Aspen: 🟡 Moderate\n• Gunnison: 🟡 Moderate\n• Grand Mesa: 🟢 Low\n• North San Juan: 🟡 Moderate\n• South San Juan: 🟡 Moderate\n\n**UTAH:**\n• Salt Lake: 🟠 Considerable\n• Ogden: 🟠 Considerable\n• Provo: 🟡 Moderate\n• Uintas: 🟡 Moderate\n• Skyline: ⚪ No Rating\n• Logan: 🟠 Considerable\n• Moab: 🟡 Moderate\n• Abajos: ⚪ No Rating\n\n**CALIFORNIA:**\n• Tahoe: 🟡 Moderate\n• Eastern Sierra: 🟡 Moderate\n• Shasta: 🟢 Low\n\n🚨 **SPECIAL ADVISORIES:**\nNone active\n\n⚠️ **AVY PROBLEMS TO WATCH:**\n• **Wet Loose & Wet Slab** - Primary concern across ALL regions. Unseasonably hot temps = short or zero refreeze windows. If you sink boot-top deep in wet snow, get off steep slopes.\n• **Persistent Slab** (CO/UT) - Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues.\n• CAIC: \"Avalanches being reported daily. Travel early if at all.\"\n• UAC: Conditions \"unprecedented in our lifetimes\"\n\n🌨️ **STORM WATCH:**\n**Colorado:** Light system grazing mountains Thu night → Friday. Expecting <1\" above 10k'. Cooling into Friday with highs dropping ~10°F. Slight chance showers Sat PM.\n**Utah/California:** Dry through weekend. Warm pattern continues.\n\n📢 **SOCIAL WORTHY:**\n• 🔥 UAC's \"unprecedented conditions\" quote - great for engagement\n• Week of wet avy activity - educational wet slide content opportunity\n• Cooling trend Friday = brief window of corn conditions Sat AM\n• Classic late March wet slide cycle storyline\n",
   "cronDigest": "DAILY DIGEST CHECK — Mar 26, 2026\n\n1. Winter Park — 🟢 0\"\n2. Steamboat — 🟢 0\"\n3. Snowbird — 🟢 0\"\n4. Brighton — 🟢 0\"\n5. Copper Mountain — 🟢 0\"\n\nAll exact matches ✓ (spring melt conditions — all stations showing SWE decrease)\n",
   "snotelData": []

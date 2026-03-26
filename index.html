@@ -651,6 +651,17 @@ All exact matches ✓ (spring melt conditions — all stations showing SWE decre
         html += '</div>';
       }
       
+      if (DASHBOARD_DATA.tasks.waiting && DASHBOARD_DATA.tasks.waiting.length) {
+        html += '<div class="task-section"><div class="task-section-title">⏳ Waiting On</div>';
+        html += DASHBOARD_DATA.tasks.waiting.map(t => `
+          <div class="task-item">
+            <div class="task-priority ${t.priority}"></div>
+            <div class="task-text">${t.text}</div>
+          </div>
+        `).join('');
+        html += '</div>';
+      }
+      
       if (!html) {
         html = '<div class="empty-state">No tasks</div>';
       }
