@@ -111,15 +111,56 @@ if mode in ['hourly', 'full']:
 # FULL: Everything else (weather, snow, avy, etc.)
 # ============================================
 if mode == 'full':
-    print("🏔️ Setting snow conditions...")
-    data['snow'] = [
-        {"resort": "Arapahoe Basin", "snow24": 0, "snow48": 0, "forecast": "Dry"},
-        {"resort": "Copper Mountain", "snow24": 0, "snow48": 0, "forecast": "Dry"},
-        {"resort": "Winter Park", "snow24": 0, "snow48": 0, "forecast": "Dry"},
-        {"resort": "Steamboat", "snow24": 0, "snow48": 0, "forecast": "Dry"},
-        {"resort": "Brighton", "snow24": 0, "snow48": 0, "forecast": "Dry"},
-        {"resort": "Alta", "snow24": 0, "snow48": 0, "forecast": "Dry"}
-    ]
+    print("🏔️ Fetching snow forecasts from NWS...")
+    import urllib.request
+    from datetime import datetime
+    
+    RESORTS = {
+        "Arapahoe Basin": (39.6324, -105.871),
+        "Copper Mountain": (39.4817, -106.15),
+        "Winter Park": (39.8864, -105.7625),
+        "Steamboat": (40.4537, -106.7587),
+        "Brighton": (40.5981, -111.5831),
+        "Alta": (40.5784, -111.6328)
+    }
+    
+    def get_nws_snow(lat, lon):
+        try:
+            points_url = f"https://api.weather.gov/points/{lat},{lon}"
+            req = urllib.request.Request(points_url, headers={'User-Agent': 'CommandCenter/1.0'})
+            with urllib.request.urlopen(req, timeout=15) as response:
+                points_data = json.loads(response.read())
+            grid_url = points_data['properties']['forecastGridData']
+            req = urllib.request.Request(grid_url, headers={'User-Agent': 'CommandCenter/1.0'})
+            with urllib.request.urlopen(req, timeout=15) as response:
+                grid_data = json.loads(response.read())
+            snow_values = grid_data['properties'].get('snowfallAmount', {}).get('values', [])
+            daily_snow = {}
+            for sv in snow_values:
+                time_str = sv['validTime'].split('/')[0]
+                dt = datetime.fromisoformat(time_str.replace('Z', '+00:00'))
+                day_key = dt.strftime('%a')
+                mm = sv['value'] or 0
+                inches = mm / 25.4
+                if day_key not in daily_snow:
+                    daily_snow[day_key] = 0
+                daily_snow[day_key] += inches
+            snow_days = []
+            for day, inches in daily_snow.items():
+                if inches >= 0.5:
+                    rounded = round(inches)
+                    if rounded > 0:
+                        snow_days.append(f"{day}: {rounded}\"")
+            return ' | '.join(snow_days[:4]) if snow_days else 'Dry'
+        except Exception as e:
+            return 'N/A'
+    
+    snow_data = []
+    for resort, (lat, lon) in RESORTS.items():
+        forecast = get_nws_snow(lat, lon)
+        snow_data.append({"resort": resort, "snow24": 0, "snow48": 0, "forecast": forecast})
+        print(f"   {resort}: {forecast}")
+    data['snow'] = snow_data
 
 # Update timestamp
 mst_time = subprocess.run(['date', '+%b %d, %Y at %I:%M %p %Z'], env={'TZ': 'America/Denver'}, capture_output=True, text=True).stdout.strip()
