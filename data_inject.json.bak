@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Mar 27, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Mar 27, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "43.6\u00b0F",
+      "humidity": "H:49%"
     },
     {
       "location": "Silverton, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Thu: 1\""
+      "forecast": "Fri: 2\" | Wed: 1\" | Thu: 1\""
     },
     {
       "resort": "Brighton",
