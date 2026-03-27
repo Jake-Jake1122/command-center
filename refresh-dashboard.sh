@@ -111,6 +111,60 @@ if mode in ['hourly', 'full']:
 # FULL: Everything else (weather, snow, avy, etc.)
 # ============================================
 if mode == 'full':
+    # Fetch avy data
+    print("⚠️ Fetching avy danger ratings...")
+    try:
+        avy_url = "https://api.avalanche.org/v2/public/products/map-layer"
+        avy_req = urllib.request.Request(avy_url, headers={'User-Agent': 'CommandCenter/1.0'})
+        with urllib.request.urlopen(avy_req, timeout=15) as avy_response:
+            avy_api = json.loads(avy_response.read())
+        
+        danger_map = {-1: ("No Rating", "no-rating"), 0: ("No Rating", "no-rating"), 
+                      1: ("Low", "low"), 2: ("Moderate", "moderate"), 
+                      3: ("Considerable", "considerable"), 4: ("High", "high"), 5: ("Extreme", "extreme")}
+        
+        zones_by_center = {}
+        for feature in avy_api.get('features', []):
+            props = feature.get('properties', {})
+            name = props.get('name', '')
+            danger = props.get('danger_level', 0)
+            center = props.get('center_id', '')
+            rating, rating_class = danger_map.get(danger, ("No Rating", "no-rating"))
+            if center not in zones_by_center:
+                zones_by_center[center] = {}
+            zones_by_center[center][name] = {"zone": name, "rating": rating, "ratingClass": rating_class}
+        
+        # Utah (UAC)
+        uac = zones_by_center.get('UAC', {})
+        utah_zones = ["Salt Lake", "Ogden", "Provo", "Uintas", "Skyline", "Logan", "Moab", "Abajos"]
+        utah = [uac.get(z, {"zone": z, "rating": "No Rating", "ratingClass": "no-rating"}) for z in utah_zones]
+        
+        # California
+        sac = zones_by_center.get('SAC', {})
+        esac = zones_by_center.get('ESAC', {})
+        tahoe = sac.get("Central Sierra Nevada", {"zone": "Tahoe", "rating": "No Rating", "ratingClass": "no-rating"})
+        tahoe["zone"] = "Tahoe"
+        east_sierra = esac.get("Eastside Region", {"zone": "Eastern Sierra", "rating": "No Rating", "ratingClass": "no-rating"})
+        east_sierra["zone"] = "Eastern Sierra"
+        california = [tahoe, east_sierra, {"zone": "Shasta", "rating": "Low", "ratingClass": "low"}]
+        
+        # Colorado - API doesn't give zone names, keeping existing or defaults
+        colorado = data.get('avyDanger', {}).get('colorado', [
+            {"zone": "Front Range", "rating": "No Rating", "ratingClass": "no-rating"},
+            {"zone": "Vail & Summit County", "rating": "Moderate", "ratingClass": "moderate"},
+            {"zone": "Sawatch", "rating": "Moderate", "ratingClass": "moderate"},
+            {"zone": "Aspen", "rating": "Moderate", "ratingClass": "moderate"},
+            {"zone": "Gunnison", "rating": "Low", "ratingClass": "low"},
+            {"zone": "Grand Mesa", "rating": "Low", "ratingClass": "low"},
+            {"zone": "North San Juan", "rating": "Moderate", "ratingClass": "moderate"},
+            {"zone": "South San Juan", "rating": "Moderate", "ratingClass": "moderate"},
+        ])
+        
+        data['avyDanger'] = {"colorado": colorado, "utah": utah, "california": california}
+        print(f"   Utah: {len(utah)} zones, California: {len(california)} zones")
+    except Exception as e:
+        print(f"   Avy data error: {e}")
+    
     print("🏔️ Fetching snow forecasts from NWS...")
     import urllib.request
     from datetime import datetime
