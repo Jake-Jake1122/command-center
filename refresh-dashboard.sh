@@ -40,9 +40,36 @@ mode = "$MODE"
 print(f"Mode: {mode}")
 
 # ============================================
-# HOURLY: Email + Calendar only
+# HOURLY: Email + Calendar + Weather
 # ============================================
 if mode in ['hourly', 'full']:
+    print("🌤️ Fetching weather...")
+    import urllib.request
+    
+    def get_weather_openmeteo(lat, lon, name):
+        try:
+            url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,weather_code&temperature_unit=fahrenheit"
+            with urllib.request.urlopen(url, timeout=10) as response:
+                api_data = json.loads(response.read())
+                current = api_data.get('current', {})
+                temp = current.get('temperature_2m', '?')
+                humidity = current.get('relative_humidity_2m', '?')
+                code = current.get('weather_code', 0)
+                icons = {0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️', 45: '🌫️', 48: '🌫️',
+                         51: '🌧️', 53: '🌧️', 55: '🌧️', 61: '🌧️', 63: '🌧️', 65: '🌧️',
+                         71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️', 80: '🌧️', 81: '🌧️',
+                         82: '🌧️', 85: '🌨️', 86: '🌨️', 95: '⛈️', 96: '⛈️', 99: '⛈️'}
+                return {"location": name, "icon": icons.get(code, '🌡️'), "temp": f"{temp}°F", "humidity": f"H:{humidity}%"}
+        except:
+            return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
+    
+    data['weather'] = [
+        get_weather_openmeteo(39.7392, -104.9903, "Denver, CO"),
+        get_weather_openmeteo(37.8117, -107.6644, "Silverton, CO"),
+        get_weather_openmeteo(40.7608, -111.8910, "Salt Lake City, UT"),
+        get_weather_openmeteo(40.6461, -111.4980, "Park City, UT")
+    ]
+    print(f"   Got weather for {len(data['weather'])} locations")
     print("📧 Fetching email...")
     # Get unread emails that might need reply
     emails_raw = sh('gog gmail search "in:inbox is:unread -category:promotions -category:social -category:updates -from:noreply -from:no-reply" --max 10 --json 2>/dev/null')
@@ -84,33 +111,6 @@ if mode in ['hourly', 'full']:
 # FULL: Everything else (weather, snow, avy, etc.)
 # ============================================
 if mode == 'full':
-    print("🌤️ Fetching weather...")
-    import urllib.request
-    
-    def get_weather_openmeteo(lat, lon, name):
-        try:
-            url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,weather_code&temperature_unit=fahrenheit"
-            with urllib.request.urlopen(url, timeout=10) as response:
-                api_data = json.loads(response.read())
-                current = api_data.get('current', {})
-                temp = current.get('temperature_2m', '?')
-                humidity = current.get('relative_humidity_2m', '?')
-                code = current.get('weather_code', 0)
-                icons = {0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️', 45: '🌫️', 48: '🌫️',
-                         51: '🌧️', 53: '🌧️', 55: '🌧️', 61: '🌧️', 63: '🌧️', 65: '🌧️',
-                         71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️', 80: '🌧️', 81: '🌧️',
-                         82: '🌧️', 85: '🌨️', 86: '🌨️', 95: '⛈️', 96: '⛈️', 99: '⛈️'}
-                return {"location": name, "icon": icons.get(code, '🌡️'), "temp": f"{temp}°F", "humidity": f"H:{humidity}%"}
-        except:
-            return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
-    
-    data['weather'] = [
-        get_weather_openmeteo(39.7392, -104.9903, "Denver, CO"),
-        get_weather_openmeteo(37.8117, -107.6644, "Silverton, CO"),
-        get_weather_openmeteo(40.7608, -111.8910, "Salt Lake City, UT"),
-        get_weather_openmeteo(40.6461, -111.4980, "Park City, UT")
-    ]
-    
     print("🏔️ Setting snow conditions...")
     data['snow'] = [
         {"resort": "Arapahoe Basin", "snow24": 0, "snow48": 0, "forecast": "Dry"},
@@ -121,9 +121,8 @@ if mode == 'full':
     ]
 
 # Update timestamp
-import subprocess
-    mst_time = subprocess.run(['date', '+%b %d, %Y at %I:%M %p %Z'], env={'TZ': 'America/Denver'}, capture_output=True, text=True).stdout.strip()
-    data['lastUpdated'] = mst_time
+mst_time = subprocess.run(['date', '+%b %d, %Y at %I:%M %p %Z'], env={'TZ': 'America/Denver'}, capture_output=True, text=True).stdout.strip()
+data['lastUpdated'] = mst_time
 
 # Save data
 with open('data_inject.json', 'w') as f:
