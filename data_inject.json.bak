@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Mar 27, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Mar 27, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "43.6\u00b0F",
-      "humidity": "H:49%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\" | Tue: 1\" | Wed: 5\" | Thu: 1\""
+      "forecast": "Fri: 1\" | Tue: 2\" | Wed: 4\" | Thu: 2\""
     },
     {
       "resort": "Copper Mountain",
@@ -344,7 +344,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 2\" \u2192 Wed: 5\" \u2192 Thu: 1\". ~7\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Tue: 2\" \u2192 Wed: 4\" \u2192 Thu: 2\". ~9\" total over the period."
     },
     {
       "region": "Utah",
