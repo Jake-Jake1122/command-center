@@ -3,21 +3,21 @@
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "40.6\u00b0F",
+      "humidity": "H:57%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "51.4\u00b0F",
-      "humidity": "H:36%"
-    },
-    {
-      "location": "Salt Lake City, UT",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
+    },
+    {
+      "location": "Salt Lake City, UT",
+      "icon": "\u2601\ufe0f",
+      "temp": "48.8\u00b0F",
+      "humidity": "H:38%"
     },
     {
       "location": "Park City, UT",
