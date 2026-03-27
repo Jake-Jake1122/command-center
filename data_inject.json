@@ -3,15 +3,15 @@
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "44.5\u00b0F",
-      "humidity": "H:53%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "59.7\u00b0F",
-      "humidity": "H:27%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 6\" | Tue: 2\" | Wed: 6\" | Thu: 11\""
+      "forecast": "Fri: 6\" | Tue: 1\" | Wed: 10\" | Thu: 11\""
     }
   ],
   "calendar": [],
@@ -348,13 +348,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 6\" \u2192 Tue: 2\" \u2192 Wed: 6\" \u2192 Thu: 11\". ~25\" total over the period."
+      "forecast": "Fri: 6\" \u2192 Wed: 10\" \u2192 Thu: 11\". ~28\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming: Fri 6\", Wed 6\" - powder alert content"
+      "text": "Storm incoming: Wed 10\", Thu 11\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
