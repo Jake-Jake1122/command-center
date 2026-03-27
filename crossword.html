@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍟 Shitty Crossword</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 { margin-bottom: 1rem; font-size: 1.5rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(10, 40px);
+      gap: 2px;
+      margin-bottom: 1.5rem;
+    }
+    .cell {
+      width: 40px;
+      height: 40px;
+      background: #161b22;
+      border: 1px solid #30363d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .cell.black {
+      background: #000;
+      border-color: #000;
+    }
+    .cell input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: transparent;
+      color: #e6edf3;
+      font-size: 1.2rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .cell input:focus {
+      outline: 2px solid #58a6ff;
+      background: #21262d;
+    }
+    .cell .num {
+      position: absolute;
+      top: 2px;
+      left: 3px;
+      font-size: 0.6rem;
+      color: #8b949e;
+    }
+    .clues {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      max-width: 600px;
+      width: 100%;
+    }
+    .clue-section h3 {
+      color: #58a6ff;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+    .clue {
+      font-size: 0.85rem;
+      margin-bottom: 0.4rem;
+      color: #8b949e;
+    }
+    .clue span { color: #e6edf3; }
+    button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 2rem;
+      background: #238636;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover { background: #2ea043; }
+    .result {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      min-height: 2rem;
+    }
+    .correct { color: #3fb950; }
+    .wrong { color: #f85149; }
+    @media (max-width: 500px) {
+      .grid { grid-template-columns: repeat(10, 32px); }
+      .cell { width: 32px; height: 32px; }
+      .cell input { font-size: 1rem; }
+      .clues { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <h1>🍟 Shitty Crossword</h1>
+  <div class="grid" id="grid"></div>
+  <div class="clues">
+    <div class="clue-section">
+      <h3>ACROSS</h3>
+      <div class="clue"><span>1.</span> White stuff that falls from sky (4)</div>
+      <div class="clue"><span>4.</span> Jake's dog breed: Great ___ (8)</div>
+      <div class="clue"><span>7.</span> Avalanche danger rating below Moderate (3)</div>
+      <div class="clue"><span>8.</span> Your AI assistant's name (3)</div>
+      <div class="clue"><span>9.</span> State where Brighton is (4)</div>
+    </div>
+    <div class="clue-section">
+      <h3>DOWN</h3>
+      <div class="clue"><span>1.</span> What you ride at resorts (9)</div>
+      <div class="clue"><span>2.</span> ___ Water Equivalent (3)</div>
+      <div class="clue"><span>3.</span> TheSnow___ (4)</div>
+      <div class="clue"><span>5.</span> Jake's city (6)</div>
+      <div class="clue"><span>6.</span> Gaia is a ___ (3)</div>
+    </div>
+  </div>
+  <button onclick="checkAnswers()">Check Answers</button>
+  <div class="result" id="result"></div>
+
+  <script>
+    // Grid layout: 10x10
+    // . = black, letter = answer, number = clue start
+    const layout = [
+      ['1S','N','O','W','.','2S','.','3L','.','4P'],
+      ['N','.','.','.','.','W','.','.I','.','.Y'],
+      ['O','.','.','.','.','E','.','N','.','R'],
+      ['W','5D','E','N','V','E','R','.E','.','E'],
+      ['B','.','.','.','.','.','.','.','.','.N'],
+      ['O','.','.','.','.','.','.','.','.','E'],
+      ['A','.','.','6D','.','.','.','.','.','.E'],
+      ['R','7L','O','W','.','.','.','.','.','S'],
+      ['D','.','.','.G','.','.','.','.','.','.' ],
+      ['8F','R','Y','.','9U','T','A','H','.','.']
+    ];
+
+    const answers = {
+      '1A': 'SNOW',
+      '4A': 'PYRENEES', 
+      '7A': 'LOW',
+      '8A': 'FRY',
+      '9A': 'UTAH',
+      '1D': 'SNOWBOARD',
+      '2D': 'SWE',
+      '3D': 'LINE',
+      '5D': 'DENVER',
+      '6D': 'DOG'
+    };
+
+    // Build grid
+    const grid = document.getElementById('grid');
+    const cells = [];
+    
+    for (let r = 0; r < 10; r++) {
+      for (let c = 0; c < 10; c++) {
+        const val = layout[r][c];
+        const cell = document.createElement('div');
+        cell.className = 'cell' + (val === '.' ? ' black' : '');
+        
+        if (val !== '.') {
+          const num = val.match(/^\d+/);
+          const letter = val.replace(/^\d+/, '');
+          
+          if (num) {
+            const numEl = document.createElement('span');
+            numEl.className = 'num';
+            numEl.textContent = num[0];
+            cell.appendChild(numEl);
+          }
+          
+          const input = document.createElement('input');
+          input.maxLength = 1;
+          input.dataset.answer = letter;
+          input.dataset.row = r;
+          input.dataset.col = c;
+          input.addEventListener('input', (e) => {
+            e.target.value = e.target.value.toUpperCase();
+            // Auto-advance
+            const next = e.target.parentElement.nextElementSibling?.querySelector('input');
+            if (next && e.target.value) next.focus();
+          });
+          cell.appendChild(input);
+          cells.push(input);
+        }
+        
+        grid.appendChild(cell);
+      }
+    }
+
+    function checkAnswers() {
+      let correct = 0;
+      let total = cells.length;
+      
+      cells.forEach(input => {
+        if (input.value.toUpperCase() === input.dataset.answer) {
+          correct++;
+          input.style.color = '#3fb950';
+        } else {
+          input.style.color = '#f85149';
+        }
+      });
+      
+      const result = document.getElementById('result');
+      if (correct === total) {
+        result.innerHTML = '<span class="correct">🎉 Perfect! You crushed it!</span>';
+      } else {
+        result.innerHTML = `<span class="wrong">${correct}/${total} correct. Keep trying!</span>`;
+      }
+    }
+  </script>
+</body>
+</html>
