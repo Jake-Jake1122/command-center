@@ -85,21 +85,30 @@ if mode in ['hourly', 'full']:
 # ============================================
 if mode == 'full':
     print("🌤️ Fetching weather...")
-    def get_weather(location, display):
-        raw = sh(f'curl -s "wttr.in/{location}?format=%c|%t|H:%h&u"')
-        parts = raw.split('|')
-        return {
-            "location": display,
-            "icon": parts[0].strip() if len(parts) > 0 else "?",
-            "temp": parts[1].strip() if len(parts) > 1 else "?",
-            "humidity": parts[2].strip() if len(parts) > 2 else ""
-        }
+    import urllib.request
+    
+    def get_weather_openmeteo(lat, lon, name):
+        try:
+            url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,weather_code&temperature_unit=fahrenheit"
+            with urllib.request.urlopen(url, timeout=10) as response:
+                api_data = json.loads(response.read())
+                current = api_data.get('current', {})
+                temp = current.get('temperature_2m', '?')
+                humidity = current.get('relative_humidity_2m', '?')
+                code = current.get('weather_code', 0)
+                icons = {0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️', 45: '🌫️', 48: '🌫️',
+                         51: '🌧️', 53: '🌧️', 55: '🌧️', 61: '🌧️', 63: '🌧️', 65: '🌧️',
+                         71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️', 80: '🌧️', 81: '🌧️',
+                         82: '🌧️', 85: '🌨️', 86: '🌨️', 95: '⛈️', 96: '⛈️', 99: '⛈️'}
+                return {"location": name, "icon": icons.get(code, '🌡️'), "temp": f"{temp}°F", "humidity": f"H:{humidity}%"}
+        except:
+            return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
     
     data['weather'] = [
-        get_weather("Denver,CO", "Denver, CO"),
-        get_weather("Silverton,CO", "Silverton, CO"),
-        get_weather("Salt+Lake+City,UT", "Salt Lake City, UT"),
-        get_weather("Park+City,UT", "Park City, UT")
+        get_weather_openmeteo(39.7392, -104.9903, "Denver, CO"),
+        get_weather_openmeteo(37.8117, -107.6644, "Silverton, CO"),
+        get_weather_openmeteo(40.7608, -111.8910, "Salt Lake City, UT"),
+        get_weather_openmeteo(40.6461, -111.4980, "Park City, UT")
     ]
     
     print("🏔️ Setting snow conditions...")
