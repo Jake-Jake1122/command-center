@@ -116,6 +116,7 @@ if mode == 'full':
         {"resort": "Arapahoe Basin", "snow24": 0, "snow48": 0, "forecast": "Dry"},
         {"resort": "Copper Mountain", "snow24": 0, "snow48": 0, "forecast": "Dry"},
         {"resort": "Winter Park", "snow24": 0, "snow48": 0, "forecast": "Dry"},
+        {"resort": "Steamboat", "snow24": 0, "snow48": 0, "forecast": "Dry"},
         {"resort": "Brighton", "snow24": 0, "snow48": 0, "forecast": "Dry"},
         {"resort": "Alta", "snow24": 0, "snow48": 0, "forecast": "Dry"}
     ]
