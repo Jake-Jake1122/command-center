@@ -90,9 +90,13 @@ print(f"   Found {len(data.get('emails', []))} emails")
 # 3. CALENDAR
 # ============================================
 print("📅 Fetching calendar...")
-now = datetime.now(timezone.utc)
-from_date = now.strftime('%Y-%m-%dT00:00:00Z')
-to_date = (now + timedelta(days=8)).strftime('%Y-%m-%dT00:00:00Z')
+# Filter from today MST onwards
+now_utc = datetime.now(timezone.utc)
+mst_offset = timezone(timedelta(hours=-6))  # MDT
+now_mst = now_utc.astimezone(mst_offset)
+today_mst = now_mst.strftime('%Y-%m-%d')
+from_date = f"{today_mst}T00:00:00-06:00"
+to_date = (now_mst + timedelta(days=8)).strftime('%Y-%m-%dT23:59:59-06:00')
 cal_raw = sh(f'gog calendar events primary --from {from_date} --to {to_date} --json 2>/dev/null')
 try:
     cal_data = json.loads(cal_raw)

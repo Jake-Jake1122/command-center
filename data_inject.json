@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "Mar 27, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Mar 27, 2026 at 09:02 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "40.7\u00b0F",
+      "humidity": "H:46%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "45.5\u00b0F",
+      "humidity": "H:40%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -21,9 +21,9 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "34.2\u00b0F",
+      "humidity": "H:30%"
     }
   ],
   "snow": [
@@ -64,14 +64,7 @@
       "forecast": "Fri: 6\" | Tue: 1\" | Wed: 10\" | Thu: 11\""
     }
   ],
-  "calendar": [
-    {
-      "day": "26",
-      "month": "MAR",
-      "title": "effi@pubgenius.io's birthday",
-      "time": "All day"
-    }
-  ],
+  "calendar": [],
   "emails": [],
   "tasks": {
     "bugs": [
@@ -348,11 +341,6 @@
     }
   ],
   "specialAdvisories": [
-    {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued March 26 at 10:21PM PDT until March 27 at 8:00AM PDT by NWS Eureka CA",
-      "severity": "Minor"
-    },
     {
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued March 26 at 10:21PM PDT until March 27 at 9:00AM PDT by NWS Eureka CA",
