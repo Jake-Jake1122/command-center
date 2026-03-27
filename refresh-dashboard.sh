@@ -48,22 +48,28 @@ preserved_riddle = data.get('dailyRiddle', {})
 # ============================================
 print("🌤️ Fetching weather...")
 
-def get_weather_openmeteo(lat, lon, name):
-    try:
-        url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,weather_code&temperature_unit=fahrenheit"
-        with urllib.request.urlopen(url, timeout=10) as response:
-            api_data = json.loads(response.read())
-            current = api_data.get('current', {})
-            temp = current.get('temperature_2m', '?')
-            humidity = current.get('relative_humidity_2m', '?')
-            code = current.get('weather_code', 0)
-            icons = {0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️', 45: '🌫️', 48: '🌫️',
-                     51: '🌧️', 53: '🌧️', 55: '🌧️', 61: '🌧️', 63: '🌧️', 65: '🌧️',
-                     71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️', 80: '🌧️', 81: '🌧️',
-                     82: '🌧️', 85: '🌨️', 86: '🌨️', 95: '⛈️', 96: '⛈️', 99: '⛈️'}
-            return {"location": name, "icon": icons.get(code, '🌡️'), "temp": f"{temp}°F", "humidity": f"H:{humidity}%"}
-    except:
-        return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
+def get_weather_openmeteo(lat, lon, name, retries=3):
+    icons = {0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️', 45: '🌫️', 48: '🌫️',
+             51: '🌧️', 53: '🌧️', 55: '🌧️', 61: '🌧️', 63: '🌧️', 65: '🌧️',
+             71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️', 80: '🌧️', 81: '🌧️',
+             82: '🌧️', 85: '🌨️', 86: '🌨️', 95: '⛈️', 96: '⛈️', 99: '⛈️'}
+    for attempt in range(retries):
+        try:
+            url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,weather_code&temperature_unit=fahrenheit"
+            req = urllib.request.Request(url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
+            with urllib.request.urlopen(req, timeout=15) as response:
+                api_data = json.loads(response.read())
+                current = api_data.get('current', {})
+                temp = current.get('temperature_2m', '?')
+                humidity = current.get('relative_humidity_2m', '?')
+                code = current.get('weather_code', 0)
+                return {"location": name, "icon": icons.get(code, '🌡️'), "temp": f"{temp}°F", "humidity": f"H:{humidity}%"}
+        except Exception as e:
+            if attempt < retries - 1:
+                import time
+                time.sleep(1)
+                continue
+    return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
 
 data['weather'] = [
     get_weather_openmeteo(39.7392, -104.9903, "Denver, CO"),
@@ -528,7 +534,42 @@ data['dailyDigest'] = daily_digest
 # ============================================
 data['tasks'] = preserved_tasks
 data['reminders'] = preserved_reminders
-data['dailyRiddle'] = preserved_riddle
+# Daily riddle - rotate based on day of year
+riddles = [
+    {"question": "I fall from the sky but I'm not rain. I'm cold and white and cover the terrain. What am I?", "answer": "Snow ❄️"},
+    {"question": "I go up but never come down. What am I?", "answer": "Your age 🎂"},
+    {"question": "What has hands but can't clap?", "answer": "A clock ⏰"},
+    {"question": "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?", "answer": "A map 🗺️"},
+    {"question": "The more you take, the more you leave behind. What am I?", "answer": "Footsteps 👣"},
+    {"question": "I can be cracked, made, told, and played. What am I?", "answer": "A joke 😄"},
+    {"question": "What gets wetter the more it dries?", "answer": "A towel 🛁"},
+    {"question": "I have keys but no locks. I have space but no room. You can enter but can't go inside. What am I?", "answer": "A keyboard ⌨️"},
+    {"question": "What can travel around the world while staying in a corner?", "answer": "A stamp 📮"},
+    {"question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?", "answer": "An echo 🔊"},
+    {"question": "What runs but never walks, has a mouth but never talks?", "answer": "A river 🏞️"},
+    {"question": "I'm tall when I'm young and short when I'm old. What am I?", "answer": "A candle 🕯️"},
+    {"question": "What can you catch but not throw?", "answer": "A cold 🤧"},
+    {"question": "What has a head and a tail but no body?", "answer": "A coin 🪙"},
+    {"question": "I'm found in socks, scarves, and mittens. I'm found in kittens. What am I?", "answer": "Yarn 🧶"},
+    {"question": "What goes up and down but doesn't move?", "answer": "A staircase 🪜"},
+    {"question": "What has many teeth but can't bite?", "answer": "A comb 💇"},
+    {"question": "What can fill a room but takes up no space?", "answer": "Light 💡"},
+    {"question": "I have branches but no fruit, trunk, or leaves. What am I?", "answer": "A bank 🏦"},
+    {"question": "What is always in front of you but can't be seen?", "answer": "The future 🔮"},
+    {"question": "What word is spelled incorrectly in every dictionary?", "answer": "Incorrectly 📖"},
+    {"question": "What has one eye but can't see?", "answer": "A needle 🪡"},
+    {"question": "What goes through cities and fields, but never moves?", "answer": "A road 🛤️"},
+    {"question": "I shave every day, but my beard stays the same. What am I?", "answer": "A barber 💈"},
+    {"question": "What can you break, even if you never pick it up or touch it?", "answer": "A promise 🤝"},
+    {"question": "What is so fragile that saying its name breaks it?", "answer": "Silence 🤫"},
+    {"question": "What kind of band never plays music?", "answer": "A rubber band 🎸"},
+    {"question": "Where does today come before yesterday?", "answer": "The dictionary 📚"},
+    {"question": "I have lakes with no water, mountains with no stone, and cities with no buildings. What am I?", "answer": "A map 🗺️"},
+    {"question": "What building has the most stories?", "answer": "A library 📚"},
+    {"question": "What invention lets you look right through a wall?", "answer": "A window 🪟"}
+]
+day_of_year = datetime.now(timezone.utc).timetuple().tm_yday
+data['dailyRiddle'] = riddles[day_of_year % len(riddles)]
 
 # ============================================
 # UPDATE TIMESTAMP

@@ -615,3 +615,8 @@ Time: 2026-03-27 15:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 338c238] Dashboard refresh - 2026-03-27 15:00
+ 3 files changed, 34 insertions(+), 4 deletions(-)
+To https://github.com/Jake-Jake1122/command-center.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 338c2384f93acfff44be4ef70bdd6eba1badc382 but expected 735015ced6e812984216c44f75aaaba4d8f54847)
+error: failed to push some refs to 'https://github.com/Jake-Jake1122/command-center.git'
