@@ -263,3 +263,26 @@ Mode: hourly
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main a31d29d] Dashboard refresh: hourly - 2026-03-27 06:00
+ 4 files changed, 23 insertions(+), 3 deletions(-)
+To https://github.com/Jake-Jake1122/command-center.git
+   df99d3b..a31d29d  main -> main
+✅ Dashboard updated!
+<stdin>:64: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Mode: full
+🌤️ Fetching weather...
+   Got weather for 4 locations
+📧 Fetching email...
+   Found 0 emails
+📅 Fetching calendar...
+   Found 1 events
+🏔️ Fetching snow forecasts from NWS...
+   Arapahoe Basin: Fri: 1" | Tue: 1" | Wed: 5" | Thu: 1"
+   Copper Mountain: Fri: 1" | Wed: 3" | Thu: 1"
+   Winter Park: Fri: 1" | Wed: 2" | Thu: 1"
+   Steamboat: Fri: 2" | Thu: 1"
+   Brighton: Fri: 5" | Wed: 6" | Thu: 9"
+   Alta: Fri: 6" | Tue: 1" | Wed: 10" | Thu: 11"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
