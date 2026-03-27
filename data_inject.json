@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 27, 2026 at 09:02 AM MDT",
+  "lastUpdated": "Mar 27, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "40.7\u00b0F",
-      "humidity": "H:46%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "45.5\u00b0F",
-      "humidity": "H:40%"
+      "temp": "51.4\u00b0F",
+      "humidity": "H:36%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "41.9\u00b0F",
-      "humidity": "H:58%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "34.2\u00b0F",
-      "humidity": "H:30%"
+      "temp": "40.5\u00b0F",
+      "humidity": "H:24%"
     }
   ],
   "snow": [
@@ -340,13 +340,7 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued March 26 at 10:21PM PDT until March 27 at 9:00AM PDT by NWS Eureka CA",
-      "severity": "Minor"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
