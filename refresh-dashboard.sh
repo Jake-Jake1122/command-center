@@ -414,20 +414,23 @@ if high_danger_zones:
         "text": f"Elevated avy danger ({', '.join(high_danger_zones[:2])}) - safety content opportunity"
     })
 
-# Check for big snow
-big_snow_days = []
-for day, inches in {**co_totals, **ut_totals}.items():
-    if inches >= 6:
-        big_snow_days.append((day, round(inches)))
+# Check for big snow - separate by region
+co_big_days = [(day, round(inches)) for day, inches in co_totals.items() if inches >= 6]
+ut_big_days = [(day, round(inches)) for day, inches in ut_totals.items() if inches >= 6]
 
-if big_snow_days:
+if co_big_days or ut_big_days:
+    parts = []
+    if ut_big_days:
+        parts.append(f"Utah: {', '.join([f'{d} {i}\"' for d,i in ut_big_days[:2]])}")
+    if co_big_days:
+        parts.append(f"Colorado: {', '.join([f'{d} {i}\"' for d,i in co_big_days[:2]])}")
     social_worthy.append({
         "icon": "🌨️",
-        "text": f"Storm incoming: {', '.join([f'{d} {i}\"' for d,i in big_snow_days[:2]])} - powder alert content"
+        "text": f"Storm incoming - {' | '.join(parts)} - powder alert content"
     })
 
 # Check for dry spell
-if not big_snow_days and not any(i >= 3 for i in co_totals.values()) and not any(i >= 3 for i in ut_totals.values()):
+if not co_big_days and not ut_big_days and not any(i >= 3 for i in co_totals.values()) and not any(i >= 3 for i in ut_totals.values()):
     social_worthy.append({
         "icon": "☀️",
         "text": "Dry spell continues - good time for gear/prep content or throwback posts"

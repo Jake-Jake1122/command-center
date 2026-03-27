@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Mar 27, 2026 at 03:13 PM MDT",
+  "lastUpdated": "Mar 27, 2026 at 03:18 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "48.2\u00b0F",
-      "humidity": "H:48%"
+      "temp": "49.1\u00b0F",
+      "humidity": "H:46%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "60.4\u00b0F",
-      "humidity": "H:24%"
+      "temp": "60.6\u00b0F",
+      "humidity": "H:23%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u26c5",
-      "temp": "65.3\u00b0F",
-      "humidity": "H:18%"
+      "icon": "\u2601\ufe0f",
+      "temp": "65.9\u00b0F",
+      "humidity": "H:17%"
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "61.9\u00b0F",
+      "temp": "62.3\u00b0F",
       "humidity": "H:10%"
     }
   ],
@@ -360,7 +360,7 @@
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming: Fri 6\", Wed 6\" - powder alert content"
+      "text": "Storm incoming - Utah: Fri 6\", Wed 6\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",

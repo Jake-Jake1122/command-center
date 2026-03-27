@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mar 27, 2026 at 03:00 PM MDT",
+  "lastUpdated": "Mar 27, 2026 at 03:13 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,21 +9,21 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "60.4\u00b0F",
+      "humidity": "H:24%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u26c5",
+      "temp": "65.3\u00b0F",
+      "humidity": "H:18%"
     },
     {
       "location": "Park City, UT",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "61.9\u00b0F",
+      "humidity": "H:10%"
     }
   ],
   "snow": [
@@ -5110,7 +5110,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "I have cities, but no houses live there. I have mountains, but no trees grow there. I have water, but no fish swim there. I have roads, but no cars drive there. What am I?",
-    "answer": "A map \ud83d\uddfa\ufe0f"
+    "question": "What can you break, even if you never pick it up or touch it?",
+    "answer": "A promise \ud83e\udd1d"
   }
 }
