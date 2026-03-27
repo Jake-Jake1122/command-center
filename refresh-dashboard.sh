@@ -446,8 +446,8 @@ print(f"   Generated {len(social_worthy)} content ideas")
 print("📊 Fetching daily digest (SNOTEL 24hr)...")
 
 FAVORITES = [
-    ("Winter Park", "1030", "CO"),
-    ("Steamboat", "1195", "CO"),  # Using Tower as proxy
+    ("Winter Park", "335", "CO"),  # Berthoud Summit
+    ("Steamboat", "825", "CO"),    # Tower
     ("Snowbird", "766", "UT"),
     ("Brighton", "366", "UT"),
     ("Copper Mountain", "415", "CO")
@@ -456,9 +456,14 @@ FAVORITES = [
 def get_snotel_24hr(station_id, state):
     """Get 24hr snowfall from SNOTEL"""
     try:
-        url = f"https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/start_of_period/{station_id}:{state}:SNTL%7Cid=%22%22%7Cname/-2,0/WTEQ::value,TOBS::value"
+        import ssl
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        
+        url = f"https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/{station_id}:{state}:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value"
         req = urllib.request.Request(url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
-        with urllib.request.urlopen(req, timeout=15) as response:
+        with urllib.request.urlopen(req, timeout=15, context=ctx) as response:
             content = response.read().decode('utf-8')
         
         lines = [l for l in content.strip().split('\n') if l and not l.startswith('#')]
