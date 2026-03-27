@@ -9,21 +9,21 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "60.0\u00b0F",
+      "humidity": "H:25%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "63.1\u00b0F",
+      "humidity": "H:17%"
     },
     {
       "location": "Park City, UT",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u26c5",
+      "temp": "59.8\u00b0F",
+      "humidity": "H:9%"
     }
   ],
   "snow": [
