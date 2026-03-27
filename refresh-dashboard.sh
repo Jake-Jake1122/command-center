@@ -121,7 +121,9 @@ if mode == 'full':
     ]
 
 # Update timestamp
-data['lastUpdated'] = datetime.now().strftime("%b %d, %Y at %I:%M %p MST")
+import subprocess
+    mst_time = subprocess.run(['date', '+%b %d, %Y at %I:%M %p %Z'], env={'TZ': 'America/Denver'}, capture_output=True, text=True).stdout.strip()
+    data['lastUpdated'] = mst_time
 
 # Save data
 with open('data_inject.json', 'w') as f:
