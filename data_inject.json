@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mar 28, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Mar 28, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -16,14 +16,14 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "67.9\u00b0F",
-      "humidity": "H:23%"
+      "temp": "71.7\u00b0F",
+      "humidity": "H:20%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "64.4\u00b0F",
-      "humidity": "H:19%"
+      "temp": "66.1\u00b0F",
+      "humidity": "H:17%"
     }
   ],
   "snow": [
