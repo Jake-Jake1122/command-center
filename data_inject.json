@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 28, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Mar 28, 2026 at 05:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "33.1\u00b0F",
-      "humidity": "H:69%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "35.5\u00b0F",
-      "humidity": "H:46%"
+      "temp": "35.4\u00b0F",
+      "humidity": "H:43%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "41.5\u00b0F",
-      "humidity": "H:62%"
+      "temp": "40.6\u00b0F",
+      "humidity": "H:65%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "46.4\u00b0F",
-      "humidity": "H:17%"
+      "temp": "46.1\u00b0F",
+      "humidity": "H:18%"
     }
   ],
   "snow": [
@@ -343,7 +343,7 @@
   "specialAdvisories": [
     {
       "type": "Frost Advisory",
-      "headline": "Frost Advisory issued March 27 at 8:07PM PDT until March 28 at 9:00AM PDT by NWS Eureka CA",
+      "headline": "Frost Advisory issued March 28 at 3:27AM PDT until March 28 at 9:00AM PDT by NWS Eureka CA",
       "severity": "Minor"
     }
   ],
