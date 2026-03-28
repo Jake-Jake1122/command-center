@@ -3,9 +3,9 @@
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "67.1\u00b0F",
+      "humidity": "H:14%"
     },
     {
       "location": "Silverton, CO",
@@ -15,9 +15,9 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u26c5",
-      "temp": "61.1\u00b0F",
-      "humidity": "H:32%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Park City, UT",
