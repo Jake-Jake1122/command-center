@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 28, 2026 at 06:02 AM MDT",
+  "lastUpdated": "Mar 28, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "31.9\u00b0F",
-      "humidity": "H:72%"
+      "icon": "\u2600\ufe0f",
+      "temp": "31.8\u00b0F",
+      "humidity": "H:69%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "35.3\u00b0F",
+      "temp": "34.6\u00b0F",
       "humidity": "H:43%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u26c5",
-      "temp": "40.7\u00b0F",
-      "humidity": "H:57%"
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "38.9\u00b0F",
+      "humidity": "H:66%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\u26c5",
-      "temp": "46.8\u00b0F",
-      "humidity": "H:19%"
+      "icon": "\u2601\ufe0f",
+      "temp": "43.5\u00b0F",
+      "humidity": "H:26%"
     }
   ],
   "snow": [
@@ -262,9 +262,9 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Ogden",
@@ -274,9 +274,9 @@
       },
       {
         "zone": "Provo",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Uintas",
