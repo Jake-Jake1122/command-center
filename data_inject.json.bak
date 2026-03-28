@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 27, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Mar 27, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "41.4\u00b0F",
-      "humidity": "H:47%"
+      "temp": "38.3\u00b0F",
+      "humidity": "H:51%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "43.2\u00b0F",
-      "humidity": "H:47%"
-    },
-    {
-      "location": "Salt Lake City, UT",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
     },
     {
+      "location": "Salt Lake City, UT",
+      "icon": "\u2601\ufe0f",
+      "temp": "50.2\u00b0F",
+      "humidity": "H:33%"
+    },
+    {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "48.9\u00b0F",
-      "humidity": "H:22%"
+      "temp": "46.7\u00b0F",
+      "humidity": "H:12%"
     }
   ],
   "snow": [
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Wed: 1\" | Thu: 1\""
+      "forecast": "Fri: 4\" | Sat: 2\" | Wed: 1\""
     },
     {
       "resort": "Brighton",
@@ -350,7 +350,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 3\" \u2192 Tue: 2\" \u2192 Wed: 4\" \u2192 Thu: 2\". ~10\" total over the period."
+      "forecast": "Fri: 4\" \u2192 Sat: 2\" \u2192 Tue: 2\" \u2192 Wed: 4\" \u2192 Thu: 2\". ~14\" total over the period."
     },
     {
       "region": "Utah",
