@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Mar 28, 2026 at 01:00 AM MDT",
+  "lastUpdated": "Mar 28, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "35.4\u00b0F",
+      "temp": "34.2\u00b0F",
       "humidity": "H:66%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "37.4\u00b0F",
-      "humidity": "H:55%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "46.0\u00b0F",
-      "humidity": "H:42%"
+      "icon": "\u2600\ufe0f",
+      "temp": "44.5\u00b0F",
+      "humidity": "H:49%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "46.0\u00b0F",
+      "temp": "47.2\u00b0F",
       "humidity": "H:16%"
     }
   ],
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\" | Tue: 1\" | Wed: 4\" | Thu: 1\""
+      "forecast": "Sat: 2\" | Tue: 2\" | Wed: 3\" | Thu: 1\""
     },
     {
       "resort": "Winter Park",
