@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Mar 28, 2026 at 08:01 PM MDT",
+  "lastUpdated": "Mar 28, 2026 at 09:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "66.5\u00b0F",
-      "humidity": "H:19%"
+      "temp": "64.2\u00b0F",
+      "humidity": "H:20%"
     },
     {
       "location": "Silverton, CO",
@@ -16,14 +16,14 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u26c5",
-      "temp": "63.2\u00b0F",
-      "humidity": "H:18%"
+      "temp": "60.0\u00b0F",
+      "humidity": "H:26%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "56.1\u00b0F",
-      "humidity": "H:25%"
+      "temp": "54.9\u00b0F",
+      "humidity": "H:24%"
     }
   ],
   "snow": [
@@ -378,7 +378,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
