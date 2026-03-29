@@ -9,9 +9,9 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u26c5",
-      "temp": "58.6\u00b0F",
-      "humidity": "H:16%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
