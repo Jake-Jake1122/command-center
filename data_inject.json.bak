@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 28, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Mar 28, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "80.6\u00b0F",
-      "humidity": "H:10%"
-    },
-    {
-      "location": "Silverton, CO",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
     },
     {
+      "location": "Silverton, CO",
+      "icon": "\u2600\ufe0f",
+      "temp": "57.1\u00b0F",
+      "humidity": "H:20%"
+    },
+    {
       "location": "Salt Lake City, UT",
-      "icon": "\u26c5",
-      "temp": "74.9\u00b0F",
-      "humidity": "H:17%"
+      "icon": "\u2601\ufe0f",
+      "temp": "74.4\u00b0F",
+      "humidity": "H:14%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "67.1\u00b0F",
-      "humidity": "H:19%"
+      "temp": "65.0\u00b0F",
+      "humidity": "H:20%"
     }
   ],
   "snow": [
@@ -206,9 +206,9 @@
     "colorado": [
       {
         "zone": "Front Range",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Vail & Summit County",
