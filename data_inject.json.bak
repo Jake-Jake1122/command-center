@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mar 29, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Mar 29, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,20 +9,20 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "40.5\u00b0F",
+      "humidity": "H:31%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "55.3\u00b0F",
-      "humidity": "H:29%"
+      "temp": "53.6\u00b0F",
+      "humidity": "H:30%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "49.8\u00b0F",
+      "temp": "50.0\u00b0F",
       "humidity": "H:25%"
     }
   ],
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 3\" | Tue: 1\" | Wed: 7\" | Thu: 1\""
+      "forecast": "Tue: 2\" | Wed: 8\" | Thu: 2\" | Fri: 3\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 2\" | Tue: 1\" | Wed: 4\" | Thu: 1\""
+      "forecast": "Tue: 1\" | Wed: 5\" | Thu: 1\" | Fri: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 3\" | Wed: 4\" | Fri: 3\""
+      "forecast": "Wed: 4\" | Thu: 1\" | Fri: 3\" | Sat: 6\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Wed: 1\" | Fri: 3\""
+      "forecast": "Fri: 3\" | Sat: 2\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 3\" | Thu: 5\" | Fri: 5\""
+      "forecast": "Wed: 2\" | Thu: 5\" | Fri: 6\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 1\" | Wed: 5\" | Thu: 8\" | Fri: 6\""
+      "forecast": "Tue: 1\" | Wed: 5\" | Thu: 8\" | Fri: 7\""
     }
   ],
   "calendar": [],
@@ -344,17 +344,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sat: 3\" \u2192 Tue: 1\" \u2192 Wed: 7\" \u2192 Thu: 1\" \u2192 Fri: 3\". ~15\" total over the period."
+      "forecast": "Tue: 2\" \u2192 Wed: 8\" \u2192 Thu: 2\" \u2192 Fri: 3\" \u2192 Sat: 7\". ~21\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Tue: 1\" \u2192 Wed: 5\" \u2192 Thu: 8\" \u2192 Fri: 6\". ~20\" total over the period."
+      "forecast": "Wed: 5\" \u2192 Thu: 8\" \u2192 Fri: 7\". ~20\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Thu 8\" | Colorado: Wed 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Thu 8\", Fri 7\" | Colorado: Wed 8\", Sat 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
