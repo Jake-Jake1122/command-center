@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 29, 2026 at 05:00 AM MDT",
+  "lastUpdated": "Mar 29, 2026 at 06:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "52.6\u00b0F",
+      "humidity": "H:29%"
     },
     {
       "location": "Silverton, CO",
+      "icon": "\u2600\ufe0f",
+      "temp": "36.2\u00b0F",
+      "humidity": "H:36%"
+    },
+    {
+      "location": "Salt Lake City, UT",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
     },
     {
-      "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "47.7\u00b0F",
-      "humidity": "H:35%"
-    },
-    {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "46.5\u00b0F",
-      "humidity": "H:28%"
+      "icon": "\u26c5",
+      "temp": "45.8\u00b0F",
+      "humidity": "H:31%"
     }
   ],
   "snow": [
@@ -298,9 +298,9 @@
       },
       {
         "zone": "Moab",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Abajos",
