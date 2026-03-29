@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 29, 2026 at 03:00 AM MDT",
+  "lastUpdated": "Mar 29, 2026 at 04:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u26c5",
-      "temp": "53.6\u00b0F",
+      "temp": "51.4\u00b0F",
       "humidity": "H:22%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "39.0\u00b0F",
-      "humidity": "H:34%"
+      "temp": "38.0\u00b0F",
+      "humidity": "H:36%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "48.6\u00b0F",
-      "humidity": "H:39%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "49.2\u00b0F",
-      "humidity": "H:28%"
+      "temp": "48.5\u00b0F",
+      "humidity": "H:29%"
     }
   ],
   "snow": [
@@ -280,9 +280,9 @@
       },
       {
         "zone": "Uintas",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Skyline",
