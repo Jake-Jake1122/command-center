@@ -2684,3 +2684,40 @@ Time: 2026-03-29 15:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 3fc999d] Dashboard refresh - 2026-03-29 15:00
+ 1 file changed, 30 insertions(+)
+To https://github.com/Jake-Jake1122/command-center.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3fc999d87867bbe2418c77eba9fb46bf716fc092 but expected 17d6504bbb73f3c68a92bfec77d51da67fae70e9)
+error: failed to push some refs to 'https://github.com/Jake-Jake1122/command-center.git'
+🍟 Dashboard refresh (hourly)
+Time: 2026-03-29 16:00 MDT
+🌤️ Fetching weather...
+   Got weather for 4 locations
+📧 Fetching email...
+   Found 0 emails
+📅 Fetching calendar...
+   Found 0 events
+⚠️ Fetching avy danger ratings...
+   CO: 9 zones, Utah: 8 zones, CA: 3 zones
+🏔️ Fetching snow forecasts from NWS...
+   Arapahoe Basin: Sun: 1" | Tue: 1" | Wed: 6" | Thu: 1"
+   Copper Mountain: Sun: 1" | Tue: 1" | Wed: 4" | Thu: 1"
+   Winter Park: Sun: 1" | Wed: 3" | Thu: 1" | Fri: 3"
+   Steamboat: Wed: 1" | Fri: 3" | Sat: 2"
+   Brighton: Wed: 5" | Thu: 4" | Fri: 7"
+   Alta: Wed: 8" | Thu: 7" | Fri: 8"
+🌨️ Generating storm watch...
+   Generated forecasts for 2 regions
+🚨 Checking NWS advisories...
+   Found 0 winter advisories
+📢 Generating social worthy content ideas...
+   Generated 3 content ideas
+📊 Fetching daily digest (SNOTEL 24hr)...
+   Winter Park: 🟢 0"
+   Steamboat: 🟢 0"
+   Snowbird: 🟢 0"
+   Brighton: 🟢 0"
+   Copper Mountain: 🟢 0"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
