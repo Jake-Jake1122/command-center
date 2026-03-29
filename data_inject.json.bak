@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 28, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Mar 28, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
+      "icon": "\u2601\ufe0f",
+      "temp": "74.1\u00b0F",
+      "humidity": "H:14%"
+    },
+    {
+      "location": "Silverton, CO",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
     },
     {
-      "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "57.1\u00b0F",
-      "humidity": "H:20%"
-    },
-    {
       "location": "Salt Lake City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "74.4\u00b0F",
+      "icon": "\u26c5",
+      "temp": "73.1\u00b0F",
       "humidity": "H:14%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "65.0\u00b0F",
-      "humidity": "H:20%"
+      "temp": "64.0\u00b0F",
+      "humidity": "H:19%"
     }
   ],
   "snow": [
@@ -5104,7 +5104,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "What is so fragile that saying its name breaks it?",
-    "answer": "Silence \ud83e\udd2b"
+    "question": "What kind of band never plays music?",
+    "answer": "A rubber band \ud83c\udfb8"
   }
 }
