@@ -15,9 +15,9 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "45.4\u00b0F",
-      "humidity": "H:41%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Park City, UT",
