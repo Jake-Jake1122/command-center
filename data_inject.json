@@ -9,9 +9,9 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "39.0\u00b0F",
+      "humidity": "H:32%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -312,9 +312,9 @@
     "california": [
       {
         "zone": "Tahoe",
-        "rating": "No Rating",
-        "ratingClass": "no-rating",
-        "danger_level": -1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Eastern Sierra",
