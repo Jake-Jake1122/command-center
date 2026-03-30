@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 30, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Mar 30, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "76.8\u00b0F",
-      "humidity": "H:11%"
+      "icon": "\u2600\ufe0f",
+      "temp": "78.3\u00b0F",
+      "humidity": "H:9%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "54.0\u00b0F",
-      "humidity": "H:29%"
+      "icon": "\u26c5",
+      "temp": "55.9\u00b0F",
+      "humidity": "H:27%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "71.1\u00b0F",
-      "humidity": "H:22%"
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "72.9\u00b0F",
+      "humidity": "H:19%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "60.0\u00b0F",
-      "humidity": "H:27%"
+      "temp": "61.7\u00b0F",
+      "humidity": "H:24%"
     }
   ],
   "snow": [
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 5\" | Thu: 2\" | Fri: 3\" | Sat: 2\""
+      "forecast": "Wed: 6\" | Thu: 2\" | Fri: 3\" | Sat: 3\""
     },
     {
       "resort": "Copper Mountain",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 2\" | Fri: 4\" | Sat: 2\""
+      "forecast": "Wed: 1\" | Thu: 1\" | Fri: 3\" | Sat: 3\""
     },
     {
       "resort": "Steamboat",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 5\" | Thu: 12\" | Fri: 7\""
+      "forecast": "Wed: 7\" | Thu: 11\" | Fri: 4\""
     },
     {
       "resort": "Alta",
@@ -343,19 +343,24 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 11:56AM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
+      "headline": "Winter Weather Advisory issued March 30 at 12:06PM MDT until April 1 at 9:00PM MDT by NWS Grand Junc...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 11:40AM MDT until April 1 at 9:00PM MDT by NWS Denver CO",
+      "headline": "Winter Weather Advisory issued March 30 at 12:06PM MDT until April 1 at 9:00PM MDT by NWS Grand Junc...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued March 30 at 12:06PM MDT until April 1 at 9:00PM MDT by NWS Grand Junc...",
       "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 5\" \u2192 Thu: 2\" \u2192 Fri: 4\" \u2192 Sat: 2\". ~14\" total over the period."
+      "forecast": "Wed: 6\" \u2192 Thu: 2\" \u2192 Fri: 4\" \u2192 Sat: 3\". ~15\" total over the period."
     },
     {
       "region": "Utah",
@@ -365,7 +370,7 @@
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Wed 11\", Thu 14\" - powder alert content"
+      "text": "Storm incoming - Utah: Wed 11\", Thu 14\" | Colorado: Wed 6\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
