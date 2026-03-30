@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Mar 30, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Mar 30, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "74.0\u00b0F",
-      "humidity": "H:13%"
+      "temp": "76.8\u00b0F",
+      "humidity": "H:11%"
     },
     {
       "location": "Silverton, CO",
@@ -16,14 +16,14 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "68.3\u00b0F",
-      "humidity": "H:21%"
+      "temp": "71.1\u00b0F",
+      "humidity": "H:22%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "57.9\u00b0F",
-      "humidity": "H:30%"
+      "temp": "60.0\u00b0F",
+      "humidity": "H:27%"
     }
   ],
   "snow": [
@@ -340,7 +340,18 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued March 30 at 11:56AM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued March 30 at 11:40AM MDT until April 1 at 9:00PM MDT by NWS Denver CO",
+      "severity": "Moderate"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
