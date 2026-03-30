@@ -9,9 +9,9 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "41.1\u00b0F",
+      "humidity": "H:27%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -388,7 +388,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
