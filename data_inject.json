@@ -3,15 +3,15 @@
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "79.8\u00b0F",
-      "humidity": "H:9%"
-    },
-    {
-      "location": "Silverton, CO",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
+    },
+    {
+      "location": "Silverton, CO",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "56.8\u00b0F",
+      "humidity": "H:23%"
     },
     {
       "location": "Salt Lake City, UT",
