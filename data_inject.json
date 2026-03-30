@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Mar 30, 2026 at 06:02 AM MDT",
+  "lastUpdated": "Mar 30, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "50.5\u00b0F",
-      "humidity": "H:33%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "36.9\u00b0F",
-      "humidity": "H:38%"
+      "temp": "36.1\u00b0F",
+      "humidity": "H:40%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "49.0\u00b0F",
+      "temp": "48.5\u00b0F",
       "humidity": "H:34%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "44.7\u00b0F",
+      "temp": "45.3\u00b0F",
       "humidity": "H:26%"
     }
   ],
@@ -262,21 +262,21 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Ogden",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Provo",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Uintas",
@@ -292,9 +292,9 @@
       },
       {
         "zone": "Logan",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Moab",
