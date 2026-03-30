@@ -318,9 +318,9 @@
       },
       {
         "zone": "Eastern Sierra",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Shasta",
@@ -373,7 +373,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
