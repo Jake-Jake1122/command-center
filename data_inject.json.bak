@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 30, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Mar 30, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u26c5",
-      "temp": "63.1\u00b0F",
-      "humidity": "H:20%"
+      "icon": "\u2600\ufe0f",
+      "temp": "71.1\u00b0F",
+      "humidity": "H:15%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "46.9\u00b0F",
-      "humidity": "H:39%"
+      "temp": "50.2\u00b0F",
+      "humidity": "H:33%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "57.6\u00b0F",
-      "humidity": "H:30%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "49.4\u00b0F",
-      "humidity": "H:31%"
+      "temp": "54.1\u00b0F",
+      "humidity": "H:32%"
     }
   ],
   "snow": [
@@ -368,7 +368,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
