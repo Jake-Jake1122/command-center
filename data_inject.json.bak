@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 07:00 AM MDT",
+  "lastUpdated": "Mar 31, 2026 at 08:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "43.1\u00b0F",
-      "humidity": "H:60%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "35.0\u00b0F",
-      "humidity": "H:57%"
+      "temp": "37.0\u00b0F",
+      "humidity": "H:56%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -22,8 +22,8 @@
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "44.8\u00b0F",
-      "humidity": "H:50%"
+      "temp": "45.0\u00b0F",
+      "humidity": "H:45%"
     }
   ],
   "snow": [
@@ -358,12 +358,12 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 3:13AM PDT until April 2 at 11:00AM PDT by NWS Eureka CA",
+      "headline": "Winter Weather Advisory issued March 31 at 6:36AM PDT until April 1 at 5:00AM PDT by NWS Hanford CA",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 2:03AM PDT until April 1 at 5:00AM PDT by NWS Reno NV",
+      "headline": "Winter Weather Advisory issued March 31 at 3:13AM PDT until April 2 at 11:00AM PDT by NWS Eureka CA",
       "severity": "Moderate"
     }
   ],
@@ -394,27 +394,27 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
