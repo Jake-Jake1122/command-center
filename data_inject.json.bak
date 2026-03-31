@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 30, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Mar 30, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
+      "icon": "\u2601\ufe0f",
+      "temp": "78.7\u00b0F",
+      "humidity": "H:10%"
+    },
+    {
+      "location": "Silverton, CO",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
     },
     {
-      "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "56.8\u00b0F",
-      "humidity": "H:23%"
-    },
-    {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "73.8\u00b0F",
-      "humidity": "H:17%"
+      "temp": "72.3\u00b0F",
+      "humidity": "H:19%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "61.3\u00b0F",
-      "humidity": "H:24%"
+      "temp": "60.7\u00b0F",
+      "humidity": "H:26%"
     }
   ],
   "snow": [
@@ -206,21 +206,21 @@
     "colorado": [
       {
         "zone": "Front Range",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Vail & Summit County",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Aspen",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Gunnison",
@@ -236,21 +236,21 @@
       },
       {
         "zone": "Sawatch",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Northern San Juan",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Southern San Juan",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Steamboat & Flat Tops",
@@ -358,7 +358,7 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 1:27PM PDT until April 1 at 5:00AM PDT by NWS Hanford CA",
+      "headline": "Winter Weather Advisory issued March 30 at 2:28PM PDT until April 1 at 5:00AM PDT by NWS Hanford CA",
       "severity": "Moderate"
     },
     {
