@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Mar 31, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "56.2\u00b0F",
-      "humidity": "H:19%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "37.1\u00b0F",
-      "humidity": "H:41%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u26c5",
-      "temp": "55.2\u00b0F",
-      "humidity": "H:43%"
+      "icon": "\u2601\ufe0f",
+      "temp": "56.8\u00b0F",
+      "humidity": "H:31%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "48.4\u00b0F",
-      "humidity": "H:28%"
+      "temp": "47.6\u00b0F",
+      "humidity": "H:32%"
     }
   ],
   "snow": [
@@ -343,17 +343,17 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 10:59PM MDT until April 1 at 9:00PM MDT by NWS Denver CO",
+      "headline": "Winter Weather Advisory issued March 31 at 2:32AM MDT until April 1 at 9:00PM MDT by NWS Grand Junct...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 7:37PM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
+      "headline": "Winter Weather Advisory issued March 31 at 2:32AM MDT until April 1 at 9:00PM MDT by NWS Grand Junct...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 12:06PM MDT until April 1 at 9:00PM MDT by NWS Grand Junc...",
+      "headline": "Winter Weather Advisory issued March 31 at 2:32AM MDT until April 1 at 9:00PM MDT by NWS Grand Junct...",
       "severity": "Moderate"
     },
     {
