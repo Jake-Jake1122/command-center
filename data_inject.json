@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Mar 31, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "48.4\u00b0F",
+      "humidity": "H:48%"
     },
     {
       "location": "Silverton, CO",
@@ -16,14 +16,14 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "59.2\u00b0F",
-      "humidity": "H:38%"
+      "temp": "62.8\u00b0F",
+      "humidity": "H:34%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "51.6\u00b0F",
-      "humidity": "H:37%"
+      "temp": "53.6\u00b0F",
+      "humidity": "H:36%"
     }
   ],
   "snow": [
@@ -343,7 +343,7 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 3:00AM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
+      "headline": "Winter Weather Advisory issued March 31 at 10:17AM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
       "severity": "Moderate"
     },
     {
@@ -399,7 +399,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
