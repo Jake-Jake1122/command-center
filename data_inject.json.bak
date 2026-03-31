@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 03:00 AM MDT",
+  "lastUpdated": "Mar 31, 2026 at 04:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "52.5\u00b0F",
+      "humidity": "H:31%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "35.3\u00b0F",
+      "humidity": "H:55%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "56.8\u00b0F",
-      "humidity": "H:31%"
+      "temp": "53.4\u00b0F",
+      "humidity": "H:49%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "47.6\u00b0F",
-      "humidity": "H:32%"
+      "temp": "44.9\u00b0F",
+      "humidity": "H:48%"
     }
   ],
   "snow": [
@@ -343,7 +343,7 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 2:32AM MDT until April 1 at 9:00PM MDT by NWS Grand Junct...",
+      "headline": "Winter Weather Advisory issued March 31 at 3:00AM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
       "severity": "Moderate"
     },
     {
@@ -358,12 +358,12 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 10:19PM PDT until April 1 at 5:00AM PDT by NWS Hanford CA",
+      "headline": "Winter Weather Advisory issued March 31 at 2:03AM PDT until April 1 at 5:00AM PDT by NWS Reno NV",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 30 at 1:04PM PDT until April 1 at 5:00AM PDT by NWS Reno NV",
+      "headline": "Winter Weather Advisory issued March 31 at 2:03AM PDT until April 2 at 8:00AM PDT by NWS Reno NV",
       "severity": "Moderate"
     }
   ],
