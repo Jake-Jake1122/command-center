@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 30, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Mar 30, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "78.7\u00b0F",
-      "humidity": "H:10%"
+      "temp": "75.5\u00b0F",
+      "humidity": "H:11%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "54.1\u00b0F",
+      "humidity": "H:19%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "72.3\u00b0F",
-      "humidity": "H:19%"
+      "icon": "\u26c5",
+      "temp": "71.9\u00b0F",
+      "humidity": "H:18%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "60.7\u00b0F",
-      "humidity": "H:26%"
+      "temp": "59.8\u00b0F",
+      "humidity": "H:27%"
     }
   ],
   "snow": [
@@ -5130,7 +5130,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "Where does today come before yesterday?",
-    "answer": "The dictionary \ud83d\udcda"
+    "question": "I have lakes with no water, mountains with no stone, and cities with no buildings. What am I?",
+    "answer": "A map \ud83d\uddfa\ufe0f"
   }
 }
