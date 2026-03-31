@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 30, 2026 at 08:00 PM MDT",
+  "lastUpdated": "Mar 30, 2026 at 09:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "66.8\u00b0F",
-      "humidity": "H:12%"
+      "temp": "67.4\u00b0F",
+      "humidity": "H:11%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "46.0\u00b0F",
-      "humidity": "H:22%"
+      "icon": "\u2600\ufe0f",
+      "temp": "43.3\u00b0F",
+      "humidity": "H:26%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "65.9\u00b0F",
-      "humidity": "H:20%"
+      "temp": "61.9\u00b0F",
+      "humidity": "H:23%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "53.4\u00b0F",
-      "humidity": "H:30%"
+      "temp": "51.6\u00b0F",
+      "humidity": "H:32%"
     }
   ],
   "snow": [
