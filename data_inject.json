@@ -9,9 +9,9 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "54.1\u00b0F",
+      "humidity": "H:19%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -404,7 +404,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
