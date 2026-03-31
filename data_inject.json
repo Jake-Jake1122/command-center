@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Mar 31, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "51.3\u00b0F",
+      "humidity": "H:38%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "49.6\u00b0F",
+      "humidity": "H:42%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "62.8\u00b0F",
-      "humidity": "H:34%"
+      "temp": "64.1\u00b0F",
+      "humidity": "H:29%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "53.6\u00b0F",
-      "humidity": "H:36%"
+      "temp": "52.2\u00b0F",
+      "humidity": "H:53%"
     }
   ],
   "snow": [
@@ -358,12 +358,12 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 6:36AM PDT until April 1 at 5:00AM PDT by NWS Hanford CA",
+      "headline": "Winter Weather Advisory issued March 31 at 10:42AM PDT until April 2 at 11:00AM PDT by NWS Medford O...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 3:13AM PDT until April 2 at 11:00AM PDT by NWS Eureka CA",
+      "headline": "Winter Weather Advisory issued March 31 at 10:42AM PDT until April 2 at 11:00AM PDT by NWS Medford O...",
       "severity": "Moderate"
     }
   ],
