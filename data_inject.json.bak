@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Mar 31, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "51.3\u00b0F",
+      "temp": "54.2\u00b0F",
       "humidity": "H:38%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "49.6\u00b0F",
-      "humidity": "H:42%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "64.1\u00b0F",
-      "humidity": "H:29%"
+      "temp": "67.7\u00b0F",
+      "humidity": "H:27%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "52.2\u00b0F",
-      "humidity": "H:53%"
+      "temp": "54.7\u00b0F",
+      "humidity": "H:45%"
     }
   ],
   "snow": [
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 6\" | Thu: 1\" | Fri: 3\" | Sat: 1\""
+      "forecast": "Tue: 1\" | Wed: 4\" | Thu: 2\" | Fri: 3\""
     },
     {
       "resort": "Copper Mountain",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 10\" | Thu: 10\" | Fri: 5\""
+      "forecast": "Wed: 10\" | Thu: 16\" | Fri: 3\""
     }
   ],
   "calendar": [],
@@ -370,17 +370,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 6\" \u2192 Thu: 1\" \u2192 Fri: 5\" \u2192 Sat: 1\". ~13\" total over the period."
+      "forecast": "Wed: 5\" \u2192 Thu: 2\" \u2192 Fri: 5\" \u2192 Sat: 1\". ~12\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 10\" \u2192 Thu: 10\" \u2192 Fri: 5\". ~25\" total over the period."
+      "forecast": "Wed: 10\" \u2192 Thu: 16\" \u2192 Fri: 4\". ~30\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Wed 10\", Thu 10\" - powder alert content"
+      "text": "Storm incoming - Utah: Wed 10\", Thu 16\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
