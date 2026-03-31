@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Mar 31, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,20 +10,20 @@
     {
       "location": "Silverton, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "49.9\u00b0F",
-      "humidity": "H:36%"
+      "temp": "50.1\u00b0F",
+      "humidity": "H:38%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "67.8\u00b0F",
-      "humidity": "H:25%"
+      "temp": "65.9\u00b0F",
+      "humidity": "H:30%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "55.2\u00b0F",
-      "humidity": "H:42%"
+      "temp": "55.8\u00b0F",
+      "humidity": "H:39%"
     }
   ],
   "snow": [
@@ -363,7 +363,7 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 10:42AM PDT until April 2 at 11:00AM PDT by NWS Medford O...",
+      "headline": "Winter Weather Advisory issued March 31 at 1:20PM PDT until April 1 at 5:00AM PDT by NWS Hanford CA",
       "severity": "Moderate"
     }
   ],
