@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 01, 2026 at 06:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -363,7 +363,7 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 1 at 4:59AM PDT until April 1 at 5:00AM PDT by NWS Reno NV",
+      "headline": "Winter Weather Advisory issued April 1 at 4:59AM PDT until April 2 at 8:00AM PDT by NWS Reno NV",
       "severity": "Moderate"
     }
   ],
