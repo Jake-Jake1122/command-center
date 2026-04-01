@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Mar 31, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "57.1\u00b0F",
-      "humidity": "H:40%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
@@ -16,13 +16,13 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "66.8\u00b0F",
-      "humidity": "H:31%"
+      "temp": "65.5\u00b0F",
+      "humidity": "H:34%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "55.8\u00b0F",
+      "temp": "54.0\u00b0F",
       "humidity": "H:38%"
     }
   ],
@@ -206,21 +206,21 @@
     "colorado": [
       {
         "zone": "Front Range",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Vail & Summit County",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Aspen",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Considerable",
+        "ratingClass": "considerable",
+        "danger_level": 3
       },
       {
         "zone": "Gunnison",
@@ -230,27 +230,27 @@
       },
       {
         "zone": "Grand Mesa",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Sawatch",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Northern San Juan",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Considerable",
+        "ratingClass": "considerable",
+        "danger_level": 3
       },
       {
         "zone": "Southern San Juan",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Considerable",
+        "ratingClass": "considerable",
+        "danger_level": 3
       },
       {
         "zone": "Steamboat & Flat Tops",
@@ -378,6 +378,10 @@
     }
   ],
   "socialWorthy": [
+    {
+      "icon": "\u26a0\ufe0f",
+      "text": "Elevated avy danger (Aspen, Northern San Juan) - safety content opportunity"
+    },
     {
       "icon": "\ud83c\udf28\ufe0f",
       "text": "Storm incoming - Utah: Wed 10\", Thu 16\" | Colorado: Fri 6\" - powder alert content"

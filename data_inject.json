@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Mar 31, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "53.0\u00b0F",
+      "humidity": "H:41%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "46.2\u00b0F",
+      "humidity": "H:42%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
       "temp": "65.5\u00b0F",
-      "humidity": "H:34%"
+      "humidity": "H:32%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "54.0\u00b0F",
-      "humidity": "H:38%"
+      "temp": "52.7\u00b0F",
+      "humidity": "H:41%"
     }
   ],
   "snow": [
@@ -5134,7 +5134,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "I have lakes with no water, mountains with no stone, and cities with no buildings. What am I?",
-    "answer": "A map \ud83d\uddfa\ufe0f"
+    "question": "What building has the most stories?",
+    "answer": "A library \ud83d\udcda"
   }
 }
