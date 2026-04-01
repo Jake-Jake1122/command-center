@@ -9,9 +9,9 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\ud83c\udf28\ufe0f",
+      "temp": "35.2\u00b0F",
+      "humidity": "H:90%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 1\" | Wed: 4\" | Thu: 2\" | Fri: 3\""
+      "forecast": "Wed: 5\" | Thu: 2\" | Fri: 3\""
     },
     {
       "resort": "Copper Mountain",
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 6\" | Thu: 12\" | Fri: 3\""
+      "forecast": "Wed: 4\" | Thu: 11\" | Fri: 3\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 10\" | Thu: 16\" | Fri: 3\""
+      "forecast": "Wed: 8\" | Thu: 13\" | Fri: 3\""
     }
   ],
   "calendar": [],
@@ -370,11 +370,11 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 4\" \u2192 Thu: 2\" \u2192 Fri: 4\". ~10\" total over the period."
+      "forecast": "Wed: 5\" \u2192 Thu: 2\" \u2192 Fri: 4\". ~11\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 10\" \u2192 Thu: 16\" \u2192 Fri: 3\". ~29\" total over the period."
+      "forecast": "Wed: 8\" \u2192 Thu: 13\" \u2192 Fri: 3\". ~25\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -384,7 +384,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Wed 10\", Thu 16\" - powder alert content"
+      "text": "Storm incoming - Utah: Wed 8\", Thu 13\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -403,7 +403,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
