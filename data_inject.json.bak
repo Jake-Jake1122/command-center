@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Mar 31, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Mar 31, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "47.2\u00b0F",
-      "humidity": "H:56%"
+      "temp": "45.4\u00b0F",
+      "humidity": "H:52%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "37.0\u00b0F",
-      "humidity": "H:80%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "55.2\u00b0F",
-      "humidity": "H:57%"
+      "temp": "53.3\u00b0F",
+      "humidity": "H:75%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "42.6\u00b0F",
-      "humidity": "H:73%"
+      "temp": "38.5\u00b0F",
+      "humidity": "H:97%"
     }
   ],
   "snow": [
@@ -343,27 +343,27 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 8:51PM MDT until April 1 at 9:00PM MDT by NWS Denver CO",
+      "headline": "Winter Weather Advisory issued March 31 at 10:44PM MDT until April 1 at 9:00PM MDT by NWS Grand Junc...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 6:05PM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
+      "headline": "Winter Weather Advisory issued March 31 at 10:44PM MDT until April 1 at 9:00PM MDT by NWS Grand Junc...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 1:35PM MDT until April 1 at 9:00PM MDT by NWS Grand Junct...",
+      "headline": "Winter Weather Advisory issued March 31 at 10:44PM MDT until April 1 at 9:00PM MDT by NWS Grand Junc...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 1:40PM MDT until April 1 at 12:00PM MDT by NWS Salt Lake ...",
+      "headline": "Winter Weather Advisory issued March 31 at 10:30PM MDT until April 1 at 12:00PM MDT by NWS Salt Lake...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 7:41PM PDT until April 2 at 8:00AM PDT by NWS Sacramento ...",
+      "headline": "Winter Weather Advisory issued March 31 at 9:46PM PDT until April 2 at 8:00AM PDT by NWS Hanford CA",
       "severity": "Moderate"
     }
   ],
@@ -408,7 +408,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
