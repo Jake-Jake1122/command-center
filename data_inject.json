@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 05:01 AM MDT",
+  "lastUpdated": "Apr 01, 2026 at 06:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "38.0\u00b0F",
-      "humidity": "H:68%"
+      "temp": "38.2\u00b0F",
+      "humidity": "H:75%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf28\ufe0f",
-      "temp": "33.9\u00b0F",
+      "temp": "32.5\u00b0F",
       "humidity": "H:90%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "48.4\u00b0F",
-      "humidity": "H:84%"
+      "temp": "47.9\u00b0F",
+      "humidity": "H:83%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf28\ufe0f",
-      "temp": "36.3\u00b0F",
-      "humidity": "H:99%"
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "36.5\u00b0F",
+      "humidity": "H:95%"
     }
   ],
   "snow": [
@@ -363,7 +363,7 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 1 at 12:12AM PDT until April 2 at 11:00AM PDT by NWS Medford OR",
+      "headline": "Winter Weather Advisory issued April 1 at 4:59AM PDT until April 1 at 5:00AM PDT by NWS Reno NV",
       "severity": "Moderate"
     }
   ],
@@ -398,27 +398,27 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
