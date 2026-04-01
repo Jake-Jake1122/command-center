@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 01, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "53.2\u00b0F",
-      "humidity": "H:43%"
+      "temp": "55.3\u00b0F",
+      "humidity": "H:39%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u26c5",
-      "temp": "38.2\u00b0F",
-      "humidity": "H:83%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "49.2\u00b0F",
-      "humidity": "H:82%"
+      "temp": "50.4\u00b0F",
+      "humidity": "H:81%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "38.6\u00b0F",
-      "humidity": "H:95%"
+      "icon": "\u2601\ufe0f",
+      "temp": "40.3\u00b0F",
+      "humidity": "H:86%"
     }
   ],
   "snow": [
@@ -31,13 +31,13 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 5\" | Thu: 2\" | Fri: 3\""
+      "forecast": "Wed: 4\" | Thu: 2\" | Fri: 3\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 5\" | Thu: 2\" | Fri: 3\""
+      "forecast": "Wed: 3\" | Thu: 2\" | Fri: 3\""
     },
     {
       "resort": "Winter Park",
@@ -49,19 +49,19 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Fri: 4\""
+      "forecast": "Wed: 1\" | Thu: 1\" | Fri: 6\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 4\" | Thu: 11\" | Fri: 3\""
+      "forecast": "Wed: 4\" | Thu: 10\" | Fri: 3\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 8\" | Thu: 13\" | Fri: 3\""
+      "forecast": "Wed: 6\" | Thu: 14\" | Fri: 4\""
     }
   ],
   "calendar": [],
@@ -343,38 +343,38 @@
   "specialAdvisories": [
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 1 at 12:20PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Watch issued April 1 at 1:15PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 1 at 12:20PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Watch issued April 1 at 1:15PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 1 at 12:20PM MDT until April 2 at 8:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 1 at 1:15PM MDT until April 2 at 8:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 1 at 1:15PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     },
     {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 1 at 12:42PM MDT until April 3 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 1 at 12:36PM MDT until April 3 at 9:00AM MDT by NWS Salt Lake C...",
-      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 5\" \u2192 Thu: 2\" \u2192 Fri: 4\". ~11\" total over the period."
+      "forecast": "Wed: 4\" \u2192 Thu: 2\" \u2192 Fri: 6\". ~12\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 8\" \u2192 Thu: 13\" \u2192 Fri: 3\". ~25\" total over the period."
+      "forecast": "Wed: 6\" \u2192 Thu: 14\" \u2192 Fri: 4\". ~24\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -384,7 +384,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Wed 8\", Thu 13\" - powder alert content"
+      "text": "Storm incoming - Utah: Wed 6\", Thu 14\" | Colorado: Fri 6\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
