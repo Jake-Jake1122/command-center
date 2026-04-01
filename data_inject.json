@@ -3,9 +3,9 @@
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "50.3\u00b0F",
+      "humidity": "H:49%"
     },
     {
       "location": "Silverton, CO",
