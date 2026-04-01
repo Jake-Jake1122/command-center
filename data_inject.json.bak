@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 01, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "44.8\u00b0F",
+      "humidity": "H:59%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf28\ufe0f",
-      "temp": "34.9\u00b0F",
-      "humidity": "H:82%"
+      "temp": "36.4\u00b0F",
+      "humidity": "H:88%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "46.4\u00b0F",
-      "humidity": "H:93%"
+      "temp": "47.1\u00b0F",
+      "humidity": "H:88%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf28\ufe0f",
-      "temp": "35.1\u00b0F",
-      "humidity": "H:99%"
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "36.8\u00b0F",
+      "humidity": "H:96%"
     }
   ],
   "snow": [
@@ -343,7 +343,7 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 1 at 1:18AM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
+      "headline": "Winter Weather Advisory issued April 1 at 8:45AM MDT until April 1 at 9:00PM MDT by NWS Pueblo CO",
       "severity": "Moderate"
     },
     {
@@ -363,7 +363,7 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 1 at 6:21AM PDT until April 2 at 11:00AM PDT by NWS Eureka CA",
+      "headline": "Winter Weather Advisory issued April 1 at 7:31AM PDT until April 2 at 8:00AM PDT by NWS Hanford CA",
       "severity": "Moderate"
     }
   ],
