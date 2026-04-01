@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 01, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "44.0\u00b0F",
+      "icon": "\u26c5",
+      "temp": "41.9\u00b0F",
       "humidity": "H:55%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "35.5\u00b0F",
-      "humidity": "H:85%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "51.2\u00b0F",
-      "humidity": "H:83%"
+      "temp": "51.3\u00b0F",
+      "humidity": "H:84%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "40.4\u00b0F",
-      "humidity": "H:94%"
+      "temp": "37.8\u00b0F",
+      "humidity": "H:97%"
     }
   ],
   "snow": [
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 1\" | Fri: 6\""
+      "forecast": "Thu: 1\" | Fri: 4\""
     },
     {
       "resort": "Brighton",
@@ -363,14 +363,14 @@
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued March 31 at 9:46PM PDT until April 2 at 8:00AM PDT by NWS Hanford CA",
+      "headline": "Winter Weather Advisory issued March 31 at 11:17PM PDT until April 2 at 11:00AM PDT by NWS Eureka CA",
       "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 4\" \u2192 Thu: 2\" \u2192 Fri: 6\". ~12\" total over the period."
+      "forecast": "Wed: 4\" \u2192 Thu: 2\" \u2192 Fri: 4\". ~10\" total over the period."
     },
     {
       "region": "Utah",
@@ -384,7 +384,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Wed 10\", Thu 16\" | Colorado: Fri 6\" - powder alert content"
+      "text": "Storm incoming - Utah: Wed 10\", Thu 16\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -403,7 +403,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
