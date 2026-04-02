@@ -83,14 +83,41 @@ print(f"   Got weather for {len(data['weather'])} locations")
 # 2. EMAIL
 # ============================================
 print("📧 Fetching email...")
-emails_raw = sh('gog gmail search "in:inbox is:unread -category:promotions -category:social -category:updates -from:noreply -from:no-reply" --max 10 --json 2>/dev/null')
+
+# Get TOTAL unread count (no filters)
+total_unread_raw = sh('gog gmail search "in:inbox is:unread" --max 100 --json 2>/dev/null')
 try:
-    emails_data = json.loads(emails_raw)
-    threads = emails_data.get('threads') or []
-    data['emails'] = [{"from": t.get('from', 'Unknown'), "subject": t.get('subject', 'No subject'), "date": t.get('date', '')} for t in threads[:10]]
+    total_data = json.loads(total_unread_raw)
+    total_threads = total_data.get('threads') or []
+    unread_count = len(total_threads)
 except:
-    data['emails'] = []
-print(f"   Found {len(data.get('emails', []))} emails")
+    unread_count = 0
+
+# Get important emails (from real people, not automated)
+# Skip: noreply, notifications, receipts, newsletters
+important_raw = sh('gog gmail search "in:inbox is:unread -from:noreply -from:no-reply -from:notifications -from:notify -from:mailer -from:donotreply" --max 10 --json 2>/dev/null')
+important_emails = []
+try:
+    imp_data = json.loads(important_raw)
+    threads = imp_data.get('threads') or []
+    for t in threads[:5]:
+        sender = t.get('from', 'Unknown')
+        # Clean up sender name (extract just the name part)
+        if '<' in sender:
+            sender = sender.split('<')[0].strip().strip('"')
+        important_emails.append({
+            "from": sender[:30],  # Truncate long names
+            "subject": t.get('subject', 'No subject')[:60],
+            "date": t.get('date', '')
+        })
+except:
+    pass
+
+data['emails'] = {
+    "unreadCount": unread_count,
+    "important": important_emails
+}
+print(f"   📬 {unread_count} unread total, {len(important_emails)} potentially important")
 
 # ============================================
 # 3. CALENDAR
