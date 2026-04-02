@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 01, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "47.2\u00b0F",
-      "humidity": "H:92%"
+      "icon": "\u2601\ufe0f",
+      "temp": "45.3\u00b0F",
+      "humidity": "H:89%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2601\ufe0f",
+      "temp": "31.4\u00b0F",
+      "humidity": "H:78%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "54.0\u00b0F",
-      "humidity": "H:62%"
+      "icon": "\u2601\ufe0f",
+      "temp": "53.1\u00b0F",
+      "humidity": "H:68%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "43.2\u00b0F",
-      "humidity": "H:63%"
+      "icon": "\u2601\ufe0f",
+      "temp": "41.9\u00b0F",
+      "humidity": "H:68%"
     }
   ],
   "snow": [
@@ -31,13 +31,13 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 4\" | Thu: 2\" | Fri: 3\""
+      "forecast": "Wed: 3\" | Thu: 2\" | Fri: 3\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 3\" | Thu: 2\" | Fri: 3\""
+      "forecast": "Wed: 2\" | Thu: 2\" | Fri: 3\""
     },
     {
       "resort": "Winter Park",
@@ -352,9 +352,9 @@
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 1 at 1:15PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 1 at 1:15PM MDT until April 2 at 8:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
     },
     {
       "type": "Freeze Watch",
@@ -370,7 +370,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 4\" \u2192 Thu: 2\" \u2192 Fri: 6\". ~12\" total over the period."
+      "forecast": "Wed: 3\" \u2192 Thu: 2\" \u2192 Fri: 6\". ~12\" total over the period."
     },
     {
       "region": "Utah",
@@ -398,7 +398,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
