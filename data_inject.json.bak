@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 02, 2026 at 07:00 AM MDT",
+  "lastUpdated": "Apr 02, 2026 at 08:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "35.6\u00b0F",
-      "humidity": "H:90%"
+      "temp": "39.3\u00b0F",
+      "humidity": "H:86%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "31.6\u00b0F",
+      "humidity": "H:82%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "47.1\u00b0F",
-      "humidity": "H:68%"
+      "icon": "\u26c5",
+      "temp": "47.7\u00b0F",
+      "humidity": "H:67%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "37.7\u00b0F",
-      "humidity": "H:67%"
+      "temp": "38.0\u00b0F",
+      "humidity": "H:69%"
     }
   ],
   "snow": [
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 2\" | Fri: 6\""
+      "forecast": "Fri: 6\""
     },
     {
       "resort": "Brighton",
@@ -262,9 +262,9 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "No Rating",
-        "ratingClass": "no-rating",
-        "danger_level": -1
+        "rating": "Considerable",
+        "ratingClass": "considerable",
+        "danger_level": 3
       },
       {
         "zone": "Ogden",
@@ -280,9 +280,9 @@
       },
       {
         "zone": "Uintas",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Considerable",
+        "ratingClass": "considerable",
+        "danger_level": 3
       },
       {
         "zone": "Skyline",
@@ -312,9 +312,9 @@
     "california": [
       {
         "zone": "Tahoe",
-        "rating": "No Rating",
-        "ratingClass": "no-rating",
-        "danger_level": -1
+        "rating": "Considerable",
+        "ratingClass": "considerable",
+        "danger_level": 3
       },
       {
         "zone": "Eastern Sierra",
@@ -342,23 +342,23 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 1 at 9:52PM MDT until April 2 at 8:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 1 at 9:52PM MDT until April 2 at 8:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 1 at 9:52PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Watch issued April 2 at 7:59AM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 1 at 11:51PM MDT until April 3 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Watch issued April 2 at 7:59AM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 2 at 7:59AM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 2 at 7:59AM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
