@@ -204,6 +204,7 @@
     .calendar-time { font-size: 0.75rem; color: var(--text-secondary); }
     
     /* Email */
+    .email-count { font-weight: 600; font-size: 1rem; margin-bottom: 0.5rem; color: var(--text-primary); }
     .email-item { padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
     .email-item:last-child { border-bottom: none; }
     .email-from { font-weight: 500; font-size: 0.875rem; }
@@ -512,8 +513,34 @@
     
     function renderEmails() {
       const el = document.getElementById('email-list');
-      if (!DASHBOARD_DATA.emails?.length) { el.innerHTML = '<div class="empty-state">✓ Inbox clear</div>'; return; }
-      el.innerHTML = DASHBOARD_DATA.emails.map(e => `
+      const emails = DASHBOARD_DATA.emails;
+      
+      // Handle new format: {unreadCount, important}
+      if (emails && typeof emails === 'object' && 'unreadCount' in emails) {
+        const count = emails.unreadCount || 0;
+        const important = emails.important || [];
+        
+        if (count === 0) {
+          el.innerHTML = '<div class="empty-state">✓ Inbox clear</div>';
+          return;
+        }
+        
+        let html = `<div class="email-count">📬 ${count} unread</div>`;
+        if (important.length > 0) {
+          html += important.map(e => `
+            <div class="email-item">
+              <div class="email-from">${e.from}</div>
+              <div class="email-subject">${e.subject}</div>
+            </div>
+          `).join('');
+        }
+        el.innerHTML = html;
+        return;
+      }
+      
+      // Legacy array format fallback
+      if (!emails?.length) { el.innerHTML = '<div class="empty-state">✓ Inbox clear</div>'; return; }
+      el.innerHTML = emails.map(e => `
         <div class="email-item">
           <div class="email-from">${e.from}</div>
           <div class="email-subject">${e.subject}</div>
