@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 01, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "52.6\u00b0F",
-      "humidity": "H:51%"
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "47.2\u00b0F",
+      "humidity": "H:92%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "33.9\u00b0F",
+      "temp": "33.5\u00b0F",
       "humidity": "H:72%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "51.7\u00b0F",
-      "humidity": "H:74%"
+      "icon": "\u2600\ufe0f",
+      "temp": "54.0\u00b0F",
+      "humidity": "H:62%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "41.5\u00b0F",
-      "humidity": "H:73%"
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "43.2\u00b0F",
+      "humidity": "H:63%"
     }
   ],
   "snow": [
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 1\" | Fri: 6\""
+      "forecast": "Thu: 1\" | Fri: 6\""
     },
     {
       "resort": "Brighton",
@@ -352,9 +352,9 @@
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 1 at 1:15PM MDT until April 2 at 8:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 1 at 1:15PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     },
     {
       "type": "Freeze Watch",
@@ -5134,7 +5134,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "What building has the most stories?",
-    "answer": "A library \ud83d\udcda"
+    "question": "What invention lets you look right through a wall?",
+    "answer": "A window \ud83e\ude9f"
   }
 }

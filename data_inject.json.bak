@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 01, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 01, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "55.9\u00b0F",
-      "humidity": "H:38%"
+      "temp": "52.6\u00b0F",
+      "humidity": "H:51%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2601\ufe0f",
       "temp": "33.9\u00b0F",
-      "humidity": "H:79%"
+      "humidity": "H:72%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "49.3\u00b0F",
-      "humidity": "H:82%"
+      "temp": "51.7\u00b0F",
+      "humidity": "H:74%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "40.7\u00b0F",
-      "humidity": "H:79%"
+      "temp": "41.5\u00b0F",
+      "humidity": "H:73%"
     }
   ],
   "snow": [
@@ -206,15 +206,15 @@
     "colorado": [
       {
         "zone": "Front Range",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Vail & Summit County",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Aspen",
