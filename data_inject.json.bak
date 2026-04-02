@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 02, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 02, 2026 at 09:26 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "47.5\u00b0F",
-      "humidity": "H:74%"
+      "temp": "49.6\u00b0F",
+      "humidity": "H:68%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "35.2\u00b0F",
-      "humidity": "H:74%"
+      "temp": "36.1\u00b0F",
+      "humidity": "H:72%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "46.6\u00b0F",
-      "humidity": "H:82%"
+      "temp": "46.3\u00b0F",
+      "humidity": "H:84%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "39.9\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "40.4\u00b0F",
       "humidity": "H:70%"
     }
   ],
@@ -65,7 +65,36 @@
     }
   ],
   "calendar": [],
-  "emails": [],
+  "emails": {
+    "unreadCount": 29,
+    "important": [
+      {
+        "from": "DigitalOcean",
+        "subject": "Join us April 28: DigitalOcean Deploy",
+        "date": "2026-04-02 15:20"
+      },
+      {
+        "from": "DigitalOcean Support",
+        "subject": "DigitalOcean - Received $12 payment",
+        "date": "2026-04-01 03:25"
+      },
+      {
+        "from": "DigitalOcean Support",
+        "subject": "[DigitalOcean] Your 2026-03 invoice is available",
+        "date": "2026-04-01 03:25"
+      },
+      {
+        "from": "Adobe Customer Research",
+        "subject": "Share your thoughts: chance to win $500 ",
+        "date": "2026-04-01 03:00"
+      },
+      {
+        "from": "Phani sree Doppalapudi",
+        "subject": "Final Reminder: Google Cloud Support Program Ends Soon",
+        "date": "2026-03-31 20:04"
+      }
+    ]
+  },
   "tasks": {
     "bugs": [
       {
