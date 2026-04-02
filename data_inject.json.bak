@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 02, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 02, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 13\" | Fri: 3\""
+      "forecast": "Thu: 11\" | Fri: 3\""
     }
   ],
   "calendar": [],
@@ -403,7 +403,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 13\" \u2192 Fri: 3\". ~16\" total over the period."
+      "forecast": "Thu: 11\" \u2192 Fri: 3\". ~14\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -413,7 +413,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Thu 13\" - powder alert content"
+      "text": "Storm incoming - Utah: Thu 11\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",

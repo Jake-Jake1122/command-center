@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 02, 2026 at 12:01 PM MDT",
+  "lastUpdated": "Apr 02, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "63.8\u00b0F",
-      "humidity": "H:27%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "40.8\u00b0F",
+      "temp": "42.2\u00b0F",
       "humidity": "H:66%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf28\ufe0f",
-      "temp": "36.5\u00b0F",
-      "humidity": "H:97%"
+      "temp": "35.0\u00b0F",
+      "humidity": "H:100%"
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf28\ufe0f",
-      "temp": "35.4\u00b0F",
-      "humidity": "H:76%"
+      "temp": "32.3\u00b0F",
+      "humidity": "H:79%"
     }
   ],
   "snow": [
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 28,
+    "unreadCount": 29,
     "important": [
       {
         "from": "DigitalOcean",
@@ -371,19 +371,19 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 2 at 11:31AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
-    },
-    {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 2 at 11:31AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 2 at 11:31AM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 2 at 12:44PM MDT until April 3 at 3:00AM MDT by NWS Denver CO",
       "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 2 at 12:26PM MDT until April 3 at 3:00AM MDT by NWS Grand Junct...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 2 at 11:31AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
