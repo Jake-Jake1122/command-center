@@ -7494,3 +7494,11 @@ Time: 2026-04-03 06:00 MDT
  4 files changed, 76 insertions(+), 14 deletions(-)
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main eaa3991] Dashboard refresh - 2026-04-03 06:00
+ 1 file changed, 32 insertions(+)
+To https://github.com/Jake-Jake1122/command-center.git
+   4fb623d..30265d7  main -> main
+✅ Dashboard updated!
+To https://github.com/Jake-Jake1122/command-center.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at eaa3991c7d8f5457edcb9dd5bd84c90c5dd51dd6 but expected 4fb623d7cea9350c83ff69cc2ac891bedd740626)
+error: failed to push some refs to 'https://github.com/Jake-Jake1122/command-center.git'
