@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 03, 2026 at 09:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,9 +9,9 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "26.0\u00b0F",
+      "humidity": "H:57%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 4\" | Thu: 1\""
+      "forecast": "Fri: 3\" | Thu: 1\""
     },
     {
       "resort": "Alta",
