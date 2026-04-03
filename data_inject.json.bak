@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 03, 2026 at 01:02 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 8\" | Tue: 1\" | Thu: 2\""
+      "forecast": "Fri: 3\" | Tue: 1\" | Thu: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 6\" | Thu: 1\""
+      "forecast": "Fri: 2\" | Tue: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 5\""
+      "forecast": "Fri: 1\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\""
+      "forecast": "Fri: 1\" | Sat: 1\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Thu: 1\""
+      "forecast": "Fri: 2\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 6\" | Thu: 2\""
+      "forecast": "Fri: 5\" | Thu: 2\""
     }
   ],
   "calendar": [],
@@ -399,21 +399,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 8\" \u2192 Thu: 2\". ~9\" total over the period."
+      "forecast": "Fri: 3\" \u2192 Sat: 1\" \u2192 Tue: 1\". ~5\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 6\" \u2192 Thu: 2\". ~8\" total over the period."
+      "forecast": "Fri: 5\" \u2192 Thu: 2\". ~6\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\u26a0\ufe0f",
       "text": "Elevated avy danger (Salt Lake, Uintas) - safety content opportunity"
-    },
-    {
-      "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Colorado: Fri 8\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
