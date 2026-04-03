@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 07:03 AM MDT",
+  "lastUpdated": "Apr 03, 2026 at 08:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "33.9\u00b0F",
-      "humidity": "H:36%"
+      "temp": "39.3\u00b0F",
+      "humidity": "H:28%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "20.2\u00b0F",
-      "humidity": "H:56%"
+      "icon": "\u2600\ufe0f",
+      "temp": "21.6\u00b0F",
+      "humidity": "H:62%"
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "34.3\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "34.4\u00b0F",
       "humidity": "H:78%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "20.6\u00b0F",
-      "humidity": "H:89%"
+      "icon": "\u2600\ufe0f",
+      "temp": "16.0\u00b0F",
+      "humidity": "H:73%"
     }
   ],
   "snow": [
@@ -341,9 +341,9 @@
     "california": [
       {
         "zone": "Tahoe",
-        "rating": "No Rating",
-        "ratingClass": "no-rating",
-        "danger_level": -1
+        "rating": "Considerable",
+        "ratingClass": "considerable",
+        "danger_level": 3
       },
       {
         "zone": "Eastern Sierra",
