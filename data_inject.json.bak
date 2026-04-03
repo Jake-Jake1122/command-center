@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Apr 02, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 02, 2026 at 11:03 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "47.8\u00b0F",
+      "humidity": "H:48%"
     },
     {
       "location": "Silverton, CO",
