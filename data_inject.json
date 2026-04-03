@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 02, 2026 at 07:03 PM MDT",
+  "lastUpdated": "Apr 02, 2026 at 08:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "66.1\u00b0F",
-      "humidity": "H:14%"
+      "temp": "60.0\u00b0F",
+      "humidity": "H:19%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "40.5\u00b0F",
-      "humidity": "H:62%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "38.5\u00b0F",
-      "humidity": "H:68%"
+      "icon": "\u2600\ufe0f",
+      "temp": "37.4\u00b0F",
+      "humidity": "H:73%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2601\ufe0f",
-      "temp": "24.3\u00b0F",
-      "humidity": "H:78%"
+      "icon": "\u2600\ufe0f",
+      "temp": "24.6\u00b0F",
+      "humidity": "H:73%"
     }
   ],
   "snow": [
@@ -381,9 +381,9 @@
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 2 at 11:31AM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 2 at 11:31AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
@@ -399,7 +399,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Thu: 1\" \u2192 Fri: 7\". ~8\" total over the period."
+      "forecast": "Thu: 1\" \u2192 Fri: 7\". ~9\" total over the period."
     },
     {
       "region": "Utah",
