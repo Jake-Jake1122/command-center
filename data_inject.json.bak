@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 02, 2026 at 05:03 PM MDT",
+  "lastUpdated": "Apr 02, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "72.7\u00b0F",
-      "humidity": "H:10%"
+      "temp": "70.6\u00b0F",
+      "humidity": "H:12%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "44.4\u00b0F",
-      "humidity": "H:56%"
+      "icon": "\u2601\ufe0f",
+      "temp": "43.7\u00b0F",
+      "humidity": "H:55%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "40.1\u00b0F",
-      "humidity": "H:65%"
+      "temp": "38.6\u00b0F",
+      "humidity": "H:72%"
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf28\ufe0f",
-      "temp": "27.9\u00b0F",
-      "humidity": "H:81%"
+      "temp": "25.9\u00b0F",
+      "humidity": "H:75%"
     }
   ],
   "snow": [
@@ -5163,7 +5163,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "What invention lets you look right through a wall?",
-    "answer": "A window \ud83e\ude9f"
+    "question": "I fall from the sky but I'm not rain. I'm cold and white and cover the terrain. What am I?",
+    "answer": "Snow \u2744\ufe0f"
   }
 }
