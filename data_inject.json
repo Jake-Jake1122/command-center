@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 08:06 AM MDT",
+  "lastUpdated": "Apr 03, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "39.3\u00b0F",
-      "humidity": "H:28%"
+      "temp": "41.9\u00b0F",
+      "humidity": "H:20%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "21.6\u00b0F",
-      "humidity": "H:62%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "34.4\u00b0F",
-      "humidity": "H:78%"
+      "icon": "\u2600\ufe0f",
+      "temp": "36.6\u00b0F",
+      "humidity": "H:72%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "16.0\u00b0F",
-      "humidity": "H:73%"
+      "temp": "22.7\u00b0F",
+      "humidity": "H:87%"
     }
   ],
   "snow": [
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 7\" | Thu: 2\""
+      "forecast": "Fri: 6\" | Thu: 2\""
     }
   ],
   "calendar": [],
@@ -369,7 +369,33 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 2 at 10:48PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 2 at 10:48PM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 3 at 8:44AM MDT until April 4 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 2 at 10:48PM MDT until April 3 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 2 at 10:48PM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
@@ -377,7 +403,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 7\" \u2192 Thu: 2\". ~9\" total over the period."
+      "forecast": "Fri: 6\" \u2192 Thu: 2\". ~8\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -387,7 +413,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Fri 7\" | Colorado: Fri 8\" - powder alert content"
+      "text": "Storm incoming - Colorado: Fri 8\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
