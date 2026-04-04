@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 04, 2026 at 04:03 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,9 +9,9 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "23.5\u00b0F",
+      "humidity": "H:28%"
     },
     {
       "location": "Salt Lake City, UT",
@@ -423,12 +423,12 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 1\"",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 10\"",
       "match": true
     },
     {
