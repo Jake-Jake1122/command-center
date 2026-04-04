@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 06:08 AM MDT",
+  "lastUpdated": "Apr 04, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "31.0\u00b0F",
-      "humidity": "H:66%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "23.4\u00b0F",
-      "humidity": "H:23%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "32.2\u00b0F",
-      "humidity": "H:70%"
+      "temp": "31.7\u00b0F",
+      "humidity": "H:73%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "24.8\u00b0F",
-      "humidity": "H:44%"
+      "temp": "24.7\u00b0F",
+      "humidity": "H:41%"
     }
   ],
   "snow": [
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 35,
+    "unreadCount": 36,
     "important": [
       {
         "from": "Adobe Express",
@@ -309,9 +309,9 @@
       },
       {
         "zone": "Uintas",
-        "rating": "Considerable",
-        "ratingClass": "considerable",
-        "danger_level": 3
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Skyline",
@@ -409,7 +409,7 @@
   "socialWorthy": [
     {
       "icon": "\u26a0\ufe0f",
-      "text": "Elevated avy danger (Salt Lake, Uintas) - safety content opportunity"
+      "text": "Elevated avy danger (Salt Lake) - safety content opportunity"
     },
     {
       "icon": "\ud83d\udcda",
