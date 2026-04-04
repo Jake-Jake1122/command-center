@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 03, 2026 at 06:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "50.5\u00b0F",
+      "humidity": "H:19%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "28.6\u00b0F",
-      "humidity": "H:42%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
@@ -433,17 +433,17 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 19\"",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 14\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
