@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 05:03 PM MDT",
+  "lastUpdated": "Apr 03, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "51.3\u00b0F",
-      "humidity": "H:18%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "28.5\u00b0F",
-      "humidity": "H:39%"
+      "temp": "28.6\u00b0F",
+      "humidity": "H:42%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "48.3\u00b0F",
-      "humidity": "H:40%"
+      "temp": "48.6\u00b0F",
+      "humidity": "H:41%"
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "34.2\u00b0F",
+      "temp": "34.5\u00b0F",
       "humidity": "H:70%"
     }
   ],
@@ -433,7 +433,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 19\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -5159,7 +5159,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "I fall from the sky but I'm not rain. I'm cold and white and cover the terrain. What am I?",
-    "answer": "Snow \u2744\ufe0f"
+    "question": "I go up but never come down. What am I?",
+    "answer": "Your age \ud83c\udf82"
   }
 }
