@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 04, 2026 at 01:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "56.9\u00b0F",
+      "humidity": "H:22%"
     },
     {
       "location": "Silverton, CO",
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 4\" | Tue: 1\" | Fri: 2\""
+      "forecast": "Sat: 2\" | Tue: 1\" | Thu: 1\" | Fri: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 3\" | Fri: 1\""
+      "forecast": "Sat: 2\" | Fri: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 3\" | Fri: 3\""
+      "forecast": "Sat: 1\" | Fri: 1\""
     }
   ],
   "calendar": [],
@@ -389,17 +389,21 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sat: 4\" \u2192 Fri: 2\". ~7\" total over the period."
+      "forecast": "Sat: 2\" \u2192 Fri: 1\". ~3\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Sat: 3\" \u2192 Fri: 3\". ~6\" total over the period."
+      "forecast": "Sat: 1\" \u2192 Fri: 1\". ~3\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\u26a0\ufe0f",
       "text": "Elevated avy danger (Salt Lake) - safety content opportunity"
+    },
+    {
+      "icon": "\u2600\ufe0f",
+      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
     },
     {
       "icon": "\ud83d\udcda",
