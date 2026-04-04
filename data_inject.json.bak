@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 01:02 AM MDT",
+  "lastUpdated": "Apr 04, 2026 at 02:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "36.1\u00b0F",
-      "humidity": "H:68%"
+      "temp": "34.6\u00b0F",
+      "humidity": "H:69%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "23.5\u00b0F",
-      "humidity": "H:34%"
+      "temp": "23.6\u00b0F",
+      "humidity": "H:30%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "36.5\u00b0F",
-      "humidity": "H:73%"
+      "temp": "35.4\u00b0F",
+      "humidity": "H:71%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "26.7\u00b0F",
-      "humidity": "H:47%"
+      "temp": "26.0\u00b0F",
+      "humidity": "H:44%"
     }
   ],
   "snow": [
@@ -428,7 +428,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 9\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -443,7 +443,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
