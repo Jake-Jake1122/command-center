@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 04, 2026 at 10:03 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sat: 3\" | Fri: 3\""
     }
   ],
   "calendar": [],
@@ -393,7 +393,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Sat: 1\". ~1\" total over the period."
+      "forecast": "Sat: 3\" \u2192 Fri: 3\". ~6\" total over the period."
     }
   ],
   "socialWorthy": [
