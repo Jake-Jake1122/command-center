@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 04:03 AM MDT",
+  "lastUpdated": "Apr 04, 2026 at 05:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "32.2\u00b0F",
-      "humidity": "H:66%"
+      "temp": "31.7\u00b0F",
+      "humidity": "H:67%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "23.5\u00b0F",
-      "humidity": "H:28%"
+      "temp": "23.7\u00b0F",
+      "humidity": "H:24%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "34.0\u00b0F",
-      "humidity": "H:63%"
+      "temp": "32.6\u00b0F",
+      "humidity": "H:66%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "25.9\u00b0F",
-      "humidity": "H:44%"
+      "temp": "25.5\u00b0F",
+      "humidity": "H:45%"
     }
   ],
   "snow": [
@@ -341,9 +341,9 @@
     "california": [
       {
         "zone": "Tahoe",
-        "rating": "Considerable",
-        "ratingClass": "considerable",
-        "danger_level": 3
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Eastern Sierra",
@@ -423,7 +423,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 1\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -433,7 +433,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 1\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -443,7 +443,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
