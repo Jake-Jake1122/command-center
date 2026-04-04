@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 12:04 AM MDT",
+  "lastUpdated": "Apr 04, 2026 at 01:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "38.0\u00b0F",
-      "humidity": "H:65%"
+      "temp": "36.1\u00b0F",
+      "humidity": "H:68%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "24.2\u00b0F",
-      "humidity": "H:35%"
+      "temp": "23.5\u00b0F",
+      "humidity": "H:34%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "38.7\u00b0F",
-      "humidity": "H:54%"
+      "temp": "36.5\u00b0F",
+      "humidity": "H:73%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "26.3\u00b0F",
-      "humidity": "H:51%"
+      "temp": "26.7\u00b0F",
+      "humidity": "H:47%"
     }
   ],
   "snow": [
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Tue: 1\" | Thu: 1\""
+      "forecast": "Sat: 4\" | Tue: 1\" | Fri: 2\""
     },
     {
       "resort": "Copper Mountain",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\""
+      "forecast": "Sat: 2\""
     },
     {
       "resort": "Steamboat",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\""
+      "forecast": "Sat: 1\" | Fri: 1\""
     },
     {
       "resort": "Alta",
@@ -399,11 +399,11 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 3\" \u2192 Tue: 1\". ~4\" total over the period."
+      "forecast": "Sat: 4\" \u2192 Fri: 2\". ~7\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 4\" \u2192 Thu: 2\". ~6\" total over the period."
+      "forecast": "Sat: 1\" \u2192 Thu: 2\" \u2192 Fri: 4\". ~7\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -423,22 +423,22 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 9\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 19\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 14\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
