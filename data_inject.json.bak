@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 10:03 PM MDT",
+  "lastUpdated": "Apr 03, 2026 at 11:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u26c5",
-      "temp": "42.5\u00b0F",
-      "humidity": "H:32%"
+      "icon": "\u2600\ufe0f",
+      "temp": "40.3\u00b0F",
+      "humidity": "H:64%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "24.8\u00b0F",
-      "humidity": "H:51%"
+      "temp": "25.0\u00b0F",
+      "humidity": "H:38%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "40.7\u00b0F",
-      "humidity": "H:53%"
+      "temp": "39.9\u00b0F",
+      "humidity": "H:55%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "26.6\u00b0F",
-      "humidity": "H:67%"
+      "temp": "26.4\u00b0F",
+      "humidity": "H:56%"
     }
   ],
   "snow": [
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 5\" | Thu: 2\""
+      "forecast": "Fri: 4\" | Thu: 2\""
     }
   ],
   "calendar": [],
@@ -372,38 +372,38 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 3 at 10:57AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 3 at 10:04PM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 3 at 10:57AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 3 at 10:04PM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 3 at 10:57AM MDT until April 5 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Watch issued April 3 at 10:04PM MDT until April 5 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 3 at 10:57AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 3 at 10:20PM MDT until April 4 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 3 at 10:57AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 3 at 10:04PM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 3\" \u2192 Sat: 1\" \u2192 Tue: 1\". ~5\" total over the period."
+      "forecast": "Fri: 3\" \u2192 Tue: 1\". ~4\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 5\" \u2192 Thu: 2\". ~6\" total over the period."
+      "forecast": "Fri: 4\" \u2192 Thu: 2\". ~6\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -423,7 +423,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -433,7 +433,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 19\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
