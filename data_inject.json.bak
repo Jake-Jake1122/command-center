@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 03, 2026 at 08:02 PM MDT",
+  "lastUpdated": "Apr 03, 2026 at 09:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "45.7\u00b0F",
-      "humidity": "H:24%"
+      "icon": "\u2600\ufe0f",
+      "temp": "44.3\u00b0F",
+      "humidity": "H:28%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "25.3\u00b0F",
-      "humidity": "H:54%"
+      "temp": "25.1\u00b0F",
+      "humidity": "H:53%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "44.5\u00b0F",
-      "humidity": "H:44%"
+      "temp": "41.9\u00b0F",
+      "humidity": "H:49%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "29.0\u00b0F",
-      "humidity": "H:69%"
+      "temp": "26.7\u00b0F",
+      "humidity": "H:62%"
     }
   ],
   "snow": [
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Tue: 1\" | Thu: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Tue: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 5\" | Thu: 2\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -381,16 +381,6 @@
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 3 at 10:57AM MDT until April 5 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 3 at 10:57AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 3 at 10:57AM MDT until April 4 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
@@ -399,17 +389,21 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 3\" \u2192 Sat: 1\" \u2192 Tue: 1\". ~5\" total over the period."
+      "forecast": "Dry conditions expected. No significant snow in the forecast."
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 5\" \u2192 Thu: 2\". ~6\" total over the period."
+      "forecast": "Dry conditions expected. No significant snow in the forecast."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\u26a0\ufe0f",
       "text": "Elevated avy danger (Salt Lake, Uintas) - safety content opportunity"
+    },
+    {
+      "icon": "\u2600\ufe0f",
+      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
     },
     {
       "icon": "\ud83d\udcda",
@@ -423,7 +417,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
