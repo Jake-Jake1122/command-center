@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 04, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "61.1\u00b0F",
+      "temp": "60.6\u00b0F",
       "humidity": "H:17%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "45.6\u00b0F",
-      "humidity": "H:26%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "58.4\u00b0F",
-      "humidity": "H:32%"
+      "temp": "57.5\u00b0F",
+      "humidity": "H:35%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "43.2\u00b0F",
-      "humidity": "H:54%"
+      "temp": "42.8\u00b0F",
+      "humidity": "H:62%"
     }
   ],
   "snow": [
@@ -5153,7 +5153,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "I go up but never come down. What am I?",
-    "answer": "Your age \ud83c\udf82"
+    "question": "What has hands but can't clap?",
+    "answer": "A clock \u23f0"
   }
 }
