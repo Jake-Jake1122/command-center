@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Apr 05, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 05, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "65.1\u00b0F",
+      "humidity": "H:17%"
     },
     {
       "location": "Silverton, CO",
@@ -16,14 +16,14 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "64.1\u00b0F",
-      "humidity": "H:27%"
+      "temp": "66.3\u00b0F",
+      "humidity": "H:23%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "51.2\u00b0F",
-      "humidity": "H:37%"
+      "temp": "53.4\u00b0F",
+      "humidity": "H:33%"
     }
   ],
   "snow": [
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Tue: 1\" | Thu: 1\" | Fri: 1\""
+      "forecast": "Sun: 3\" | Tue: 1\" | Fri: 1\" | Sat: 1\""
     },
     {
       "resort": "Copper Mountain",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sun: 1\""
     }
   ],
   "calendar": [],
@@ -373,7 +373,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 2\" \u2192 Sat: 1\". ~3\" total over the period."
+      "forecast": "Sun: 3\" \u2192 Sat: 1\". ~4\" total over the period."
     },
     {
       "region": "Utah",
@@ -417,7 +417,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 1\"",
       "match": true
     }
   ],
