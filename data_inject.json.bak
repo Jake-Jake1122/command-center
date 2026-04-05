@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 09:01 PM MDT",
+  "lastUpdated": "Apr 04, 2026 at 10:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "48.0\u00b0F",
+      "humidity": "H:26%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "34.3\u00b0F",
+      "humidity": "H:46%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "48.2\u00b0F",
-      "humidity": "H:54%"
+      "temp": "46.3\u00b0F",
+      "humidity": "H:62%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "36.3\u00b0F",
-      "humidity": "H:70%"
+      "temp": "35.7\u00b0F",
+      "humidity": "H:67%"
     }
   ],
   "snow": [
@@ -66,13 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 37,
+    "unreadCount": 27,
     "important": [
-      {
-        "from": "Adobe Express",
-        "subject": "From docs to presentations in minutes",
-        "date": "2026-04-03 16:21"
-      },
       {
         "from": "DigitalOcean",
         "subject": "Join us April 28: DigitalOcean Deploy",
@@ -92,6 +87,11 @@
         "from": "Adobe Customer Research",
         "subject": "Share your thoughts: chance to win $500 ",
         "date": "2026-04-01 03:00"
+      },
+      {
+        "from": "Phani sree Doppalapudi",
+        "subject": "Final Reminder: Google Cloud Support Program Ends Soon",
+        "date": "2026-03-31 20:04"
       }
     ]
   },
@@ -369,7 +369,23 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 4 at 9:47PM MDT until April 5 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 4 at 9:47PM MDT until April 5 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 4 at 9:31AM MDT until April 5 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
