@@ -9307,3 +9307,43 @@ Time: 2026-04-05 00:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 302295a] Dashboard refresh - 2026-04-05 00:00
+ 1 file changed, 32 insertions(+)
+To https://github.com/Jake-Jake1122/command-center.git
+   fa5bdac..1c208cd  main -> main
+✅ Dashboard updated!
+To https://github.com/Jake-Jake1122/command-center.git
+   1c208cd..302295a  main -> main
+✅ Dashboard updated!
+🍟 Dashboard refresh (hourly)
+Time: 2026-04-05 01:00 MDT
+🌤️ Fetching weather...
+   Got weather for 4 locations
+📧 Fetching email...
+   📬 27 unread total, 5 potentially important
+📅 Fetching calendar...
+   Found 0 events
+⚠️ Fetching avy danger ratings...
+   CO: 9 zones, Utah: 8 zones, CA: 3 zones
+🏔️ Fetching snow forecasts from NWS...
+   Arapahoe Basin: Sun: 2" | Tue: 1" | Thu: 1" | Fri: 1"
+   Copper Mountain: Sun: 2" | Sat: 1"
+   Winter Park: Dry
+   Steamboat: Dry
+   Brighton: Dry
+   Alta: Dry
+🌨️ Generating storm watch...
+   Generated forecasts for 2 regions
+🚨 Checking NWS advisories...
+   Found 3 winter advisories
+📢 Generating social worthy content ideas...
+   Generated 4 content ideas
+📊 Fetching daily digest (SNOTEL 24hr)...
+   Winter Park: 🟢 1"
+   Steamboat: 🟢 10"
+   Snowbird: 🟢 1"
+   Brighton: 🟢 0"
+   Copper Mountain: 🟢 0"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
