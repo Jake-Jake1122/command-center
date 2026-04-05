@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 05, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 05, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "38.2\u00b0F",
-      "humidity": "H:49%"
+      "temp": "44.9\u00b0F",
+      "humidity": "H:38%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "34.1\u00b0F",
+      "humidity": "H:26%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "35.9\u00b0F",
-      "humidity": "H:89%"
+      "temp": "42.5\u00b0F",
+      "humidity": "H:78%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "33.5\u00b0F",
-      "humidity": "H:62%"
+      "temp": "36.0\u00b0F",
+      "humidity": "H:56%"
     }
   ],
   "snow": [
@@ -369,23 +369,7 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 4 at 9:47PM MDT until April 5 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 4 at 10:52PM MDT until April 5 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 4 at 9:47PM MDT until April 5 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
@@ -433,7 +417,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "N/A",
+      "status": "\ud83d\udfe2 1\"",
       "match": true
     }
   ],
