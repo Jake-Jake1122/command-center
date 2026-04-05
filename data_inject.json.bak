@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 04, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Apr 04, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "48.0\u00b0F",
-      "humidity": "H:26%"
+      "temp": "46.7\u00b0F",
+      "humidity": "H:27%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "34.3\u00b0F",
-      "humidity": "H:46%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "46.3\u00b0F",
-      "humidity": "H:62%"
+      "temp": "45.1\u00b0F",
+      "humidity": "H:63%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "35.7\u00b0F",
-      "humidity": "H:67%"
+      "temp": "35.6\u00b0F",
+      "humidity": "H:58%"
     }
   ],
   "snow": [
@@ -377,12 +377,12 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 4 at 9:47PM MDT until April 5 at 9:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 4 at 10:52PM MDT until April 5 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 4 at 9:31AM MDT until April 5 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 4 at 9:47PM MDT until April 5 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     }
   ],
@@ -437,7 +437,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
