@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 01:00 AM MDT",
+  "lastUpdated": "Apr 06, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "45.6\u00b0F",
-      "humidity": "H:30%"
+      "temp": "42.5\u00b0F",
+      "humidity": "H:35%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
+      "icon": "\u2600\ufe0f",
+      "temp": "35.2\u00b0F",
+      "humidity": "H:26%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "46.1\u00b0F",
-      "humidity": "H:50%"
+      "temp": "45.1\u00b0F",
+      "humidity": "H:49%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "39.9\u00b0F",
-      "humidity": "H:38%"
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "39.0\u00b0F",
+      "humidity": "H:39%"
     }
   ],
   "snow": [
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 3\" | Tue: 1\" | Fri: 1\" | Sat: 1\""
+      "forecast": "Mon: 5\" | Tue: 1\" | Thu: 1\" | Fri: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Sat: 1\""
+      "forecast": "Mon: 4\" | Sun: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 1\""
     },
     {
       "resort": "Steamboat",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 8\" | Sun: 1\""
     }
   ],
   "calendar": [],
@@ -373,14 +373,18 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 3\" \u2192 Sat: 1\". ~4\" total over the period."
+      "forecast": "Mon: 5\" \u2192 Tue: 1\" \u2192 Sun: 2\". ~9\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 5\". ~5\" total over the period."
+      "forecast": "Mon: 8\". ~8\" total over the period."
     }
   ],
   "socialWorthy": [
+    {
+      "icon": "\ud83c\udf28\ufe0f",
+      "text": "Storm incoming - Utah: Mon 8\" - powder alert content"
+    },
     {
       "icon": "\ud83d\udcda",
       "text": "Educational content: avy awareness, gear tips, or trip planning"
