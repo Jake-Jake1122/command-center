@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 08:01 AM MDT",
+  "lastUpdated": "Apr 06, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "41.9\u00b0F",
-      "humidity": "H:41%"
+      "temp": "48.0\u00b0F",
+      "humidity": "H:34%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "31.9\u00b0F",
-      "humidity": "H:37%"
+      "temp": "40.0\u00b0F",
+      "humidity": "H:40%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "41.6\u00b0F",
-      "humidity": "H:51%"
+      "temp": "50.3\u00b0F",
+      "humidity": "H:46%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "38.4\u00b0F",
-      "humidity": "H:43%"
+      "temp": "43.3\u00b0F",
+      "humidity": "H:44%"
     }
   ],
   "snow": [
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 8\" | Sun: 1\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -377,14 +377,10 @@
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 8\". ~8\" total over the period."
+      "forecast": "Mon: 5\". ~5\" total over the period."
     }
   ],
   "socialWorthy": [
-    {
-      "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 8\" - powder alert content"
-    },
     {
       "icon": "\ud83d\udcda",
       "text": "Educational content: avy awareness, gear tips, or trip planning"
@@ -402,22 +398,22 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
