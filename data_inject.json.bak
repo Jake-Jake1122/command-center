@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 06, 2026 at 10:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "48.0\u00b0F",
-      "humidity": "H:34%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "40.0\u00b0F",
-      "humidity": "H:40%"
+      "temp": "43.6\u00b0F",
+      "humidity": "H:35%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "50.3\u00b0F",
-      "humidity": "H:46%"
+      "temp": "55.7\u00b0F",
+      "humidity": "H:37%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "43.3\u00b0F",
-      "humidity": "H:44%"
+      "temp": "48.9\u00b0F",
+      "humidity": "H:48%"
     }
   ],
   "snow": [
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 5\" | Tue: 1\" | Thu: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Copper Mountain",
@@ -61,13 +61,18 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 8\" | Sun: 1\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 31,
+    "unreadCount": 33,
     "important": [
+      {
+        "from": "DigitalOcean Support",
+        "subject": "Core Infrastructure Maintenance in All Regions",
+        "date": "2026-04-06 15:37"
+      },
       {
         "from": "DigitalOcean",
         "subject": "Join us April 28: DigitalOcean Deploy",
@@ -87,11 +92,6 @@
         "from": "Adobe Customer Research",
         "subject": "Share your thoughts: chance to win $500 ",
         "date": "2026-04-01 03:00"
-      },
-      {
-        "from": "Phani sree Doppalapudi",
-        "subject": "Final Reminder: Google Cloud Support Program Ends Soon",
-        "date": "2026-03-31 20:04"
       }
     ]
   },
@@ -373,14 +373,18 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Mon: 5\" \u2192 Tue: 1\" \u2192 Sun: 2\". ~9\" total over the period."
+      "forecast": "Mon: 4\" \u2192 Sun: 2\". ~6\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 5\". ~5\" total over the period."
+      "forecast": "Mon: 8\". ~8\" total over the period."
     }
   ],
   "socialWorthy": [
+    {
+      "icon": "\ud83c\udf28\ufe0f",
+      "text": "Storm incoming - Utah: Mon 8\" - powder alert content"
+    },
     {
       "icon": "\ud83d\udcda",
       "text": "Educational content: avy awareness, gear tips, or trip planning"
@@ -393,17 +397,17 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -413,7 +417,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
