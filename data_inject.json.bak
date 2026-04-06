@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 11:01 AM MDT",
+  "lastUpdated": "Apr 06, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "58.6\u00b0F",
-      "humidity": "H:23%"
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "63.8\u00b0F",
+      "humidity": "H:20%"
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "47.1\u00b0F",
-      "humidity": "H:35%"
+      "icon": "\u2601\ufe0f",
+      "temp": "49.7\u00b0F",
+      "humidity": "H:27%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "64.1\u00b0F",
-      "humidity": "H:25%"
+      "temp": "68.2\u00b0F",
+      "humidity": "H:22%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "52.9\u00b0F",
-      "humidity": "H:45%"
+      "temp": "56.4\u00b0F",
+      "humidity": "H:38%"
     }
   ],
   "snow": [
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 33,
+    "unreadCount": 34,
     "important": [
+      {
+        "from": "Adobe Customer Research",
+        "subject": "Share your thoughts: chance to win $500 (Reminder) ",
+        "date": "2026-04-06 17:30"
+      },
       {
         "from": "DigitalOcean Support",
         "subject": "Core Infrastructure Maintenance in All Regions",
@@ -87,11 +92,6 @@
         "from": "DigitalOcean Support",
         "subject": "[DigitalOcean] Your 2026-03 invoice is available",
         "date": "2026-04-01 03:25"
-      },
-      {
-        "from": "Adobe Customer Research",
-        "subject": "Share your thoughts: chance to win $500 ",
-        "date": "2026-04-01 03:00"
       }
     ]
   },
@@ -402,17 +402,17 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
