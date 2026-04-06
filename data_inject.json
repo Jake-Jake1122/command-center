@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 06:01 AM MDT",
+  "lastUpdated": "Apr 06, 2026 at 07:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,19 +10,19 @@
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "30.8\u00b0F",
-      "humidity": "H:33%"
+      "temp": "30.9\u00b0F",
+      "humidity": "H:36%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "40.2\u00b0F",
-      "humidity": "H:53%"
+      "temp": "41.5\u00b0F",
+      "humidity": "H:47%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "37.2\u00b0F",
+      "temp": "37.1\u00b0F",
       "humidity": "H:39%"
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 30,
+    "unreadCount": 31,
     "important": [
       {
         "from": "DigitalOcean",
@@ -291,9 +291,9 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Ogden",
@@ -309,9 +309,9 @@
       },
       {
         "zone": "Uintas",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Skyline",
@@ -397,27 +397,27 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
