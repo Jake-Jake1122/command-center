@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 06, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "63.8\u00b0F",
-      "humidity": "H:20%"
+      "icon": "\u26c5",
+      "temp": "66.9\u00b0F",
+      "humidity": "H:19%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "49.7\u00b0F",
-      "humidity": "H:27%"
+      "temp": "51.8\u00b0F",
+      "humidity": "H:24%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "68.2\u00b0F",
-      "humidity": "H:22%"
+      "temp": "70.4\u00b0F",
+      "humidity": "H:21%"
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "56.4\u00b0F",
-      "humidity": "H:38%"
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "59.2\u00b0F",
+      "humidity": "H:32%"
     }
   ],
   "snow": [
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 8\" | Sun: 1\""
+      "forecast": "Mon: 8\" | Sun: 2\""
     }
   ],
   "calendar": [],
@@ -377,7 +377,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 8\". ~8\" total over the period."
+      "forecast": "Mon: 8\" \u2192 Sun: 2\". ~10\" total over the period."
     }
   ],
   "socialWorthy": [
