@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 05, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 05, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "67.4\u00b0F",
-      "humidity": "H:12%"
-    },
-    {
-      "location": "Silverton, CO",
       "icon": "?",
       "temp": "N/A",
       "humidity": ""
     },
     {
+      "location": "Silverton, CO",
+      "icon": "\u2600\ufe0f",
+      "temp": "50.7\u00b0F",
+      "humidity": "H:21%"
+    },
+    {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "68.6\u00b0F",
-      "humidity": "H:18%"
+      "temp": "67.3\u00b0F",
+      "humidity": "H:20%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "57.0\u00b0F",
-      "humidity": "H:32%"
+      "temp": "56.5\u00b0F",
+      "humidity": "H:30%"
     }
   ],
   "snow": [
@@ -397,7 +397,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 4\"",
       "match": true
     },
     {
@@ -5133,7 +5133,7 @@
     }
   ],
   "dailyRiddle": {
-    "question": "What has hands but can't clap?",
-    "answer": "A clock \u23f0"
+    "question": "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?",
+    "answer": "A map \ud83d\uddfa\ufe0f"
   }
 }
