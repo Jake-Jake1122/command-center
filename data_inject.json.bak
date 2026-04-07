@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 06, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "68.1\u00b0F",
-      "humidity": "H:19%"
+      "temp": "67.9\u00b0F",
+      "humidity": "H:18%"
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2601\ufe0f",
-      "temp": "49.0\u00b0F",
-      "humidity": "H:41%"
+      "temp": "48.4\u00b0F",
+      "humidity": "H:43%"
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "73.0\u00b0F",
-      "humidity": "H:15%"
+      "temp": "71.0\u00b0F",
+      "humidity": "H:16%"
     },
     {
       "location": "Park City, UT",
       "icon": "\u2601\ufe0f",
-      "temp": "61.6\u00b0F",
-      "humidity": "H:20%"
+      "temp": "60.8\u00b0F",
+      "humidity": "H:21%"
     }
   ],
   "snow": [
@@ -43,19 +43,19 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 1\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 1\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 6\" | Sun: 1\""
     },
     {
       "resort": "Alta",
@@ -66,13 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 35,
+    "unreadCount": 34,
     "important": [
-      {
-        "from": "Jake Chesbro",
-        "subject": "TheSnowLine \u2014 Statement of Use Update",
-        "date": "2026-04-06 21:11"
-      },
       {
         "from": "Adobe Customer Research",
         "subject": "Share your thoughts: chance to win $500 (Reminder) ",
@@ -91,6 +86,11 @@
       {
         "from": "DigitalOcean Support",
         "subject": "DigitalOcean - Received $12 payment",
+        "date": "2026-04-01 03:25"
+      },
+      {
+        "from": "DigitalOcean Support",
+        "subject": "[DigitalOcean] Your 2026-03 invoice is available",
         "date": "2026-04-01 03:25"
       }
     ]
