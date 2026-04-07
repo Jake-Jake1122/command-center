@@ -53,11 +53,12 @@ def get_weather_openmeteo(lat, lon, name, retries=3):
              51: '🌧️', 53: '🌧️', 55: '🌧️', 61: '🌧️', 63: '🌧️', 65: '🌧️',
              71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️', 80: '🌧️', 81: '🌧️',
              82: '🌧️', 85: '🌨️', 86: '🌨️', 95: '⛈️', 96: '⛈️', 99: '⛈️'}
+    print(f"   Fetching weather for {name}...")
     for attempt in range(retries):
         try:
             url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,weather_code&temperature_unit=fahrenheit"
             req = urllib.request.Request(url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
-            with urllib.request.urlopen(req, timeout=5) as response:
+            with urllib.request.urlopen(req, timeout=30) as response:
                 api_data = json.loads(response.read())
                 current = api_data.get('current', {})
                 temp = current.get('temperature_2m', '?')
@@ -67,18 +68,18 @@ def get_weather_openmeteo(lat, lon, name, retries=3):
         except Exception as e:
             if attempt < retries - 1:
                 import time
-                print(f"   Weather API error: {e}, retrying..."); time.sleep(1)
+                time.sleep(1)
                 continue
     return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
 
 # data['weather'] = [
-    #     get_weather_openmeteo(39.7392, -104.9903, "Denver, CO"),
-    #     get_weather_openmeteo(37.8117, -107.6644, "Silverton, CO"),
-    #     get_weather_openmeteo(40.7608, -111.8910, "Salt Lake City, UT"),
-    #     get_weather_openmeteo(40.6461, -111.4980, "Park City, UT")
+#     get_weather_openmeteo(39.7392, -104.9903, "Denver, CO"),
+#     get_weather_openmeteo(37.8117, -107.6644, "Silverton, CO"),
+#     get_weather_openmeteo(40.7608, -111.8910, "Salt Lake City, UT"),
+#     get_weather_openmeteo(40.6461, -111.4980, "Park City, UT")
 # ]
-# print(f"   Got weather for {len(data['weather'])} locations")
-data['weather'] = []
+data['weather'] = [] # Set to empty list to avoid breaking the dashboard
+print(f"   Weather fetching is temporarily disabled.")
 
 # ============================================
 # 2. EMAIL
@@ -291,11 +292,11 @@ def get_nws_snow_detailed(lat, lon):
     try:
         points_url = f"https://api.weather.gov/points/{lat},{lon}"
         req = urllib.request.Request(points_url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
-        with urllib.request.urlopen(req, timeout=5) as response:
+        with urllib.request.urlopen(req, timeout=15) as response:
             points_data = json.loads(response.read())
         grid_url = points_data['properties']['forecastGridData']
         req = urllib.request.Request(grid_url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
-        with urllib.request.urlopen(req, timeout=5) as response:
+        with urllib.request.urlopen(req, timeout=15) as response:
             grid_data = json.loads(response.read())
         snow_values = grid_data['properties'].get('snowfallAmount', {}).get('values', [])
         
@@ -504,7 +505,7 @@ def get_snotel_24hr(station_id, state):
         
         url = f"https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/{station_id}:{state}:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value"
         req = urllib.request.Request(url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
-        with urllib.request.urlopen(req, timeout=5, context=ctx) as response:
+        with urllib.request.urlopen(req, timeout=15, context=ctx) as response:
             content = response.read().decode('utf-8')
         
         lines = [l for l in content.strip().split('\n') if l and not l.startswith('#')]

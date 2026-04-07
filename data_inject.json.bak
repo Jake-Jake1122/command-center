@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 12:02 AM MDT",
+  "lastUpdated": "Apr 07, 2026 at 01:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 3\" | Fri: 1\" | Sat: 1\" | Sun: 2\""
+      "forecast": "Tue: 5\" | Fri: 1\" | Sat: 1\" | Sun: 2\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Sun: 2\""
+      "forecast": "Tue: 3\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\""
+      "forecast": "Tue: 4\" | Mon: 1\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\""
+      "forecast": "Tue: 3\" | Mon: 1\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 6\" | Sun: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 8\" | Sun: 2\""
+      "forecast": "Tue: 5\" | Sun: 3\" | Mon: 7\""
     }
   ],
   "calendar": [],
@@ -373,17 +373,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Mon: 3\" \u2192 Sun: 2\". ~5\" total over the period."
+      "forecast": "Tue: 5\" \u2192 Sat: 1\" \u2192 Sun: 2\" \u2192 Mon: 2\". ~10\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 8\" \u2192 Sun: 2\". ~10\" total over the period."
+      "forecast": "Tue: 5\" \u2192 Sun: 3\" \u2192 Mon: 7\". ~15\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 8\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -397,12 +397,12 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -412,12 +412,12 @@
     },
     {
       "resort": "Brighton",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
