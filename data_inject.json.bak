@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 07, 2026 at 07:00 AM MDT",
   "weather": [],
   "snow": [
     {
@@ -12,7 +12,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -30,18 +30,18 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\" | Sun: 1\" | Mon: 5\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 5\" | Sun: 3\" | Mon: 7\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 35,
+    "unreadCount": 36,
     "important": [
       {
         "from": "Adobe Customer Research",
@@ -352,14 +352,10 @@
     },
     {
       "region": "Utah",
-      "forecast": "Tue: 5\" \u2192 Sun: 3\" \u2192 Mon: 7\". ~15\" total over the period."
+      "forecast": "Dry conditions expected. No significant snow in the forecast."
     }
   ],
   "socialWorthy": [
-    {
-      "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 7\" - powder alert content"
-    },
     {
       "icon": "\ud83d\udcda",
       "text": "Educational content: avy awareness, gear tips, or trip planning"
