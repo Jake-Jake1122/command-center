@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 07, 2026 at 05:00 AM MDT",
   "weather": [],
   "snow": [
     {
@@ -18,7 +18,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\" | Mon: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
@@ -41,7 +41,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 34,
+    "unreadCount": 35,
     "important": [
       {
         "from": "Adobe Customer Research",
@@ -372,7 +372,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
