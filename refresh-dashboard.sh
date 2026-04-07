@@ -48,38 +48,52 @@ preserved_riddle = data.get('dailyRiddle', {})
 # ============================================
 print("🌤️ Fetching weather...")
 
-def get_weather_openmeteo(lat, lon, name, retries=3):
-    icons = {0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️', 45: '🌫️', 48: '🌫️',
-             51: '🌧️', 53: '🌧️', 55: '🌧️', 61: '🌧️', 63: '🌧️', 65: '🌧️',
-             71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️', 80: '🌧️', 81: '🌧️',
-             82: '🌧️', 85: '🌨️', 86: '🌨️', 95: '⛈️', 96: '⛈️', 99: '⛈️'}
-    print(f"   Fetching weather for {name}...")
-    for attempt in range(retries):
-        try:
-            url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,weather_code&temperature_unit=fahrenheit"
-            req = urllib.request.Request(url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
-            with urllib.request.urlopen(req, timeout=30) as response:
-                api_data = json.loads(response.read())
-                current = api_data.get('current', {})
-                temp = current.get('temperature_2m', '?')
-                humidity = current.get('relative_humidity_2m', '?')
-                code = current.get('weather_code', 0)
-                return {"location": name, "icon": icons.get(code, '🌡️'), "temp": f"{temp}°F", "humidity": f"H:{humidity}%"}
-        except Exception as e:
-            if attempt < retries - 1:
-                import time
-                time.sleep(1)
-                continue
-    return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
+def get_weather_nws(lat, lon, name, retries=3):
+    print(f"   Fetching NWS weather for {name}...")
+    try:
+        # Step 1: Get forecast URL from points
+        points_url = f"https://api.weather.gov/points/{lat},{lon}"
+        points_req = urllib.request.Request(points_url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
+        with urllib.request.urlopen(points_req, timeout=15) as response:
+            points_data = json.loads(response.read())
+        forecast_url = points_data.get('properties', {}).get('forecast')
 
-# data['weather'] = [
-#     get_weather_openmeteo(39.7392, -104.9903, "Denver, CO"),
-#     get_weather_openmeteo(37.8117, -107.6644, "Silverton, CO"),
-#     get_weather_openmeteo(40.7608, -111.8910, "Salt Lake City, UT"),
-#     get_weather_openmeteo(40.6461, -111.4980, "Park City, UT")
-# ]
-data['weather'] = [] # Set to empty list to avoid breaking the dashboard
-print(f"   Weather fetching is temporarily disabled.")
+        if not forecast_url:
+            return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
+
+        # Step 2: Get the actual forecast
+        forecast_req = urllib.request.Request(forecast_url, headers={'User-Agent': 'TSL-CommandCenter/1.0'})
+        with urllib.request.urlopen(forecast_req, timeout=15) as response:
+            forecast_data = json.loads(response.read())
+
+        current_period = forecast_data.get('properties', {}).get('periods', [{}])[0]
+        temp = current_period.get('temperature', '?')
+        short_forecast = current_period.get('shortForecast', '').lower()
+        
+        icon = '🌡️' # Default
+        if 'sun' in short_forecast or 'clear' in short_forecast: icon = '☀️'
+        elif 'partly cloudy' in short_forecast: icon = '🌤️'
+        elif 'mostly cloudy' in short_forecast: icon = '⛅'
+        elif 'cloudy' in short_forecast: icon = '☁️'
+        elif 'rain' in short_forecast or 'showers' in short_forecast: icon = '🌧️'
+        elif 'snow' in short_forecast: icon = '🌨️'
+        elif 'thunderstorm' in short_forecast: icon = '⛈️'
+        elif 'fog' in short_forecast: icon = '🌫️'
+
+        return {"location": name, "icon": icon, "temp": f"{temp}°F", "humidity": ""} # NWS doesn't provide humidity easily
+
+    except Exception as e:
+        print(f"      Error fetching NWS for {name}: {e}")
+        return {"location": name, "icon": "?", "temp": "N/A", "humidity": ""}
+
+
+data['weather'] = [
+    get_weather_nws(39.7392, -104.9903, "Denver, CO"),
+    get_weather_nws(37.8117, -107.6644, "Silverton, CO"),
+    get_weather_nws(40.7608, -111.8910, "Salt Lake City, UT"),
+    get_weather_nws(40.6461, -111.4980, "Park City, UT")
+]
+print(f"   Weather fetched for {len(data['weather'])} locations using NWS.")
 
 # ============================================
 # 2. EMAIL
