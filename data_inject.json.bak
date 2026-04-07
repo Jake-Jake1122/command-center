@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 09:00 PM MDT",
+  "lastUpdated": "Apr 06, 2026 at 10:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,21 +9,21 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2601\ufe0f",
-      "temp": "38.9\u00b0F",
-      "humidity": "H:63%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "58.4\u00b0F",
-      "humidity": "H:26%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "48.1\u00b0F",
-      "humidity": "H:30%"
+      "icon": "?",
+      "temp": "N/A",
+      "humidity": ""
     }
   ],
   "snow": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 10:01 PM MDT",
+  "lastUpdated": "Apr 06, 2026 at 11:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -397,7 +397,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
