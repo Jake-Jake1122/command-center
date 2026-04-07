@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 06, 2026 at 10:01 PM MDT",
+  "lastUpdated": "Apr 07, 2026 at 12:02 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -397,12 +397,12 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -412,12 +412,12 @@
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     }
   ],
