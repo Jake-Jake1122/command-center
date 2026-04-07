@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 01:01 PM MDT",
+  "lastUpdated": "Apr 07, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u26c5",
-      "temp": "71\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "69\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "51\u00b0F",
       "humidity": ""
     },
     {
@@ -64,10 +64,22 @@
       "forecast": "Tue: 5\" | Sun: 4\" | Mon: 10\""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "day": "7",
+      "month": "APR",
+      "title": "TSL Meeting",
+      "time": "18:00"
+    }
+  ],
   "emails": {
-    "unreadCount": 38,
+    "unreadCount": 39,
     "important": [
+      {
+        "from": "Daniel Nosachev",
+        "subject": "Invitation: TSL Meeting @ Tue Apr 7, 2026 6pm - 6:30pm (MDT)",
+        "date": "2026-04-07 19:20"
+      },
       {
         "from": "Sticker Mule",
         "subject": "Glitter stickers",
@@ -87,11 +99,6 @@
         "from": "DigitalOcean Support",
         "subject": "Core Infrastructure Maintenance in All Regions",
         "date": "2026-04-06 15:37"
-      },
-      {
-        "from": "DigitalOcean",
-        "subject": "Join us April 28: DigitalOcean Deploy",
-        "date": "2026-04-02 15:20"
       }
     ]
   },
