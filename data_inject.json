@@ -3,14 +3,14 @@
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "69\u00b0F",
+      "icon": "\u26c5",
+      "temp": "71\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "51\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
