@@ -1,31 +1,6 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 01:04 AM MDT",
-  "weather": [
-    {
-      "location": "Denver, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
-    },
-    {
-      "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
-    },
-    {
-      "location": "Salt Lake City, UT",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
-    },
-    {
-      "location": "Park City, UT",
-      "icon": "?",
-      "temp": "N/A",
-      "humidity": ""
-    }
-  ],
+  "lastUpdated": "Apr 07, 2026 at 02:00 AM MDT",
+  "weather": [],
   "snow": [
     {
       "resort": "Arapahoe Basin",
