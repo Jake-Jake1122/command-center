@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 07:00 AM MDT",
+  "lastUpdated": "Apr 07, 2026 at 08:00 AM MDT",
   "weather": [],
   "snow": [
     {
@@ -12,7 +12,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 3\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
     },
     {
       "resort": "Winter Park",
@@ -30,19 +30,24 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 4\" | Sun: 1\" | Mon: 5\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 5\" | Sun: 3\" | Mon: 7\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 36,
+    "unreadCount": 37,
     "important": [
+      {
+        "from": "DigitalOcean",
+        "subject": "How are we doing?",
+        "date": "2026-04-07 13:01"
+      },
       {
         "from": "Adobe Customer Research",
         "subject": "Share your thoughts: chance to win $500 (Reminder) ",
@@ -61,11 +66,6 @@
       {
         "from": "DigitalOcean Support",
         "subject": "DigitalOcean - Received $12 payment",
-        "date": "2026-04-01 03:25"
-      },
-      {
-        "from": "DigitalOcean Support",
-        "subject": "[DigitalOcean] Your 2026-03 invoice is available",
         "date": "2026-04-01 03:25"
       }
     ]
@@ -316,9 +316,9 @@
     "california": [
       {
         "zone": "Tahoe",
-        "rating": "No Rating",
-        "ratingClass": "no-rating",
-        "danger_level": -1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Eastern Sierra",
@@ -352,10 +352,14 @@
     },
     {
       "region": "Utah",
-      "forecast": "Dry conditions expected. No significant snow in the forecast."
+      "forecast": "Tue: 5\" \u2192 Sun: 3\" \u2192 Mon: 7\". ~15\" total over the period."
     }
   ],
   "socialWorthy": [
+    {
+      "icon": "\ud83c\udf28\ufe0f",
+      "text": "Storm incoming - Utah: Mon 7\" - powder alert content"
+    },
     {
       "icon": "\ud83d\udcda",
       "text": "Educational content: avy awareness, gear tips, or trip planning"
