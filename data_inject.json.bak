@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 03:00 AM MDT",
+  "lastUpdated": "Apr 08, 2026 at 04:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -412,7 +412,7 @@
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
