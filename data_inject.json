@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 08, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Mon: 10\" | Tue: 3\""
+      "forecast": "Sun: 2\" | Mon: 13\" | Tue: 6\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 4\" | Mon: 13\" | Tue: 3\""
+      "forecast": "Sun: 3\" | Mon: 16\" | Tue: 8\""
     }
   ],
   "calendar": [],
@@ -343,7 +343,13 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 8 at 12:19PM PDT until April 12 at 11:00PM PDT by NWS Sacramento CA",
+      "severity": "Severe"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
@@ -351,13 +357,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 4\" \u2192 Mon: 13\" \u2192 Tue: 3\". ~19\" total over the period."
+      "forecast": "Sun: 3\" \u2192 Mon: 16\" \u2192 Tue: 8\". ~27\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 13\" | Colorado: Tue 8\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 16\", Tue 8\" | Colorado: Tue 8\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -381,7 +387,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "N/A",
       "match": true
     },
     {

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 08, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,19 +37,19 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
+      "forecast": "Wed: 2\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Mon: 2\" | Tue: 6\""
+      "forecast": "Wed: 1\" | Mon: 2\" | Tue: 8\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Tue: 3\""
+      "forecast": "Mon: 3\" | Tue: 5\""
     },
     {
       "resort": "Brighton",
@@ -347,7 +347,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 2\" \u2192 Sun: 1\" \u2192 Mon: 2\" \u2192 Tue: 7\". ~12\" total over the period."
+      "forecast": "Wed: 2\" \u2192 Mon: 3\" \u2192 Tue: 8\". ~13\" total over the period."
     },
     {
       "region": "Utah",
@@ -357,7 +357,7 @@
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 13\" | Colorado: Tue 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 13\" | Colorado: Tue 8\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
