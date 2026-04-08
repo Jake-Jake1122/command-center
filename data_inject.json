@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 06:01 AM MDT",
+  "lastUpdated": "Apr 08, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -16,7 +16,7 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "48\u00b0F",
+      "temp": "71\u00b0F",
       "humidity": ""
     },
     {
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 40,
+    "unreadCount": 41,
     "important": [
       {
         "from": "Sticker Mule",
