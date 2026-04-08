@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 01:01 AM MDT",
+  "lastUpdated": "Apr 08, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "45\u00b0F",
+      "temp": "46\u00b0F",
       "humidity": ""
     },
     {
@@ -16,13 +16,13 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "47\u00b0F",
+      "temp": "48\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "40\u00b0F",
+      "temp": "39\u00b0F",
       "humidity": ""
     }
   ],
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sun: 4\" | Mon: 13\" | Tue: 3\""
     }
   ],
   "calendar": [],
@@ -377,13 +377,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 1\" \u2192 Mon: 10\" \u2192 Tue: 3\". ~14\" total over the period."
+      "forecast": "Sun: 4\" \u2192 Mon: 13\" \u2192 Tue: 3\". ~19\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 10\" | Colorado: Tue 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 13\" | Colorado: Tue 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -397,7 +397,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -412,12 +412,12 @@
     },
     {
       "resort": "Brighton",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
