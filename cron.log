@@ -13029,3 +13029,13 @@ Time: 2026-04-08 12:00 MDT
 ✅ HTML injected
 ✅ HTML injected
 📤 Pushing to GitHub...
+📤 Pushing to GitHub...
+fatal: Unable to create '/root/clawd/command-center/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main 8959e49] Dashboard refresh - 2026-04-08 12:00
+ 4 files changed, 81 insertions(+), 10 deletions(-)
