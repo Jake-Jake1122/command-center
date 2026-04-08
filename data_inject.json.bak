@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 11:01 PM MDT",
+  "lastUpdated": "Apr 08, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -64,14 +64,7 @@
       "forecast": "Tue: 5\" | Sun: 4\" | Mon: 10\""
     }
   ],
-  "calendar": [
-    {
-      "day": "7",
-      "month": "APR",
-      "title": "TSL Meeting",
-      "time": "18:00"
-    }
-  ],
+  "calendar": [],
   "emails": {
     "unreadCount": 40,
     "important": [
@@ -404,12 +397,12 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -419,12 +412,12 @@
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],

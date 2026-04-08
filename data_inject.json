@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 08, 2026 at 01:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "45\u00b0F",
+      "temp": "46\u00b0F",
       "humidity": ""
     },
     {
@@ -22,7 +22,7 @@
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "40\u00b0F",
+      "temp": "39\u00b0F",
       "humidity": ""
     }
   ],
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 8\" | Sat: 1\" | Sun: 3\" | Mon: 2\""
+      "forecast": "Wed: 2\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\" | Sat: 1\" | Sun: 2\" | Mon: 2\""
+      "forecast": "Wed: 1\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 7\" | Mon: 2\""
+      "forecast": "Wed: 1\" | Mon: 2\" | Tue: 6\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Mon: 1\""
+      "forecast": "Mon: 2\" | Tue: 3\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\" | Sun: 3\" | Mon: 8\""
+      "forecast": "Sun: 1\" | Mon: 10\" | Tue: 3\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 5\" | Sun: 4\" | Mon: 10\""
+      "forecast": "Sun: 4\" | Mon: 13\" | Tue: 3\""
     }
   ],
   "calendar": [],
@@ -373,17 +373,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 8\" \u2192 Sat: 1\" \u2192 Sun: 3\" \u2192 Mon: 2\". ~14\" total over the period."
+      "forecast": "Wed: 2\" \u2192 Sun: 1\" \u2192 Mon: 2\" \u2192 Tue: 7\". ~12\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Tue: 5\" \u2192 Sun: 4\" \u2192 Mon: 10\". ~19\" total over the period."
+      "forecast": "Sun: 4\" \u2192 Mon: 13\" \u2192 Tue: 3\". ~19\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 10\" | Colorado: Tue 8\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 13\" | Colorado: Tue 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -402,7 +402,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "resort": "Brighton",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
