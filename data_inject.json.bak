@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 08, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,8 +21,8 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "?",
-      "temp": "N/A",
+      "icon": "\u2600\ufe0f",
+      "temp": "63\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,34 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 41,
-    "important": [
-      {
-        "from": "Sticker Mule",
-        "subject": "Glitter stickers",
-        "date": "2026-04-07 18:02"
-      },
-      {
-        "from": "DigitalOcean",
-        "subject": "How are we doing?",
-        "date": "2026-04-07 13:01"
-      },
-      {
-        "from": "Adobe Customer Research",
-        "subject": "Share your thoughts: chance to win $500 (Reminder) ",
-        "date": "2026-04-06 17:30"
-      },
-      {
-        "from": "DigitalOcean Support",
-        "subject": "Core Infrastructure Maintenance in All Regions",
-        "date": "2026-04-06 15:37"
-      },
-      {
-        "from": "DigitalOcean",
-        "subject": "Join us April 28: DigitalOcean Deploy",
-        "date": "2026-04-02 15:20"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
