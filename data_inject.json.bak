@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 07, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 4\" | Sun: 3\" | Mon: 8\""
     },
     {
       "resort": "Alta",
@@ -414,7 +414,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
