@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 07:00 AM MDT",
+  "lastUpdated": "Apr 08, 2026 at 08:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -341,15 +341,15 @@
     "california": [
       {
         "zone": "Tahoe",
-        "rating": "No Rating",
-        "ratingClass": "no-rating",
-        "danger_level": -1
-      },
-      {
-        "zone": "Eastern Sierra",
         "rating": "Moderate",
         "ratingClass": "moderate",
         "danger_level": 2
+      },
+      {
+        "zone": "Eastern Sierra",
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Shasta",
