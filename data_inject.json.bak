@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 07, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 07, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,14 +9,14 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "51\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "25\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "73\u00b0F",
+      "temp": "47\u00b0F",
       "humidity": ""
     },
     {
@@ -73,13 +73,8 @@
     }
   ],
   "emails": {
-    "unreadCount": 39,
+    "unreadCount": 38,
     "important": [
-      {
-        "from": "Daniel Nosachev",
-        "subject": "Invitation: TSL Meeting @ Tue Apr 7, 2026 6pm - 6:30pm (MDT)",
-        "date": "2026-04-07 19:20"
-      },
       {
         "from": "Sticker Mule",
         "subject": "Glitter stickers",
@@ -99,6 +94,11 @@
         "from": "DigitalOcean Support",
         "subject": "Core Infrastructure Maintenance in All Regions",
         "date": "2026-04-06 15:37"
+      },
+      {
+        "from": "DigitalOcean",
+        "subject": "Join us April 28: DigitalOcean Deploy",
+        "date": "2026-04-02 15:20"
       }
     ]
   },
@@ -424,7 +424,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
