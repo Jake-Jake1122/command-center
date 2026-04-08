@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 08, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -22,7 +22,7 @@
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "63\u00b0F",
+      "temp": "62\u00b0F",
       "humidity": ""
     }
   ],
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Tue: 3\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 4\" | Mon: 13\" | Tue: 3\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -351,13 +351,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 4\" \u2192 Mon: 13\" \u2192 Tue: 3\". ~19\" total over the period."
+      "forecast": "Sun: 1\" \u2192 Mon: 10\" \u2192 Tue: 3\". ~14\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 13\" | Colorado: Tue 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 10\" | Colorado: Tue 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
