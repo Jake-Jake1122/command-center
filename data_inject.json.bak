@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 08, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "57\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
@@ -346,7 +346,17 @@
   "specialAdvisories": [
     {
       "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 8 at 12:19PM PDT until April 12 at 11:00PM PDT by NWS Sacramento CA",
+      "headline": "Winter Storm Watch issued April 8 at 1:27PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 8 at 1:27PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 8 at 1:27PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
       "severity": "Severe"
     }
   ],
