@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 05:01 PM MDT",
+  "lastUpdated": "Apr 08, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "58\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "28\u00b0F",
       "humidity": ""
     },
     {
@@ -407,7 +407,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
@@ -5123,7 +5123,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "What has hands but can't clap?",
-    "a": "A clock \u23f0"
+    "q": "I fall from the sky but I'm not rain...",
+    "a": "Snow \u2744\ufe0f"
   }
 }
