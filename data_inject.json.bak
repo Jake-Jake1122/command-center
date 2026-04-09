@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 12:01 PM MDT",
+  "lastUpdated": "Apr 09, 2026 at 01:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,13 +9,13 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "58\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "75\u00b0F",
       "humidity": ""
     },
@@ -37,31 +37,31 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 5\" | Wed: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 6\" | Wed: 2\""
+      "forecast": "Tue: 3\" | Wed: 2\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 3\" | Wed: 1\""
+      "forecast": "Tue: 3\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 11\" | Tue: 6\""
+      "forecast": "Mon: 7\" | Tue: 4\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 14\" | Tue: 7\""
+      "forecast": "Mon: 9\" | Tue: 5\""
     }
   ],
   "calendar": [],
@@ -285,12 +285,12 @@
   "specialAdvisories": [
     {
       "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 9 at 10:52AM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
+      "headline": "Winter Storm Warning issued April 9 at 11:46AM PDT until April 12 at 11:00PM PDT by NWS Sacramento C...",
       "severity": "Severe"
     },
     {
-      "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 8 at 1:27PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 9 at 10:52AM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
     },
     {
@@ -302,17 +302,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Mon: 1\" \u2192 Tue: 6\" \u2192 Wed: 3\". ~10\" total over the period."
+      "forecast": "Tue: 6\" \u2192 Wed: 3\". ~9\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 14\" \u2192 Tue: 7\". ~21\" total over the period."
+      "forecast": "Mon: 9\" \u2192 Tue: 5\". ~14\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 14\", Tue 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 9\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
