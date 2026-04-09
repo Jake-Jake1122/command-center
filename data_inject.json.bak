@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 12:01 AM MDT",
+  "lastUpdated": "Apr 09, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,14 +9,14 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
+      "icon": "\u2600\ufe0f",
       "temp": "28\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "49\u00b0F",
+      "temp": "50\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 3\" | Tue: 5\""
+      "forecast": "Wed: 1\" | Mon: 1\" | Tue: 4\""
     },
     {
       "resort": "Brighton",
@@ -363,7 +363,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 2\" \u2192 Mon: 3\" \u2192 Tue: 8\". ~13\" total over the period."
+      "forecast": "Wed: 2\" \u2192 Mon: 2\" \u2192 Tue: 8\". ~13\" total over the period."
     },
     {
       "region": "Utah",
@@ -387,17 +387,17 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -407,7 +407,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
