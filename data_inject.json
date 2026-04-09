@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\" | Sat: 1\" | Mon: 1\" | Tue: 6\""
+      "forecast": "Wed: 2\" | Fri: 1\" | Sat: 1\" | Sun: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 5\" | Wed: 2\""
+      "forecast": "Wed: 2\" | Sat: 1\" | Sun: 1\" | Mon: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 6\" | Wed: 2\""
+      "forecast": "Wed: 1\" | Mon: 2\" | Tue: 8\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 3\" | Wed: 1\""
+      "forecast": "Wed: 1\" | Mon: 1\" | Tue: 4\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Mon: 11\" | Tue: 6\""
+      "forecast": "Sun: 2\" | Mon: 13\" | Tue: 6\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Mon: 14\" | Tue: 7\""
+      "forecast": "Sun: 3\" | Mon: 16\" | Tue: 8\""
     }
   ],
   "calendar": [],
@@ -363,17 +363,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Mon: 1\" \u2192 Tue: 6\" \u2192 Wed: 3\". ~10\" total over the period."
+      "forecast": "Wed: 2\" \u2192 Mon: 2\" \u2192 Tue: 8\". ~13\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 1\" \u2192 Mon: 14\" \u2192 Tue: 7\". ~23\" total over the period."
+      "forecast": "Sun: 3\" \u2192 Mon: 16\" \u2192 Tue: 8\". ~27\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 14\", Tue 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 16\", Tue 8\" | Colorado: Tue 8\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
