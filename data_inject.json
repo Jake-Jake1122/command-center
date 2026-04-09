@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 09, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -346,7 +346,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
