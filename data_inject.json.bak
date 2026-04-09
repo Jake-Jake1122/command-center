@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 08, 2026 at 09:00 PM MDT",
+  "lastUpdated": "Apr 08, 2026 at 10:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Mon: 13\" | Tue: 6\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
