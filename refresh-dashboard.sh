@@ -307,62 +307,62 @@ print(f"   Generated {len(social_worthy)} content ideas")
 # ============================================
 # 9. DAILY DIGEST (SNOTEL 24hr for favorites)
 # ============================================
-# print("📊 Fetching daily digest (SNOTEL 24hr)...")
-# FAVORITES = [("Winter Park","335","CO"), ("Steamboat","825","CO"), ("Snowbird","766","UT"), ("Brighton","366","UT"), ("Copper Mountain","415","CO")]
+print("📊 Fetching daily digest (SNOTEL 24hr)...")
+FAVORITES = [("Winter Park","335","CO"), ("Steamboat","825","CO"), ("Snowbird","766","UT"), ("Brighton","366","UT"), ("Copper Mountain","415","CO")]
 
-# def get_snotel_24hr(station_id, state):
-#     print(f"      Fetching SNOTEL for station {station_id}:{state}...")
-#     try:
-#         url = f"https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/{station_id}:{state}:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value"
-#         cmd = ['curl', '-s', '-L', '--max-time', '20', '-A', 'TSL-CommandCenter/1.0', url]
-#         result = subprocess.run(cmd, capture_output=True, text=True, timeout=20)
-#         if result.returncode != 0: 
-#             print(f"      SNOTEL request failed for {station_id} with exit code {result.returncode}")
-#             return 0, "⚪ N/A"
-#         content = result.stdout
-#         lines = [l for l in content.strip().split('\n') if l and not l.startswith('#')]
-#         if len(lines) < 3: 
-#             print(f"      SNOTEL data format unexpected for {station_id}")
-#             return 0, "⚪ N/A"
-#         rows = lines[-2:]
-#         data_rows = []
-#         for row in rows:
-#             parts = row.split(',')
-#             if len(parts) >= 3:
-#                 try:
-#                     data_rows.append((float(parts[1]), float(parts[2])))
-#                 except ValueError:
-#                     print(f"      SNOTEL could not parse row: {row}")
-#                     pass
-#         if len(data_rows) < 2: 
-#             print(f"      Not enough data rows for {station_id}")
-#             return 0, "⚪ N/A"
+def get_snotel_24hr(station_id, state):
+    print(f"      Fetching SNOTEL for station {station_id}:{state}...")
+    try:
+        url = f"https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/{station_id}:{state}:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value"
+        cmd = ['curl', '-s', '-L', '--max-time', '20', '-A', 'TSL-CommandCenter/1.0', url]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=20)
+        if result.returncode != 0: 
+            print(f"      SNOTEL request failed for {station_id} with exit code {result.returncode}")
+            return 0, "⚪ N/A"
+        content = result.stdout
+        lines = [l for l in content.strip().split('\n') if l and not l.startswith('#')]
+        if len(lines) < 3: 
+            print(f"      SNOTEL data format unexpected for {station_id}")
+            return 0, "⚪ N/A"
+        rows = lines[-2:]
+        data_rows = []
+        for row in rows:
+            parts = row.split(',')
+            if len(parts) >= 3:
+                try:
+                    data_rows.append((float(parts[1]), float(parts[2])))
+                except ValueError:
+                    print(f"      SNOTEL could not parse row: {row}")
+                    pass
+        if len(data_rows) < 2: 
+            print(f"      Not enough data rows for {station_id}")
+            return 0, "⚪ N/A"
         
-#         swe_change = data_rows[1][0] - data_rows[0][0]
-#         if swe_change <= 0: return 0, f"🟢 0\""
+        swe_change = data_rows[1][0] - data_rows[0][0]
+        if swe_change <= 0: return 0, f"🟢 0\""
         
-#         avg_temp_c = ((data_rows[0][1] + data_rows[1][1]) / 2 - 32) * 5/9
-#         if avg_temp_c > 2: return 0, f"🟢 0\"" # Too warm for snow
+        avg_temp_c = ((data_rows[0][1] + data_rows[1][1]) / 2 - 32) * 5/9
+        if avg_temp_c > 2: return 0, f"🟢 0\"" # Too warm for snow
         
-#         # H&P Formula
-#         density = 67.92 + 51.25 * math.exp(avg_temp_c / 2.59)
-#         snowfall = (1000 / density) * swe_change
+        # H&P Formula
+        density = 67.92 + 51.25 * math.exp(avg_temp_c / 2.59)
+        snowfall = (1000 / density) * swe_change
         
-#         return round(snowfall), f"🟢 {round(snowfall)}\""
+        return round(snowfall), f"🟢 {round(snowfall)}\""
         
-#     except subprocess.TimeoutExpired:
-#         print(f"      SNOTEL request timed out for {station_id}")
-#         return 0, "⚪ Timeout"
-#     except Exception as e:
-#         print(f"      SNOTEL processing error for {station_id}: {e}")
-#         return 0, "⚪ Error"
+    except subprocess.TimeoutExpired:
+        print(f"      SNOTEL request timed out for {station_id}")
+        return 0, "⚪ Timeout"
+    except Exception as e:
+        print(f"      SNOTEL processing error for {station_id}: {e}")
+        return 0, "⚪ Error"
 
-# daily_digest = []
-# for resort, station, state in FAVORITES:
-#     snow, status = get_snotel_24hr(station, state)
-#     daily_digest.append({"resort": resort, "status": status, "match": True})
-#     print(f"   {resort}: {status}")
-data['dailyDigest'] = []
+daily_digest = []
+for resort, station, state in FAVORITES:
+    snow, status = get_snotel_24hr(station, state)
+    daily_digest.append({"resort": resort, "status": status, "match": True})
+    print(f"   {resort}: {status}")
+data['dailyDigest'] = daily_digest
 
 # ============================================
 # RESTORE & FINALIZE

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 09, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -384,7 +384,33 @@
       "text": "Engagement post: ask followers about weekend plans or favorite zones"
     }
   ],
-  "dailyDigest": [],
+  "dailyDigest": [
+    {
+      "resort": "Winter Park",
+      "status": "\ud83d\udfe2 0\"",
+      "match": true
+    },
+    {
+      "resort": "Steamboat",
+      "status": "\ud83d\udfe2 0\"",
+      "match": true
+    },
+    {
+      "resort": "Snowbird",
+      "status": "\ud83d\udfe2 0\"",
+      "match": true
+    },
+    {
+      "resort": "Brighton",
+      "status": "\ud83d\udfe2 0\"",
+      "match": true
+    },
+    {
+      "resort": "Copper Mountain",
+      "status": "\ud83d\udfe2 0\"",
+      "match": true
+    }
+  ],
   "snotelData": [
     {
       "name": "Grandvalira Andorra",
