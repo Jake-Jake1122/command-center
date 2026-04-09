@@ -13604,3 +13604,16 @@ Time: 2026-04-09 00:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 57f079d] Dashboard refresh - 2026-04-09 00:01
+ 5 files changed, 87 insertions(+), 11 deletions(-)
+      SNOTEL processing error for 766: Command '['curl', '-s', '-L', '--max-time', '20', '-A', 'TSL-CommandCenter/1.0', 'https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/766:UT:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value']' timed out after 20 seconds
+   Snowbird: ⚪ N/A
+   Brighton: 🟢 0"
+To https://github.com/Jake-Jake1122/command-center.git
+   28d0cb0..57f079d  main -> main
+✅ Dashboard updated!
+      SNOTEL processing error for 415: Command '['curl', '-s', '-L', '--max-time', '20', '-A', 'TSL-CommandCenter/1.0', 'https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/415:CO:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value']' timed out after 20 seconds
+   Copper Mountain: ⚪ N/A
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
