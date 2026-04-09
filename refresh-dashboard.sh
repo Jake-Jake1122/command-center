@@ -160,7 +160,7 @@ print(f"   Found {len(data.get('calendar', []))} events")
 print("⚠️ Fetching avy danger ratings...")
 avy_data = {}
 try:
-    avy_api = curl_json("https://api.avalanche.org/v2/public/products/map-layer", timeout=20)
+    avy_api = curl_json("https://api.avalanche.org/v2/public/products/map-layer", timeout=60)
     if not avy_api: raise Exception("Failed to fetch avy data")
     
     danger_map = {-1:("No Rating","no-rating"), 0:("No Rating","no-rating"), 1:("Low","low"), 2:("Moderate","moderate"), 3:("Considerable","considerable"), 4:("High","high"), 5:("Extreme","extreme")}
@@ -313,8 +313,8 @@ FAVORITES = [("Winter Park","335","CO"), ("Steamboat","825","CO"), ("Snowbird","
 def get_snotel_24hr(station_id, state):
     try:
         url = f"https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/{station_id}:{state}:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value"
-        cmd = ['curl', '-s', '-L', '--max-time', '20', '-A', 'TSL-CommandCenter/1.0', url]
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=20)
+        cmd = ['curl', '-s', '-L', '--max-time', '60', '-A', 'TSL-CommandCenter/1.0', url]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
         if result.returncode != 0: return 0, "⚪ N/A"
         content = result.stdout
         lines = [l for l in content.strip().split('\n') if l and not l.startswith('#')]
