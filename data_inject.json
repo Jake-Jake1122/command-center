@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 03:00 PM MDT",
+  "lastUpdated": "Apr 09, 2026 at 04:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -284,18 +284,18 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 9 at 11:46AM PDT until April 12 at 11:00PM PDT by NWS Sacramento C...",
-      "severity": "Severe"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 9 at 10:52AM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 9 at 2:35PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
       "severity": "Severe"
     },
     {
       "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 8 at 1:27PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "headline": "Winter Storm Watch issued April 9 at 2:35PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 9 at 2:35PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
       "severity": "Severe"
     }
   ],
