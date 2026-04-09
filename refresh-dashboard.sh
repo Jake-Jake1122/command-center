@@ -160,52 +160,54 @@ print(f"   Found {len(data.get('calendar', []))} events")
 print("⚠️ Fetching avy danger ratings...")
 avy_data = {}
 try:
-    avy_api = curl_json("https://api.avalanche.org/v2/public/products/map-layer", timeout=20)
-    if not avy_api: raise Exception("Failed to fetch avy data")
+    # First, get non-CO data from the national API
+    avy_api_national = curl_json("https://api.avalanche.org/v2/public/products/map-layer", timeout=20)
+    if not avy_api_national: raise Exception("Failed to fetch national avy data")
     
     danger_map = {-1:("No Rating","no-rating"), 0:("No Rating","no-rating"), 1:("Low","low"), 2:("Moderate","moderate"), 3:("Considerable","considerable"), 4:("High","high"), 5:("Extreme","extreme")}
     zones_by_center = {}
-    caic_features = [f for f in avy_api.get('features', []) if f.get('properties', {}).get('center_id') == 'CAIC']
-    for f in avy_api.get('features', []):
+    for f in avy_api_national.get('features', []):
         props = f.get('properties', {})
         center = props.get('center_id')
-        if center != 'CAIC' and center:
+        if center and center != 'CAIC': # Skip CAIC, we'll get it from the source
             if center not in zones_by_center: zones_by_center[center] = {}
             rating, r_class = danger_map.get(props.get('danger_level', 0), ("No Rating", "no-rating"))
             zones_by_center[center][props.get('name')] = {"zone": props.get('name'), "rating": rating, "ratingClass": r_class, "danger_level": props.get('danger_level', 0)}
 
-    def point_in_polygon(x, y, polygon):
-        n, inside = len(polygon), False
-        p1x, p1y = polygon[0]
-        for i in range(1, n + 1):
-            p2x, p2y = polygon[i % n]
-            if y > min(p1y, p2y) and y <= max(p1y, p2y) and x <= max(p1x, p2x):
-                if p1y != p2y: xinters = (y - p1y) * (p2x - p1x) / (p2y - p1y) + p1x
-                if p1x == p2x or x <= xinters: inside = not inside
-            p1x, p1y = p2x, p2y
-        return inside
-    
-    caic_zones = {"Front Range":(39.8,-105.7), "Vail & Summit County":(39.55,-106.2), "Aspen":(39.1576,-106.8201), "Gunnison":(38.7,-106.9), "Grand Mesa":(39.02,-108.2), "Sawatch":(39.0,-106.5), "Northern San Juan":(37.9,-107.7), "Southern San Juan":(37.4,-106.6), "Steamboat & Flat Tops":(40.45,-106.8)}
-    colorado = []
-    for z_name, (lat, lon) in caic_zones.items():
-        rating, r_class, danger_level = "No Rating", "no-rating", 0
-        for f in caic_features:
-            geom = f.get('geometry', {})
-            polygons = [geom['coordinates'][0]] if geom.get('type') == 'Polygon' else [p[0] for p in geom.get('coordinates', [])]
-            for poly in polygons:
-                if point_in_polygon(lon, lat, poly):
-                    danger_level = f.get('properties', {}).get('danger_level', 0)
-                    rating, r_class = danger_map.get(danger_level, ("No Rating", "no-rating"))
-                    break
-            if rating != "No Rating": break
-        colorado.append({"zone": z_name, "rating": rating, "ratingClass": r_class, "danger_level": danger_level})
+    # Now, get specific, detailed data for Colorado from the CAIC proxy
+    date_str = datetime.now().strftime('%Y-%m-%dT12:00:00.000Z')
+    caic_url = f"https://avalanche.state.co.us/api-proxy/avid?_api_proxy_uri=/products/all?datetime={date_str}&includeExpired=true"
+    caic_data = curl_json(caic_url, timeout=20)
+    if not caic_data: raise Exception("Failed to fetch CAIC data")
 
+    # Process CAIC data
+    polygon_to_forecast = {f['id']: f for f in caic_data if f.get('type') == 'avalancheforecast'}
+    colorado = []
+    for product in caic_data:
+        if product.get('type') == 'regionaldiscussion':
+            for poly_id in product.get('polygons', []):
+                forecast = polygon_to_forecast.get(poly_id)
+                if forecast:
+                    # Get the first danger rating for today
+                    danger_ratings = forecast.get('dangerRatings', [])
+                    if danger_ratings:
+                        rating_val = danger_ratings[0].get('danger', 0)
+                        rating_str, rating_class = danger_map.get(rating_val, ("No Rating", "no-rating"))
+                        # Use the forecast title as the zone name
+                        zone_name = forecast.get('title', 'Unknown Zone')
+                        if zone_name != 'Unknown Zone':
+                            colorado.append({"zone": zone_name, "rating": rating_str, "ratingClass": rating_class, "danger_level": rating_val})
+
+    # Assemble the final data object, starting with CO, then adding others
     uac = zones_by_center.get('UAC', {})
     utah = [uac.get(z, {"zone":z, "rating":"No Rating", "ratingClass":"no-rating", "danger_level":0}) for z in ["Salt Lake","Ogden","Provo","Uintas","Skyline","Logan","Moab","Abajos"]]
-    sac, esac = zones_by_center.get('SAC', {}), zones_by_center.get('ESAC', {})
+    
+    sac = zones_by_center.get('SAC', {})
+    shasta_api = zones_by_center.get('MSAC', {}) # Mount Shasta is its own center now
     tahoe = sac.get("Central Sierra Nevada", {"zone":"Tahoe", "rating":"No Rating", "ratingClass":"no-rating", "danger_level":0}); tahoe["zone"] = "Tahoe"
-    e_sierra = esac.get("Eastside Region", {"zone":"Eastern Sierra", "rating":"No Rating", "ratingClass":"no-rating", "danger_level":0}); e_sierra["zone"] = "Eastern Sierra"
-    california = [tahoe, e_sierra, {"zone":"Shasta", "rating":"Low", "ratingClass":"low", "danger_level":1}]
+    shasta = shasta_api.get("Mount Shasta", {"zone":"Shasta", "rating":"No Rating", "ratingClass":"no-rating", "danger_level":0}); shasta["zone"] = "Shasta"
+    california = [tahoe, shasta]
+
     avy_data = {"colorado": colorado, "utah": utah, "california": california}
     data['avyDanger'] = avy_data
     print(f"   CO: {len(colorado)} zones, Utah: {len(utah)} zones, CA: {len(california)} zones")
