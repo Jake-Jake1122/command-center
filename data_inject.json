@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Mon: 4\" | Tue: 5\""
+      "forecast": "Fri: 2\" | Mon: 5\" | Tue: 5\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Mon: 6\" | Tue: 6\" | Thu: 1\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -312,7 +312,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 2\" \u2192 Mon: 6\" \u2192 Tue: 6\". ~14\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Mon: 5\" \u2192 Tue: 5\". ~11\" total over the period."
     }
   ],
   "socialWorthy": [
