@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 10, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,14 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 2,
-    "important": []
+    "unreadCount": 3,
+    "important": [
+      {
+        "from": "Adobe Express",
+        "subject": "Unlock a winning workflow",
+        "date": "2026-04-10 16:20"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
