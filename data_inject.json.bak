@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 10, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "66\u00b0F",
       "humidity": ""
     }
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\" | Sat: 1\" | Tue: 4\" | Wed: 1\""
+      "forecast": "Fri: 2\" | Tue: 3\" | Wed: 1\""
     },
     {
       "resort": "Copper Mountain",
@@ -43,25 +43,25 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\""
+      "forecast": "Fri: 1\" | Tue: 2\" | Wed: 1\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\""
+      "forecast": "Fri: 1\" | Tue: 3\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Mon: 5\" | Tue: 5\""
+      "forecast": "Fri: 5\" | Mon: 5\" | Tue: 4\" | Thu: 3\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Mon: 7\" | Tue: 6\" | Thu: 1\""
+      "forecast": "Fri: 7\" | Mon: 7\" | Tue: 5\" | Thu: 4\""
     }
   ],
   "calendar": [],
@@ -291,6 +291,11 @@
   "specialAdvisories": [
     {
       "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 10 at 11:47AM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 10 at 10:34AM PDT until April 12 at 11:00PM PDT by NWS Sacramento ...",
       "severity": "Severe"
     },
@@ -298,27 +303,22 @@
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 10 at 8:21AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
       "severity": "Moderate"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 10 at 8:21AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
-      "severity": "Severe"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\". ~4\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Tue: 4\". ~5\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 2\" \u2192 Mon: 7\" \u2192 Tue: 6\". ~15\" total over the period."
+      "forecast": "Fri: 7\" \u2192 Mon: 7\" \u2192 Tue: 5\" \u2192 Thu: 4\". ~23\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Fri 7\", Mon 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
