@@ -382,6 +382,8 @@ with open('data_inject.json', 'w') as f:
 print("✅ Data updated")
 PYEOF
 
+sleep 1
+
 # Inject into HTML
 python3 -u << 'PYEOF'
 import json

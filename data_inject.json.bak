@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 01:00 AM MDT",
+  "lastUpdated": "Apr 10, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\u26c5",
-      "temp": "29\u00b0F",
+      "temp": "30\u00b0F",
       "humidity": ""
     },
     {
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Tue: 4\" | Wed: 2\""
+      "forecast": "Fri: 1\" | Sat: 1\" | Tue: 4\" | Wed: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\""
+      "forecast": "Sat: 1\" | Tue: 4\" | Wed: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 2\""
+      "forecast": "Tue: 3\" | Wed: 1\""
     },
     {
       "resort": "Steamboat",
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 7\" | Tue: 4\""
+      "forecast": "Fri: 2\" | Mon: 4\" | Tue: 5\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 9\" | Tue: 5\""
+      "forecast": "Fri: 2\" | Mon: 6\" | Tue: 6\" | Thu: 1\""
     }
   ],
   "calendar": [],
@@ -302,17 +302,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\" \u2192 Wed: 2\". ~5\" total over the period."
+      "forecast": "Tue: 4\". ~4\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 9\" \u2192 Tue: 5\". ~14\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Mon: 6\" \u2192 Tue: 6\". ~14\" total over the period."
     }
   ],
   "socialWorthy": [
     {
-      "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 9\" - powder alert content"
+      "icon": "\u2600\ufe0f",
+      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
     },
     {
       "icon": "\ud83d\udcda",
