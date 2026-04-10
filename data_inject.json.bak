@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 09:00 PM MDT",
+  "lastUpdated": "Apr 09, 2026 at 10:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sat: 1\" | Tue: 4\" | Wed: 2\""
     },
     {
       "resort": "Copper Mountain",
@@ -302,7 +302,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 2\". ~5\" total over the period."
+      "forecast": "Tue: 4\" \u2192 Wed: 2\". ~5\" total over the period."
     },
     {
       "region": "Utah",
@@ -326,7 +326,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
