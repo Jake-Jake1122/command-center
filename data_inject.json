@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u26c5",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "56\u00b0F",
       "humidity": ""
     },
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Tue: 3\""
+      "forecast": "Tue: 3\""
     },
     {
       "resort": "Brighton",
@@ -308,7 +308,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 2\" \u2192 Tue: 4\". ~6\" total over the period."
+      "forecast": "Tue: 4\". ~4\" total over the period."
     },
     {
       "region": "Utah",
