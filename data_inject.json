@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 10, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "66\u00b0F",
       "humidity": ""
     }
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\""
+      "forecast": "Fri: 2\" | Tue: 3\""
     },
     {
       "resort": "Brighton",
@@ -291,6 +291,11 @@
   "specialAdvisories": [
     {
       "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 10 at 11:47AM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 10 at 10:34AM PDT until April 12 at 11:00PM PDT by NWS Sacramento ...",
       "severity": "Severe"
     },
@@ -298,17 +303,12 @@
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 10 at 8:21AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
       "severity": "Moderate"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 10 at 8:21AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
-      "severity": "Severe"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\". ~4\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Tue: 4\". ~6\" total over the period."
     },
     {
       "region": "Utah",

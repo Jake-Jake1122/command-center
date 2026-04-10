@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 10, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "56\u00b0F",
       "humidity": ""
     },
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Fri: 2\" | Mon: 7\" | Tue: 6\" | Thu: 1\""
     }
   ],
   "calendar": [],
@@ -290,14 +290,14 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 10 at 10:34AM PDT until April 12 at 11:00PM PDT by NWS Sacramento ...",
+      "severity": "Severe"
+    },
+    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 10 at 8:21AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
       "severity": "Moderate"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 10 at 8:21AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
-      "severity": "Severe"
     },
     {
       "type": "Winter Storm Warning",
@@ -312,13 +312,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 2\" \u2192 Mon: 5\" \u2192 Tue: 5\". ~11\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Mon: 7\" \u2192 Tue: 6\". ~15\" total over the period."
     }
   ],
   "socialWorthy": [
     {
-      "icon": "\u2600\ufe0f",
-      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
+      "icon": "\ud83c\udf28\ufe0f",
+      "text": "Storm incoming - Utah: Mon 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
