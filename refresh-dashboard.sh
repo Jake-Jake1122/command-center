@@ -25,6 +25,7 @@ import subprocess
 import csv
 import math
 from datetime import datetime, timedelta, timezone
+import time
 
 def sh(cmd):
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
@@ -314,6 +315,7 @@ FAVORITES = [("Winter Park","335","CO"), ("Steamboat","825","CO"), ("Snowbird","
 
 def get_snotel_24hr(station_id, state):
     print(f"      Fetching SNOTEL for station {station_id}:{state}...")
+    time.sleep(1) # Add a 1-second delay
     try:
         url = f"https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/{station_id}:{state}:SNTL%7Cid%3D%22%22%7Cname/-3,0/WTEQ::value,TOBS::value"
         cmd = ['curl', '-s', '-L', '--max-time', '20', '-A', 'TSL-CommandCenter/1.0', url]
