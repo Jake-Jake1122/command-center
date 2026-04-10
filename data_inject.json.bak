@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 10, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "69\u00b0F",
       "humidity": ""
     },
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Tue: 4\" | Wed: 1\""
+      "forecast": "Fri: 1\" | Tue: 3\""
     },
     {
       "resort": "Winter Park",
@@ -66,14 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 3,
-    "important": [
-      {
-        "from": "Adobe Express",
-        "subject": "Unlock a winning workflow",
-        "date": "2026-04-10 16:20"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
@@ -290,25 +284,25 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 10 at 11:47AM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
-      "severity": "Severe"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 10 at 10:34AM PDT until April 12 at 11:00PM PDT by NWS Sacramento ...",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 10 at 12:25PM PDT until April 12 at 11:00AM PDT by NWS Medford ...",
+      "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 8:21AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "headline": "Winter Weather Advisory issued April 10 at 12:09PM PDT until April 12 at 11:00PM PDT by NWS Eureka C...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 10 at 12:07PM PDT until April 13 at 11:00AM PDT by NWS Los Ange...",
       "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 2\" \u2192 Tue: 4\". ~5\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Tue: 3\". ~5\" total over the period."
     },
     {
       "region": "Utah",
