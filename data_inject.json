@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 09, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "75\u00b0F",
+      "icon": "\u26c5",
+      "temp": "44\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "58\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "29\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "75\u00b0F",
+      "icon": "\u26c5",
+      "temp": "53\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "67\u00b0F",
+      "icon": "\u26c5",
+      "temp": "43\u00b0F",
       "humidity": ""
     }
   ],
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sat: 1\" | Tue: 4\" | Wed: 2\""
     },
     {
       "resort": "Copper Mountain",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 1,
+    "unreadCount": 2,
     "important": []
   },
   "tasks": {
@@ -302,7 +302,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 2\". ~5\" total over the period."
+      "forecast": "Tue: 4\" \u2192 Wed: 2\". ~5\" total over the period."
     },
     {
       "region": "Utah",
