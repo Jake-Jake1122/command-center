@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 10, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
