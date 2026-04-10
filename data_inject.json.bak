@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 10, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,19 +55,25 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Mon: 4\" | Tue: 5\""
+      "forecast": "Fri: 2\" | Mon: 5\" | Tue: 5\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Mon: 6\" | Tue: 6\" | Thu: 1\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 2,
-    "important": []
+    "unreadCount": 3,
+    "important": [
+      {
+        "from": "Adobe Express",
+        "subject": "Unlock a winning workflow",
+        "date": "2026-04-10 16:20"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
@@ -306,7 +312,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 2\" \u2192 Mon: 6\" \u2192 Tue: 6\". ~14\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Mon: 5\" \u2192 Tue: 5\". ~11\" total over the period."
     }
   ],
   "socialWorthy": [
