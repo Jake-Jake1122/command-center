@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 09, 2026 at 08:00 PM MDT",
+  "lastUpdated": "Apr 09, 2026 at 09:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Tue: 4\" | Wed: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Copper Mountain",
@@ -284,8 +284,8 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 9 at 2:35PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 9 at 7:37PM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
     },
     {
@@ -302,7 +302,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\" \u2192 Wed: 2\". ~5\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Wed: 2\". ~5\" total over the period."
     },
     {
       "region": "Utah",
@@ -326,7 +326,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
