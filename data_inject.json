@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 11, 2026 at 03:00 PM MDT",
+  "lastUpdated": "Apr 11, 2026 at 04:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 4\" | Tue: 4\" | Thu: 4\" | Fri: 3\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 1,
+    "unreadCount": 0,
     "important": []
   },
   "tasks": {
@@ -285,7 +285,7 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 11 at 12:19PM PDT until April 13 at 11:00AM PDT by NWS Los Ange...",
+      "headline": "Winter Weather Advisory issued April 11 at 2:43PM PDT until April 12 at 11:00AM PDT by NWS Medford O...",
       "severity": "Moderate"
     },
     {
@@ -294,9 +294,9 @@
       "severity": "Moderate"
     },
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 11 at 12:15PM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 11 at 12:19PM PDT until April 13 at 11:00AM PDT by NWS Los Ange...",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
