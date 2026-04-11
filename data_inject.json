@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 11, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 11, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
+      "icon": "\ud83c\udf21\ufe0f",
       "temp": "51\u00b0F",
       "humidity": ""
     },
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 2,
+    "unreadCount": 1,
     "important": []
   },
   "tasks": {
@@ -282,7 +282,23 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 11 at 10:11AM PDT until April 12 at 11:00PM PDT by NWS Las Vega...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 11 at 9:14AM PDT until April 12 at 11:00PM PDT by NWS Sacramento C...",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 11 at 8:11AM PDT until April 12 at 11:00PM PDT by NWS Eureka CA",
+      "severity": "Moderate"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
