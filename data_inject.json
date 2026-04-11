@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 11, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "31\u00b0F",
+      "temp": "30\u00b0F",
       "humidity": ""
     },
     {
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Fri: 2\" | Tue: 3\" | Wed: 1\""
     },
     {
       "resort": "Copper Mountain",
@@ -284,25 +284,25 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 10 at 10:53PM PDT until April 12 at 11:00PM PDT by NWS Las Vega...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 10 at 10:33PM PDT until April 12 at 11:00AM PDT by NWS Medford ...",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 10 at 7:34PM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 1:21PM PDT until April 12 at 11:00PM PDT by NWS Las Vegas...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 12:25PM PDT until April 12 at 11:00AM PDT by NWS Medford ...",
-      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 1\" \u2192 Tue: 3\". ~5\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Tue: 3\". ~5\" total over the period."
     },
     {
       "region": "Utah",
