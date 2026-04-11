@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 11, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 11, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
+      "icon": "\u26c5",
       "temp": "41\u00b0F",
       "humidity": ""
     }

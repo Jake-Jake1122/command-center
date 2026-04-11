@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 11, 2026 at 01:00 AM MDT",
+  "lastUpdated": "Apr 11, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -15,7 +15,7 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
+      "icon": "\u26c5",
       "temp": "53\u00b0F",
       "humidity": ""
     },
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Tue: 3\" | Wed: 1\""
+      "forecast": "Sat: 4\" | Tue: 3\" | Wed: 1\" | Fri: 2\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\" | Tue: 3\""
+      "forecast": "Sat: 3\" | Tue: 2\" | Fri: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\" | Tue: 2\" | Wed: 1\""
+      "forecast": "Sat: 2\" | Tue: 2\" | Wed: 1\" | Fri: 2\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 1\" | Tue: 3\""
+      "forecast": "Tue: 3\" | Fri: 1\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 5\" | Mon: 5\" | Tue: 4\" | Thu: 3\""
+      "forecast": "Mon: 6\" | Tue: 4\" | Thu: 4\" | Fri: 3\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 7\" | Mon: 7\" | Tue: 5\" | Thu: 4\""
+      "forecast": "Mon: 7\" | Tue: 5\" | Thu: 4\" | Fri: 4\""
     }
   ],
   "calendar": [],
@@ -285,34 +285,34 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 10:53PM PDT until April 12 at 11:00PM PDT by NWS Las Vega...",
+      "headline": "Winter Weather Advisory issued April 11 at 12:28AM PDT until April 13 at 11:00AM PDT by NWS Los Ange...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 10:33PM PDT until April 12 at 11:00AM PDT by NWS Medford ...",
+      "headline": "Winter Weather Advisory issued April 11 at 12:28AM PDT until April 13 at 11:00AM PDT by NWS Los Ange...",
       "severity": "Moderate"
     },
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 10 at 7:34PM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 11 at 12:25AM PDT until April 12 at 11:00PM PDT by NWS Eureka C...",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 2\" \u2192 Tue: 3\". ~5\" total over the period."
+      "forecast": "Sat: 4\" \u2192 Tue: 3\" \u2192 Fri: 2\". ~9\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 7\" \u2192 Mon: 7\" \u2192 Tue: 5\" \u2192 Thu: 4\". ~23\" total over the period."
+      "forecast": "Mon: 7\" \u2192 Tue: 5\" \u2192 Thu: 4\" \u2192 Fri: 4\". ~20\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Fri 7\", Mon 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
