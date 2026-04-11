@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 11, 2026 at 07:00 AM MDT",
+  "lastUpdated": "Apr 11, 2026 at 08:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 2\" | Tue: 2\" | Wed: 1\" | Fri: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
@@ -260,15 +260,15 @@
     "california": [
       {
         "zone": "Tahoe",
-        "rating": "No Rating",
-        "ratingClass": "no-rating",
-        "danger_level": -1
-      },
-      {
-        "zone": "Shasta",
         "rating": "Moderate",
         "ratingClass": "moderate",
         "danger_level": 2
+      },
+      {
+        "zone": "Shasta",
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       }
     ]
   },
@@ -302,7 +302,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sat: 4\" \u2192 Tue: 3\" \u2192 Fri: 2\". ~9\" total over the period."
+      "forecast": "Sat: 4\" \u2192 Tue: 3\" \u2192 Fri: 2\". ~8\" total over the period."
     },
     {
       "region": "Utah",
