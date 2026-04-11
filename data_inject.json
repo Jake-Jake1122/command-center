@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 10, 2026 at 07:00 PM MDT",
+  "lastUpdated": "Apr 10, 2026 at 08:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Fri: 2\" | Tue: 3\" | Wed: 1\""
     },
     {
       "resort": "Copper Mountain",
@@ -282,27 +282,11 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 1:21PM PDT until April 12 at 11:00PM PDT by NWS Las Vegas...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 12:25PM PDT until April 12 at 11:00AM PDT by NWS Medford ...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 10 at 12:09PM PDT until April 12 at 11:00PM PDT by NWS Eureka C...",
-      "severity": "Moderate"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 1\" \u2192 Tue: 3\". ~5\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Tue: 3\". ~5\" total over the period."
     },
     {
       "region": "Utah",
