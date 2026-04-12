@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 12, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\u26c5",
       "temp": "52\u00b0F",
       "humidity": ""
     },
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 5\" | Wed: 2\" | Fri: 4\" | Sat: 6\""
+      "forecast": "Tue: 4\" | Wed: 3\" | Fri: 4\" | Sat: 5\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\" | Wed: 2\" | Fri: 2\" | Sat: 4\""
+      "forecast": "Tue: 4\" | Wed: 2\" | Fri: 3\" | Sat: 4\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 4\" | Sat: 5\""
+      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 4\" | Sat: 6\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 2\" | Wed: 1\" | Fri: 3\" | Sat: 2\""
+      "forecast": "Tue: 2\" | Wed: 1\" | Fri: 5\" | Sat: 3\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 5\" | Tue: 2\" | Thu: 8\" | Fri: 7\""
+      "forecast": "Mon: 4\" | Tue: 1\" | Thu: 9\" | Fri: 7\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 7\" | Tue: 2\" | Thu: 10\" | Fri: 7\""
+      "forecast": "Mon: 6\" | Tue: 1\" | Thu: 10\" | Fri: 8\""
     }
   ],
   "calendar": [],
@@ -295,14 +295,14 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 12 at 11:59AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 12 at 12:59PM PDT until April 12 at 5:00PM PDT by NWS Medford O...",
+      "severity": "Moderate"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 12 at 11:59AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
-      "severity": "Moderate"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 12 at 12:24PM PDT until April 13 at 8:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     },
     {
       "type": "Winter Storm Warning",
@@ -313,11 +313,11 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 5\" \u2192 Wed: 2\" \u2192 Fri: 4\" \u2192 Sat: 6\". ~16\" total over the period."
+      "forecast": "Tue: 4\" \u2192 Wed: 3\" \u2192 Fri: 5\" \u2192 Sat: 6\". ~17\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 7\" \u2192 Tue: 2\" \u2192 Thu: 10\" \u2192 Fri: 7\". ~26\" total over the period."
+      "forecast": "Mon: 6\" \u2192 Tue: 1\" \u2192 Thu: 10\" \u2192 Fri: 8\". ~26\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -327,7 +327,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 7\", Thu 10\" - powder alert content"
+      "text": "Storm incoming - Utah: Mon 6\", Thu 10\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",

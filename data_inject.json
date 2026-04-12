@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 12, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u26c5",
-      "temp": "52\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "51\u00b0F",
       "humidity": ""
     },
     {
@@ -295,6 +295,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 12 at 1:43PM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 12 at 12:59PM PDT until April 12 at 5:00PM PDT by NWS Medford O...",
       "severity": "Moderate"
@@ -303,11 +308,6 @@
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued April 12 at 12:24PM PDT until April 13 at 8:00AM PDT by NWS Eureka CA",
       "severity": "Minor"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 12 at 11:59AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
-      "severity": "Severe"
     }
   ],
   "stormWatch": [
