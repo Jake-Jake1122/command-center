@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 5\" | Wed: 2\" | Fri: 4\" | Sat: 6\""
     },
     {
       "resort": "Copper Mountain",
@@ -288,27 +288,11 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 12 at 4:42AM PDT until April 12 at 11:00PM PDT by NWS Sacramento C...",
-      "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 12 at 4:09AM PDT until April 12 at 11:00PM PDT by NWS Las Vegas...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 12 at 3:35AM PDT until April 12 at 11:00AM PDT by NWS Medford O...",
-      "severity": "Moderate"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\" \u2192 Wed: 2\" \u2192 Fri: 4\" \u2192 Sat: 5\". ~14\" total over the period."
+      "forecast": "Tue: 5\" \u2192 Wed: 2\" \u2192 Fri: 4\" \u2192 Sat: 6\". ~16\" total over the period."
     },
     {
       "region": "Utah",
