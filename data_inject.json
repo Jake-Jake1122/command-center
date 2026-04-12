@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 5\" | Tue: 4\" | Thu: 6\" | Fri: 3\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -306,7 +306,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 5\" \u2192 Tue: 4\" \u2192 Thu: 6\" \u2192 Fri: 3\". ~18\" total over the period."
+      "forecast": "Mon: 4\" \u2192 Tue: 4\" \u2192 Thu: 4\" \u2192 Fri: 3\". ~15\" total over the period."
     }
   ],
   "socialWorthy": [
