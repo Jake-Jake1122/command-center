@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 12, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -295,6 +295,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 12 at 8:16AM PDT until April 12 at 11:00PM PDT by NWS Eureka CA",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 12 at 5:46AM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
@@ -303,11 +308,6 @@
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 12 at 4:42AM PDT until April 12 at 11:00PM PDT by NWS Sacramento C...",
       "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 12 at 4:09AM PDT until April 12 at 11:00PM PDT by NWS Las Vegas...",
-      "severity": "Moderate"
     }
   ],
   "stormWatch": [

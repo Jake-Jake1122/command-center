@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 12, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 3,
+    "unreadCount": 4,
     "important": [
+      {
+        "from": "ADS SUITE PLATFORM GLOBAL, LLC",
+        "subject": "ADS SUITE PLATFORM GLOBAL, LLC. has invited you to test Open",
+        "date": "2026-04-12 14:32"
+      },
       {
         "from": "Page Verified",
         "subject": "Verification review available for your account information [",
