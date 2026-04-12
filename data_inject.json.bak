@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 12, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,13 +9,13 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
+      "icon": "\u2600\ufe0f",
       "temp": "50\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u26c5",
+      "icon": "\u2600\ufe0f",
       "temp": "67\u00b0F",
       "humidity": ""
     },
@@ -49,13 +49,13 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\" | Fri: 3\" | Sat: 2\""
+      "forecast": "Tue: 2\" | Wed: 1\" | Fri: 3\" | Sat: 2\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 5\" | Tue: 2\" | Thu: 8\" | Fri: 7\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
@@ -293,7 +293,23 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 12 at 10:50AM PDT until April 12 at 11:00PM PDT by NWS Sacramento ...",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 12 at 10:17AM PDT until April 12 at 5:00PM PDT by NWS Medford O...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 12 at 8:16AM PDT until April 12 at 11:00PM PDT by NWS Eureka CA",
+      "severity": "Moderate"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
