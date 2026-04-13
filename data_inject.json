@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 13, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf21\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "29\u00b0F",
       "humidity": ""
     }
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 4\" | Wed: 3\" | Fri: 4\" | Sat: 5\""
     },
     {
       "resort": "Copper Mountain",
@@ -318,7 +318,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\" \u2192 Wed: 2\" \u2192 Fri: 5\" \u2192 Sat: 6\". ~17\" total over the period."
+      "forecast": "Tue: 4\" \u2192 Wed: 3\" \u2192 Fri: 5\" \u2192 Sat: 6\". ~17\" total over the period."
     },
     {
       "region": "Utah",
