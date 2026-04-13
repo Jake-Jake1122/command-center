@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 03:01 AM MDT",
+  "lastUpdated": "Apr 13, 2026 at 04:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 3\" | Wed: 1\" | Fri: 2\" | Sat: 1\""
     },
     {
       "resort": "Winter Park",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 3\" | Tue: 1\" | Thu: 6\" | Fri: 9\""
     }
   ],
   "calendar": [],
@@ -296,6 +296,11 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 12 at 9:47PM MDT until April 14 at 3:00PM MDT by NWS Salt Lake ...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 13 at 12:17AM PDT until April 13 at 7:00PM PDT by NWS Los Angel...",
       "severity": "Moderate"
     },
@@ -317,7 +322,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 2\" \u2192 Thu: 4\" \u2192 Fri: 8\". ~15\" total over the period."
+      "forecast": "Mon: 3\" \u2192 Thu: 6\" \u2192 Fri: 9\". ~18\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -327,7 +332,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Fri 8\" - powder alert content"
+      "text": "Storm incoming - Utah: Fri 9\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
