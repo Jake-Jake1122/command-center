@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 13, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -61,24 +61,13 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 3\" | Tue: 1\" | Thu: 6\" | Fri: 9\""
+      "forecast": "Mon: 1\" | Tue: 1\" | Thu: 6\" | Fri: 9\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 7,
-    "important": [
-      {
-        "from": "ADS SUITE PLATFORM GLOBAL, LLC",
-        "subject": "ADS SUITE PLATFORM GLOBAL, LLC. has invited you to test Open",
-        "date": "2026-04-12 14:32"
-      },
-      {
-        "from": "Page Verified",
-        "subject": "Verification review available for your account information [",
-        "date": "2026-04-12 10:06"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
@@ -296,7 +285,17 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 12 at 9:47PM MDT until April 14 at 3:00PM MDT by NWS Salt Lake ...",
+      "headline": "Winter Weather Advisory issued April 13 at 10:33AM MDT until April 14 at 3:00PM MDT by NWS Salt Lake...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 13 at 10:24AM MDT until April 14 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 13 at 10:24AM MDT until April 14 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
@@ -317,7 +316,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 3\" \u2192 Thu: 6\" \u2192 Fri: 9\". ~18\" total over the period."
+      "forecast": "Mon: 2\" \u2192 Thu: 6\" \u2192 Fri: 9\". ~17\" total over the period."
     }
   ],
   "socialWorthy": [
