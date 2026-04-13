@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 13, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,42 +31,42 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\" | Wed: 1\" | Fri: 3\" | Sat: 1\""
+      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 3\" | Sat: 2\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\" | Fri: 2\" | Sat: 1\""
+      "forecast": "Tue: 2\" | Wed: 2\" | Fri: 2\" | Sat: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\" | Fri: 4\" | Sat: 2\""
+      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 3\" | Sat: 2\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Fri: 5\" | Sat: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Thu: 4\" | Fri: 8\""
+      "forecast": "Thu: 4\" | Fri: 10\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 1\" | Thu: 6\" | Fri: 9\""
+      "forecast": "Thu: 5\" | Fri: 11\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 0,
+    "unreadCount": 1,
     "important": []
   },
   "tasks": {
@@ -312,17 +312,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\" \u2192 Wed: 1\" \u2192 Fri: 5\" \u2192 Sat: 2\". ~12\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 3\" \u2192 Sat: 2\". ~10\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 6\" \u2192 Fri: 9\". ~15\" total over the period."
+      "forecast": "Thu: 5\" \u2192 Fri: 11\". ~16\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Fri 9\" - powder alert content"
+      "text": "Storm incoming - Utah: Fri 11\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
