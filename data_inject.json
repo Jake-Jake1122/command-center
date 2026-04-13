@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Apr 12, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -16,7 +16,7 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "39\u00b0F",
+      "temp": "38\u00b0F",
       "humidity": ""
     },
     {
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 4\" | Tue: 1\" | Thu: 9\" | Fri: 7\""
+      "forecast": "Mon: 2\" | Thu: 8\" | Fri: 7\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 6\" | Tue: 1\" | Thu: 10\" | Fri: 8\""
+      "forecast": "Mon: 3\" | Tue: 1\" | Thu: 10\" | Fri: 8\""
     }
   ],
   "calendar": [],
@@ -322,7 +322,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 6\" \u2192 Tue: 1\" \u2192 Thu: 10\" \u2192 Fri: 8\". ~26\" total over the period."
+      "forecast": "Mon: 3\" \u2192 Thu: 10\" \u2192 Fri: 8\". ~21\" total over the period."
     }
   ],
   "socialWorthy": [
@@ -332,7 +332,7 @@
     },
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Mon 6\", Thu 10\" - powder alert content"
+      "text": "Storm incoming - Utah: Thu 10\", Fri 8\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
