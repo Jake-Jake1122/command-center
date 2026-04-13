@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 13, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "24\u00b0F",
+      "temp": "25\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 2\" | Wed: 1\" | Fri: 5\" | Sat: 3\""
+      "forecast": "Tue: 3\" | Wed: 1\" | Fri: 5\" | Sat: 1\""
     },
     {
       "resort": "Brighton",
@@ -300,18 +300,18 @@
       "severity": "Moderate"
     },
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 12 at 1:43PM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
-      "severity": "Severe"
-    },
-    {
       "type": "Frost Advisory",
-      "headline": "Frost Advisory issued April 12 at 12:24PM PDT until April 13 at 8:00AM PDT by NWS Eureka CA",
+      "headline": "Frost Advisory issued April 12 at 10:32PM PDT until April 13 at 8:00AM PDT by NWS Eureka CA",
       "severity": "Minor"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 12 at 11:59AM PDT until April 12 at 11:00PM PDT by NWS Reno NV",
+      "headline": "Winter Weather Advisory issued April 12 at 12:40AM PDT until April 13 at 11:00AM PDT by NWS Los Ange...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 12 at 12:40AM PDT until April 13 at 11:00AM PDT by NWS Los Ange...",
       "severity": "Moderate"
     }
   ],
