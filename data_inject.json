@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 12, 2026 at 09:00 PM MDT",
+  "lastUpdated": "Apr 12, 2026 at 10:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -294,6 +294,11 @@
     }
   ],
   "specialAdvisories": [
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 12 at 9:47PM MDT until April 14 at 3:00PM MDT by NWS Salt Lake ...",
+      "severity": "Moderate"
+    },
     {
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 12 at 1:43PM PDT until April 12 at 11:00PM PDT by NWS Hanford CA",
