@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 13, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 3\" | Fri: 5\" | Sat: 1\""
     },
     {
       "resort": "Brighton",
@@ -304,15 +304,15 @@
       "severity": "Moderate"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 13 at 12:17AM PDT until April 13 at 7:00PM PDT by NWS Los Angel...",
-      "severity": "Moderate"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 13 at 1:14PM PDT until April 14 at 8:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 3\" \u2192 Sat: 2\". ~10\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 5\" \u2192 Sat: 2\". ~12\" total over the period."
     },
     {
       "region": "Utah",
