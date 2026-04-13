@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 13, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,14 +9,14 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "46\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "59\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "58\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\" | Fri: 5\" | Sat: 1\""
+      "forecast": "Tue: 3\" | Fri: 5\" | Sat: 1\""
     },
     {
       "resort": "Brighton",
