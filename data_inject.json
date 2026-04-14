@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 14, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 14, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 3,
+    "unreadCount": 4,
     "important": [
+      {
+        "from": "Sticker Mule",
+        "subject": "The greatest deal for our greatest customer",
+        "date": "2026-04-14 18:20"
+      },
       {
         "from": "OpenAI AdsGPT Performance OpCo",
         "subject": "OpenAI AdsGPT Performance OpCo, LLC has invited you to test ",
