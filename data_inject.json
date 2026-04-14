@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 14, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 14, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "61\u00b0F",
+      "temp": "60\u00b0F",
       "humidity": ""
     },
     {
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 4\" | Sat: 1\""
+      "forecast": "Tue: 2\" | Wed: 2\" | Fri: 4\" | Sat: 2\""
     },
     {
       "resort": "Copper Mountain",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 4\" | Sat: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 4,
+    "unreadCount": 5,
     "important": [
       {
         "from": "Sticker Mule",
@@ -323,7 +323,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 4\" \u2192 Sat: 2\". ~11\" total over the period."
+      "forecast": "Tue: 2\" \u2192 Wed: 2\" \u2192 Fri: 4\" \u2192 Sat: 2\". ~10\" total over the period."
     },
     {
       "region": "Utah",
