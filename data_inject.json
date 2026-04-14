@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 13, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "46\u00b0F",
+      "temp": "24\u00b0F",
       "humidity": ""
     },
     {
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 3\" | Sat: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Copper Mountain",
@@ -312,7 +312,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 5\" \u2192 Sat: 2\". ~12\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 5\" \u2192 Sat: 2\". ~11\" total over the period."
     },
     {
       "region": "Utah",
@@ -5072,7 +5072,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I go up but never come down...",
-    "a": "Your age \ud83c\udf82"
+    "q": "What has hands but can't clap?",
+    "a": "A clock \u23f0"
   }
 }
