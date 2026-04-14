@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 13, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "73\u00b0F",
+      "icon": "\u26c5",
+      "temp": "45\u00b0F",
       "humidity": ""
     },
     {
@@ -15,14 +15,14 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "58\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "38\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "50\u00b0F",
+      "temp": "30\u00b0F",
       "humidity": ""
     }
   ],
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 3\" | Wed: 2\" | Fri: 3\" | Sat: 2\""
     },
     {
       "resort": "Copper Mountain",
@@ -289,11 +289,6 @@
       "severity": "Severe"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 13 at 11:16AM MDT until April 15 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
-    },
-    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 13 at 10:33AM MDT until April 14 at 3:00PM MDT by NWS Salt Lake...",
       "severity": "Moderate"
@@ -307,12 +302,17 @@
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued April 13 at 1:14PM PDT until April 14 at 8:00AM PDT by NWS Eureka CA",
       "severity": "Minor"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 13 at 12:17AM PDT until April 13 at 7:00PM PDT by NWS Los Angel...",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 5\" \u2192 Sat: 2\". ~11\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Wed: 2\" \u2192 Fri: 5\" \u2192 Sat: 2\". ~12\" total over the period."
     },
     {
       "region": "Utah",

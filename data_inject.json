@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 13, 2026 at 07:00 PM MDT",
+  "lastUpdated": "Apr 13, 2026 at 08:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -289,6 +289,11 @@
       "severity": "Severe"
     },
     {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 13 at 11:16AM MDT until April 15 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
+    },
+    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 13 at 10:33AM MDT until April 14 at 3:00PM MDT by NWS Salt Lake...",
       "severity": "Moderate"
@@ -302,11 +307,6 @@
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued April 13 at 1:14PM PDT until April 14 at 8:00AM PDT by NWS Eureka CA",
       "severity": "Minor"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 13 at 12:17AM PDT until April 13 at 7:00PM PDT by NWS Los Angel...",
-      "severity": "Moderate"
     }
   ],
   "stormWatch": [
