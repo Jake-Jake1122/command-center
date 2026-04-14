@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 14, 2026 at 07:00 AM MDT",
+  "lastUpdated": "Apr 14, 2026 at 08:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -210,9 +210,9 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "Low",
+        "ratingClass": "low",
+        "danger_level": 1
       },
       {
         "zone": "Ogden",
