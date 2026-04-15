@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 14, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 14, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "60\u00b0F",
+      "icon": "\u26c5",
+      "temp": "39\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "37\u00b0F",
+      "icon": "\u26c5",
+      "temp": "15\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "58\u00b0F",
+      "temp": "40\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "50\u00b0F",
+      "temp": "31\u00b0F",
       "humidity": ""
     }
   ],
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 2\" | Wed: 2\" | Fri: 4\" | Sat: 2\""
     },
     {
       "resort": "Copper Mountain",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 1\" | Fri: 4\" | Sat: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
