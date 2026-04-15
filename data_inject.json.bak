@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 15, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 15, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,42 +31,42 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 3\" | Fri: 3\" | Sat: 2\""
+      "forecast": "Fri: 3\" | Sat: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Fri: 2\" | Sat: 1\""
+      "forecast": "Fri: 2\" | Sat: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 2\" | Fri: 4\" | Sat: 2\""
+      "forecast": "Fri: 4\" | Sat: 1\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 4\" | Sat: 1\""
+      "forecast": "Fri: 4\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 4\" | Fri: 6\""
+      "forecast": "Thu: 4\" | Fri: 3\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 5\" | Fri: 6\""
+      "forecast": "Wed: 1\" | Thu: 6\" | Fri: 3\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 0,
+    "unreadCount": 1,
     "important": []
   },
   "tasks": {
@@ -312,17 +312,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 3\" \u2192 Fri: 4\" \u2192 Sat: 2\". ~9\" total over the period."
+      "forecast": "Fri: 4\" \u2192 Sat: 1\". ~6\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 5\" \u2192 Fri: 6\". ~11\" total over the period."
+      "forecast": "Wed: 1\" \u2192 Thu: 6\" \u2192 Fri: 3\". ~10\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Fri 6\" - powder alert content"
+      "text": "Storm incoming - Utah: Thu 6\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
