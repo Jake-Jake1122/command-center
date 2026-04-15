@@ -311,23 +311,23 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 14 at 10:49PM MDT until April 15 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 14 at 10:49PM MDT until April 16 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 14 at 10:49PM MDT until April 15 at 9:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 14 at 10:34PM MDT until April 15 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 14 at 10:34PM MDT until April 15 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 15 at 4:49AM PDT until April 17 at 9:00AM PDT by NWS Medford OR",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 15 at 12:06AM PDT until April 17 at 8:00AM PDT by NWS Reno NV",
+      "severity": "Severe"
     }
   ],
   "stormWatch": [
