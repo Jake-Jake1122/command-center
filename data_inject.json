@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 14, 2026 at 08:00 PM MDT",
+  "lastUpdated": "Apr 14, 2026 at 09:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 5\" | Thu: 4\" | Fri: 7\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -306,7 +306,17 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 14 at 9:14AM MDT until April 15 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 14 at 10:10AM MDT until April 15 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 14 at 10:10AM MDT until April 16 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 14 at 10:10AM MDT until April 15 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
@@ -322,13 +332,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Tue: 5\" \u2192 Thu: 4\" \u2192 Fri: 7\". ~16\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Thu: 3\" \u2192 Fri: 6\". ~12\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Fri 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Fri 6\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
