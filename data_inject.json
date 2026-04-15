@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 15, 2026 at 07:00 AM MDT",
+  "lastUpdated": "Apr 15, 2026 at 08:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -320,14 +320,14 @@
       "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 14 at 10:49PM MDT until April 15 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 15 at 5:54AM PDT until April 16 at 9:00AM PDT by NWS Medford OR",
+      "severity": "Minor"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 14 at 10:34PM MDT until April 15 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 15 at 5:54AM PDT until April 17 at 9:00AM PDT by NWS Medford OR",
+      "severity": "Severe"
     }
   ],
   "stormWatch": [
