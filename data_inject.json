@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 15, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 15, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -16,7 +16,7 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "68\u00b0F",
+      "temp": "69\u00b0F",
       "humidity": ""
     },
     {
@@ -66,34 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 9,
-    "important": [
-      {
-        "from": "Phani sree Doppalapudi",
-        "subject": "Resources and direct support for you from Google Cloud",
-        "date": "2026-04-15 15:12"
-      },
-      {
-        "from": "Sticker Mule",
-        "subject": "Your cart has been saved!",
-        "date": "2026-04-15 03:21"
-      },
-      {
-        "from": "DigitalOcean",
-        "subject": "The Conference for the Inference Era",
-        "date": "2026-04-14 21:32"
-      },
-      {
-        "from": "Sticker Mule",
-        "subject": "The greatest deal for our greatest customer",
-        "date": "2026-04-14 18:20"
-      },
-      {
-        "from": "OpenAI AdsGPT Performance OpCo",
-        "subject": "OpenAI AdsGPT Performance OpCo, LLC has invited you to test ",
-        "date": "2026-04-14 14:21"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
@@ -311,28 +285,28 @@
   "specialAdvisories": [
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 11:58AM MDT until April 18 at 8:00AM MDT by NWS Denver CO",
+      "headline": "Freeze Watch issued April 15 at 12:40PM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 15 at 12:37PM MDT until April 16 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 15 at 12:37PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
       "type": "Freeze Watch",
-      "headline": "The Freeze Watch has been replaced. Please see the latest information from NWS Grand Junction CO on ...",
+      "headline": "Freeze Watch issued April 15 at 12:37PM MDT until April 17 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 15 at 10:00AM MDT until April 16 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 15 at 10:56AM MDT until April 17 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 15 at 10:56AM MDT until April 17 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 15 at 12:37PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     }
   ],
   "stormWatch": [
