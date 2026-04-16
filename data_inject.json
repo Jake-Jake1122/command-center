@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 6\" | Fri: 3\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -322,13 +322,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 1\" \u2192 Thu: 6\" \u2192 Fri: 3\". ~10\" total over the period."
+      "forecast": "Thu: 4\" \u2192 Fri: 3\". ~7\" total over the period."
     }
   ],
   "socialWorthy": [
     {
-      "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Thu 6\" - powder alert content"
+      "icon": "\u2600\ufe0f",
+      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
     },
     {
       "icon": "\ud83d\udcda",
