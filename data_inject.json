@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 01:00 AM MDT",
+  "lastUpdated": "Apr 16, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -16,7 +16,7 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "45\u00b0F",
+      "temp": "44\u00b0F",
       "humidity": ""
     },
     {
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Sat: 1\""
+      "forecast": "Thu: 2\" | Fri: 3\" | Sat: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Sat: 1\""
+      "forecast": "Thu: 2\" | Fri: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 4\" | Sat: 1\""
+      "forecast": "Thu: 1\" | Fri: 4\" | Sat: 1\""
     },
     {
       "resort": "Steamboat",
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 4\" | Fri: 3\""
+      "forecast": "Thu: 7\" | Fri: 1\" | Wed: 1\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 6\" | Fri: 3\""
+      "forecast": "Thu: 10\" | Fri: 1\" | Wed: 2\""
     }
   ],
   "calendar": [],
@@ -296,7 +296,7 @@
   "specialAdvisories": [
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 9:52PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Watch issued April 16 at 1:38AM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
@@ -306,7 +306,7 @@
     },
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 9:52PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Watch issued April 15 at 9:52PM MDT until April 17 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
@@ -323,17 +323,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 5\" \u2192 Sat: 1\". ~7\" total over the period."
+      "forecast": "Thu: 2\" \u2192 Fri: 5\" \u2192 Sat: 1\". ~9\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 1\" \u2192 Thu: 6\" \u2192 Fri: 3\". ~10\" total over the period."
+      "forecast": "Thu: 10\" \u2192 Fri: 1\" \u2192 Wed: 2\". ~13\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Thu 6\" - powder alert content"
+      "text": "Storm incoming - Utah: Thu 10\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
