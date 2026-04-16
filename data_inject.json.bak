@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 15, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Apr 15, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,14 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 0,
-    "important": []
+    "unreadCount": 1,
+    "important": [
+      {
+        "from": "Sticker Mule",
+        "subject": "Your proofs are ready for R050261228",
+        "date": "2026-04-16 04:50"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
@@ -299,14 +305,14 @@
       "severity": "Severe"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 9:52PM MDT until April 17 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 15 at 10:20PM MDT until April 17 at 12:00PM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 9:52PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 15 at 10:20PM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
