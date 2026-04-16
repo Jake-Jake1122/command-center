@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 16, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "44\u00b0F",
+      "temp": "77\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "20\u00b0F",
+      "temp": "50\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "44\u00b0F",
+      "temp": "55\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "38\u00b0F",
+      "icon": "\ud83c\udf21\ufe0f",
+      "temp": "49\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 2,
+    "unreadCount": 3,
     "important": [
       {
         "from": "Sticker Mule",
@@ -221,9 +221,9 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "Moderate",
+        "ratingClass": "moderate",
+        "danger_level": 2
       },
       {
         "zone": "Ogden",
@@ -311,13 +311,13 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 15 at 10:20PM MDT until April 17 at 12:00PM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 16 at 3:53AM PDT until April 17 at 9:00AM PDT by NWS Medford OR",
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 15 at 10:20PM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 16 at 3:53AM PDT until April 16 at 9:00AM PDT by NWS Medford OR",
+      "severity": "Minor"
     }
   ],
   "stormWatch": [
