@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 16, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Thu: 6\" | Fri: 1\" | Wed: 1\""
     },
     {
       "resort": "Alta",
@@ -66,8 +66,14 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 0,
-    "important": []
+    "unreadCount": 1,
+    "important": [
+      {
+        "from": "Upwork",
+        "subject": "Jake, here's how to grow without adding headcount",
+        "date": "2026-04-16 17:01"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
@@ -284,6 +290,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 16 at 11:02AM MDT until April 18 at 8:00AM MDT by NWS Denver CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 16 at 10:36AM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Severe"
@@ -291,11 +302,6 @@
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 16 at 10:33AM MDT until April 17 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 16 at 10:33AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
