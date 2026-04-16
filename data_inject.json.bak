@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 16, 2026 at 03:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "50\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 7\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 1,
+    "unreadCount": 3,
     "important": [
+      {
+        "from": "Vercel",
+        "subject": "Observability Plus now costs less",
+        "date": "2026-04-16 20:45"
+      },
       {
         "from": "Upwork",
         "subject": "Jake, here's how to grow without adding headcount",
@@ -318,7 +323,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 7\". ~7\" total over the period."
+      "forecast": "Fri: 4\". ~4\" total over the period."
     },
     {
       "region": "Utah",
@@ -328,7 +333,7 @@
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Thu 6\" | Colorado: Fri 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Thu 6\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
