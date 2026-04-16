@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 01:01 PM MDT",
+  "lastUpdated": "Apr 16, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -15,7 +15,7 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
+      "icon": "\ud83c\udf21\ufe0f",
       "temp": "55\u00b0F",
       "humidity": ""
     },
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Fri: 2\""
     },
     {
       "resort": "Winter Park",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Fri: 7\""
     },
     {
       "resort": "Brighton",
@@ -318,7 +318,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 4\". ~4\" total over the period."
+      "forecast": "Fri: 7\". ~7\" total over the period."
     },
     {
       "region": "Utah",
@@ -328,7 +328,7 @@
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Thu 6\" - powder alert content"
+      "text": "Storm incoming - Utah: Thu 6\" | Colorado: Fri 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
