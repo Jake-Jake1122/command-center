@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Apr 16, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Fri: 4\" | Sat: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
@@ -296,17 +296,17 @@
   "specialAdvisories": [
     {
       "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 16 at 2:37AM MDT until April 18 at 8:00AM MDT by NWS Denver CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 16 at 1:38AM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 15 at 9:52PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
-    },
-    {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 9:52PM MDT until April 17 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
@@ -323,7 +323,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Thu: 2\" \u2192 Fri: 5\" \u2192 Sat: 1\". ~9\" total over the period."
+      "forecast": "Thu: 2\" \u2192 Fri: 5\". ~8\" total over the period."
     },
     {
       "region": "Utah",
@@ -347,12 +347,12 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 8\"",
+      "status": "\ud83d\udfe2 3\"",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 14\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -367,7 +367,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 5\"",
+      "status": "\ud83d\udfe2 1\"",
       "match": true
     }
   ],
