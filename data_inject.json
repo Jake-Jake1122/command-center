@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 15, 2026 at 08:00 PM MDT",
+  "lastUpdated": "Apr 15, 2026 at 09:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Fri: 4\" | Sat: 1\""
     },
     {
       "resort": "Steamboat",
@@ -291,12 +291,12 @@
   "specialAdvisories": [
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 4:35PM MDT until April 18 at 8:00AM MDT by NWS Goodland KS",
+      "headline": "Freeze Watch issued April 15 at 8:37PM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 15 at 12:40PM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
+      "headline": "Freeze Watch issued April 15 at 4:35PM MDT until April 18 at 8:00AM MDT by NWS Goodland KS",
       "severity": "Severe"
     },
     {

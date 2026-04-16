@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 15, 2026 at 07:00 PM MDT",
+  "lastUpdated": "Apr 15, 2026 at 08:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 4\" | Sat: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
