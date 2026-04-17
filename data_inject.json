@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 17, 2026 at 05:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf24\ufe0f",
+      "icon": "\u26c5",
       "temp": "36\u00b0F",
       "humidity": ""
     },
@@ -295,19 +295,19 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 1:13AM MDT until April 18 at 8:00AM MDT by NWS Goodland KS",
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 17 at 4:15AM MDT until April 17 at 3:00PM MDT by NWS Denver CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 17 at 4:15AM MDT until April 17 at 5:00PM MDT by NWS Denver CO",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 16 at 11:08PM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
+      "headline": "Freeze Warning issued April 17 at 4:13AM MDT until April 18 at 8:00AM MDT by NWS Denver CO",
       "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 16 at 11:08PM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
-      "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
