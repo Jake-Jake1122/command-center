@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Apr 17, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 4,
+    "unreadCount": 5,
     "important": [
       {
         "from": "Vercel",
@@ -347,7 +347,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 3\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\ud83d\udfe2 1\"",
       "match": true
     },
     {
