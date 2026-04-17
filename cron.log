@@ -23515,3 +23515,16 @@ Time: 2026-04-16 18:00 MDT
       Fetching SNOTEL for station 766:UT...
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 695579d] Dashboard refresh - 2026-04-16 18:00
+ 4 files changed, 100 insertions(+), 21 deletions(-)
+To https://github.com/Jake-Jake1122/command-center.git
+   f9e0274..695579d  main -> main
+✅ Dashboard updated!
+   Snowbird: 🟢 0"
+      Fetching SNOTEL for station 366:UT...
+   Brighton: 🟢 0"
+      Fetching SNOTEL for station 415:CO...
+   Copper Mountain: 🟢 1"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
