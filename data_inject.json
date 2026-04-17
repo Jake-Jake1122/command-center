@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 17, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 4\" | Fri: 1\""
+      "forecast": "Thu: 3\" | Fri: 1\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 6\" | Fri: 1\" | Wed: 1\""
+      "forecast": "Thu: 4\" | Fri: 1\" | Wed: 1\""
     }
   ],
   "calendar": [],
@@ -295,18 +295,18 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 16 at 10:55PM MDT until April 17 at 3:00PM MDT by NWS Denver CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 16 at 10:55PM MDT until April 17 at 5:00PM MDT by NWS Denver CO",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 16 at 11:08PM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 16 at 10:24PM MDT until April 17 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 16 at 11:08PM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 16 at 10:55PM MDT until April 17 at 3:00PM MDT by NWS Denver CO",
       "severity": "Moderate"
     },
     {
@@ -327,13 +327,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 6\" \u2192 Fri: 1\" \u2192 Wed: 1\". ~8\" total over the period."
+      "forecast": "Thu: 4\" \u2192 Fri: 1\" \u2192 Wed: 1\". ~6\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Thu 6\" | Colorado: Fri 7\" - powder alert content"
+      "text": "Storm incoming - Colorado: Fri 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
