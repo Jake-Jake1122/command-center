@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 17, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 7\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 7,
+    "unreadCount": 8,
     "important": [
+      {
+        "from": "Phani sree Doppalapudi",
+        "subject": "Scale with Google Cloud",
+        "date": "2026-04-17 14:38"
+      },
       {
         "from": "Vercel",
         "subject": "Observability Plus now costs less",
@@ -295,28 +300,28 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 17 at 8:23AM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 17 at 8:23AM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 17 at 4:15AM MDT until April 17 at 3:00PM MDT by NWS Denver CO",
       "severity": "Moderate"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 17 at 4:15AM MDT until April 17 at 5:00PM MDT by NWS Denver CO",
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 17 at 8:59AM MDT until April 17 at 12:00PM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 4:13AM MDT until April 18 at 8:00AM MDT by NWS Denver CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 16 at 10:36PM MDT until April 17 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 16 at 10:36PM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 17 at 8:59AM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     }
   ],
