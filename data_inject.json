@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 17, 2026 at 11:02 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "36\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
@@ -49,25 +49,30 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 8\""
+      "forecast": "Fri: 6\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 4\" | Thu: 3\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 5\" | Wed: 1\" | Thu: 4\""
+      "forecast": "Fri: 4\" | Wed: 1\" | Thu: 4\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 8,
+    "unreadCount": 9,
     "important": [
+      {
+        "from": "Adobe Express",
+        "subject": "Employees are the new influencers",
+        "date": "2026-04-17 16:37"
+      },
       {
         "from": "Phani sree Doppalapudi",
         "subject": "Scale with Google Cloud",
@@ -313,16 +318,6 @@
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 17 at 8:23AM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 8:59AM MDT until April 17 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 8:59AM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
     }
   ],
   "stormWatch": [
@@ -332,7 +327,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 5\" \u2192 Wed: 1\" \u2192 Thu: 4\". ~10\" total over the period."
+      "forecast": "Fri: 4\" \u2192 Wed: 1\" \u2192 Thu: 4\". ~9\" total over the period."
     }
   ],
   "socialWorthy": [
