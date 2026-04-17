@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 16, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -296,6 +296,11 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 16 at 5:34PM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 16 at 12:55PM MDT until April 18 at 8:00AM MDT by NWS Goodland KS",
       "severity": "Moderate"
     },
@@ -305,13 +310,8 @@
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 16 at 10:36AM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
-      "severity": "Severe"
-    },
-    {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 16 at 10:33AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 16 at 10:33AM MDT until April 17 at 10:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
@@ -5083,7 +5083,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I go up but never come down...",
-    "a": "Your age \ud83c\udf82"
+    "q": "What has hands but can't clap?",
+    "a": "A clock \u23f0"
   }
 }
