@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 17, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u26c5",
-      "temp": "36\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "42\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u26c5",
-      "temp": "23\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "36\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "28\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "48\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "18\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "38\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 6,
+    "unreadCount": 7,
     "important": [
       {
         "from": "Vercel",
@@ -221,9 +221,9 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "Moderate",
-        "ratingClass": "moderate",
-        "danger_level": 2
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Ogden",
