@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 17, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -305,28 +305,28 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 17 at 11:06AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 17 at 11:06AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 17 at 11:06AM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 11:06AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 17 at 11:09AM PDT until April 18 at 8:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 11:06AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 11:06AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 11:06AM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 17 at 11:09AM PDT until April 18 at 8:00AM PDT by NWS Eureka CA",
       "severity": "Moderate"
     }
   ],
