@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 01:00 AM MDT",
+  "lastUpdated": "Apr 17, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u26c5",
-      "temp": "35\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "36\u00b0F",
       "humidity": ""
     },
     {
@@ -31,37 +31,37 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Sat: 1\""
+      "forecast": "Fri: 11\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\""
+      "forecast": "Fri: 7\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 4\" | Sat: 1\""
+      "forecast": "Fri: 10\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 7\""
+      "forecast": "Fri: 8\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 3\" | Fri: 1\""
+      "forecast": "Fri: 4\" | Thu: 3\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 4\" | Fri: 1\" | Wed: 1\""
+      "forecast": "Fri: 5\" | Wed: 1\" | Thu: 4\""
     }
   ],
   "calendar": [],
@@ -295,9 +295,9 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 16 at 11:08PM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
-      "severity": "Severe"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 17 at 1:13AM MDT until April 18 at 8:00AM MDT by NWS Goodland KS",
+      "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
@@ -305,9 +305,9 @@
       "severity": "Moderate"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 16 at 10:55PM MDT until April 17 at 3:00PM MDT by NWS Denver CO",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 16 at 11:08PM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
@@ -323,17 +323,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 7\". ~7\" total over the period."
+      "forecast": "Fri: 11\". ~11\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 4\" \u2192 Fri: 1\" \u2192 Wed: 1\". ~6\" total over the period."
+      "forecast": "Fri: 5\" \u2192 Wed: 1\" \u2192 Thu: 4\". ~10\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Colorado: Fri 7\" - powder alert content"
+      "text": "Storm incoming - Colorado: Fri 11\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
