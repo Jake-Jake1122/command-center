@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 16, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 16, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "77\u00b0F",
+      "icon": "\u26c5",
+      "temp": "35\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "50\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "23\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf21\ufe0f",
-      "temp": "55\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "28\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "50\u00b0F",
+      "temp": "18\u00b0F",
       "humidity": ""
     }
   ],
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Fri: 4\" | Sat: 1\""
     },
     {
       "resort": "Steamboat",
