@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 17, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Apr 17, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Wed: 1\" | Thu: 4\""
+      "forecast": "Fri: 2\" | Wed: 1\" | Thu: 4\""
     }
   ],
   "calendar": [],
@@ -321,12 +321,12 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 9:32PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 17 at 10:15PM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 9:32PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 17 at 10:15PM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     }
   ],
@@ -337,7 +337,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 3\" \u2192 Wed: 1\" \u2192 Thu: 4\". ~8\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Wed: 1\" \u2192 Thu: 4\". ~8\" total over the period."
     }
   ],
   "socialWorthy": [
