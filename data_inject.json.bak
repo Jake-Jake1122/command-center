@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 18, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "23\u00b0F",
+      "temp": "56\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "8\u00b0F",
+      "temp": "47\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "30\u00b0F",
+      "temp": "61\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "20\u00b0F",
+      "temp": "53\u00b0F",
       "humidity": ""
     }
   ],
@@ -61,12 +61,12 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Wed: 2\" | Thu: 5\" | Fri: 1\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 12,
+    "unreadCount": 13,
     "important": [
       {
         "from": "Adobe Express",
@@ -337,7 +337,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 4\". ~4\" total over the period."
+      "forecast": "Wed: 2\" \u2192 Thu: 5\". ~7\" total over the period."
     }
   ],
   "socialWorthy": [
