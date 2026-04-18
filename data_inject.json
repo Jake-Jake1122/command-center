@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 18, 2026 at 11:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,13 +49,13 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 4\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
@@ -310,23 +310,23 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 18 at 10:04AM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 18 at 7:53AM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 17 at 9:32PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 18 at 10:04AM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
     },
     {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 18 at 9:15AM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Severe"
-    },
-    {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 17 at 9:32PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
     }
   ],

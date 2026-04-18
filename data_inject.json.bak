@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 18, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Thu: 1\" | Fri: 1\""
+      "forecast": "Thu: 1\" | Fri: 1\""
     },
     {
       "resort": "Brighton",
@@ -315,24 +315,19 @@
       "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 9:32PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 17 at 9:32PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 9:32PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 18 at 9:15AM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 10:15PM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 10:15PM MDT until April 18 at 12:00PM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 17 at 9:32PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     }
   ],
   "stormWatch": [
