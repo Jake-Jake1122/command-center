@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 18, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 6\""
+      "forecast": "Sat: 2\" | Thu: 1\" | Fri: 2\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\""
+      "forecast": "Sat: 1\" | Fri: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 6\""
+      "forecast": "Sat: 1\" | Fri: 3\""
     },
     {
       "resort": "Steamboat",
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Thu: 3\""
+      "forecast": "Wed: 1\" | Thu: 4\" | Fri: 1\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Wed: 1\" | Thu: 4\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -305,19 +305,19 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 18 at 12:52AM MDT until April 18 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 17 at 9:32PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Watch issued April 18 at 12:52AM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 9:32PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 17 at 9:32PM MDT until April 18 at 10:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 17 at 9:32PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
@@ -333,11 +333,11 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 6\". ~6\" total over the period."
+      "forecast": "Sat: 2\" \u2192 Fri: 3\". ~5\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Fri: 2\" \u2192 Wed: 1\" \u2192 Thu: 4\". ~8\" total over the period."
+      "forecast": "Thu: 4\". ~4\" total over the period."
     }
   ],
   "socialWorthy": [
