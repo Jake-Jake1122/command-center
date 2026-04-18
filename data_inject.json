@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 18, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -311,16 +311,6 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 11:23AM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 10:04AM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 18 at 11:47AM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
@@ -362,7 +352,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa Timeout",
       "match": true
     },
     {
