@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 01:01 PM MDT",
+  "lastUpdated": "Apr 18, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "56\u00b0F",
+      "temp": "57\u00b0F",
       "humidity": ""
     },
     {
@@ -22,7 +22,7 @@
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "53\u00b0F",
+      "temp": "54\u00b0F",
       "humidity": ""
     }
   ],
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sat: 1\" | Thu: 1\" | Fri: 1\""
     },
     {
       "resort": "Brighton",
@@ -61,18 +61,13 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Wed: 3\" | Thu: 7\" | Fri: 1\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 14,
+    "unreadCount": 10,
     "important": [
-      {
-        "from": "Baran ERYALAR via TestFlight",
-        "subject": "Baran ERYALAR has invited you to test OpenAI Campaign Works.",
-        "date": "2026-04-18 14:31"
-      },
       {
         "from": "Adobe Express",
         "subject": "Employees are the new influencers",
@@ -311,44 +306,44 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 11:23AM MDT until April 19 at 8:00AM MDT by NWS Pueblo CO",
+      "headline": "Freeze Warning issued April 18 at 1:15PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 10:04AM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 18 at 1:15PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 18 at 1:15PM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 18 at 1:15PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 18 at 11:47AM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 11:47AM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 10:04AM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sat: 3\" \u2192 Fri: 3\". ~6\" total over the period."
+      "forecast": "Sat: 3\" \u2192 Thu: 1\" \u2192 Fri: 3\". ~7\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 2\" \u2192 Thu: 5\". ~7\" total over the period."
+      "forecast": "Wed: 3\" \u2192 Thu: 7\". ~9\" total over the period."
     }
   ],
   "socialWorthy": [
     {
-      "icon": "\u2600\ufe0f",
-      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
+      "icon": "\ud83c\udf28\ufe0f",
+      "text": "Storm incoming - Utah: Thu 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
