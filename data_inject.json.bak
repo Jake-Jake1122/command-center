@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 18, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 13,
+    "unreadCount": 14,
     "important": [
+      {
+        "from": "Baran ERYALAR via TestFlight",
+        "subject": "Baran ERYALAR has invited you to test OpenAI Campaign Works.",
+        "date": "2026-04-18 14:31"
+      },
       {
         "from": "Adobe Express",
         "subject": "Employees are the new influencers",
