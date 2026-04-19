@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 18, 2026 at 06:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sat: 1\" | Fri: 1\""
     },
     {
       "resort": "Winter Park",
@@ -49,13 +49,13 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Thu: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 2\" | Thu: 5\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
@@ -318,12 +318,22 @@
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 18 at 1:15PM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 18 at 1:15PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 18 at 11:47AM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sat: 3\" \u2192 Thu: 1\" \u2192 Fri: 3\". ~7\" total over the period."
+      "forecast": "Sat: 3\" \u2192 Fri: 3\". ~6\" total over the period."
     },
     {
       "region": "Utah",
