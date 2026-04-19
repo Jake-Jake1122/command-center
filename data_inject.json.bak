@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 19, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "37\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "72\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "19\u00b0F",
+      "temp": "56\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "40\u00b0F",
+      "temp": "74\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "32\u00b0F",
+      "temp": "65\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 12,
+    "unreadCount": 13,
     "important": [
       {
         "from": "Adobe Express",
