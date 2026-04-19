@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 18, 2026 at 06:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,13 +49,13 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Thu: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 2\" | Thu: 5\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
@@ -333,7 +333,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sat: 3\" \u2192 Thu: 1\" \u2192 Fri: 3\". ~7\" total over the period."
+      "forecast": "Sat: 3\" \u2192 Fri: 3\". ~6\" total over the period."
     },
     {
       "region": "Utah",
@@ -5093,7 +5093,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I fall from the sky but I'm not rain...",
-    "a": "Snow \u2744\ufe0f"
+    "q": "I go up but never come down...",
+    "a": "Your age \ud83c\udf82"
   }
 }
