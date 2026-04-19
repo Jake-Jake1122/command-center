@@ -27058,3 +27058,20 @@ Time: 2026-04-19 12:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 130b533] Dashboard refresh - 2026-04-19 12:01
+ 4 files changed, 102 insertions(+), 10 deletions(-)
+   Winter Park: 🟢 9"
+      Fetching SNOTEL for station 825:CO...
+To https://github.com/Jake-Jake1122/command-center.git
+   00d2341..130b533  main -> main
+✅ Dashboard updated!
+   Steamboat: 🟢 0"
+      Fetching SNOTEL for station 766:UT...
+   Snowbird: 🟢 0"
+      Fetching SNOTEL for station 366:UT...
+   Brighton: 🟢 0"
+      Fetching SNOTEL for station 415:CO...
+   Copper Mountain: 🟢 3"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
