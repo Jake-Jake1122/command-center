@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 18, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 18, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sat: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -318,16 +318,6 @@
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 18 at 1:15PM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 1:15PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 11:47AM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
     }
   ],
   "stormWatch": [
@@ -5093,7 +5083,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I fall from the sky but I'm not rain...",
-    "a": "Snow \u2744\ufe0f"
+    "q": "I go up but never come down...",
+    "a": "Your age \ud83c\udf82"
   }
 }
