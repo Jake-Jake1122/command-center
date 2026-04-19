@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 19, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
@@ -305,13 +305,8 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 18 at 10:05PM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Severe"
-    },
-    {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 9:41PM MDT until April 19 at 10:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 19 at 9:47AM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     }
   ],
