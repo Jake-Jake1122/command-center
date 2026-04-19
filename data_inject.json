@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 03:00 PM MDT",
+  "lastUpdated": "Apr 19, 2026 at 04:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Wed: 3\" | Thu: 4\" | Sat: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Alta",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 13,
+    "unreadCount": 10,
     "important": [
       {
         "from": "Adobe Express",
