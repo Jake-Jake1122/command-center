@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 19, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -305,24 +305,9 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 10:05PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 10:05PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 18 at 10:05PM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Severe"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 18 at 10:05PM MDT until April 19 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
