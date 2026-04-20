@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 20, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "42\u00b0F",
+      "temp": "80\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "28\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "57\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "50\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "80\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "41\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "70\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 14,
+    "unreadCount": 15,
     "important": [
       {
         "from": "Danylo N. via Upwork",
@@ -236,9 +236,9 @@
     "utah": [
       {
         "zone": "Salt Lake",
-        "rating": "Low",
-        "ratingClass": "low",
-        "danger_level": 1
+        "rating": "No Rating",
+        "ratingClass": "no-rating",
+        "danger_level": -1
       },
       {
         "zone": "Ogden",
@@ -309,11 +309,6 @@
     }
   ],
   "specialAdvisories": [
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 19 at 9:47AM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
     {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 20 at 3:40AM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
