@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Apr 19, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "28\u00b0F",
+      "temp": "29\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Thu: 1\" | Fri: 1\" | Sat: 2\""
+      "forecast": "Sun: 2\" | Mon: 1\" | Thu: 1\" | Fri: 1\""
     },
     {
       "resort": "Brighton",
@@ -305,6 +305,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 19 at 9:47AM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Storm Watch",
       "headline": "Winter Storm Watch issued April 19 at 5:35PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
@@ -323,7 +328,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 5\" \u2192 Thu: 1\" \u2192 Fri: 1\" \u2192 Sat: 3\". ~11\" total over the period."
+      "forecast": "Sun: 5\" \u2192 Mon: 1\" \u2192 Fri: 1\" \u2192 Sat: 3\". ~11\" total over the period."
     },
     {
       "region": "Utah",
