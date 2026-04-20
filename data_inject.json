@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Mon: 1\" | Thu: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
@@ -328,7 +328,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 5\" \u2192 Mon: 1\" \u2192 Fri: 1\" \u2192 Sat: 3\". ~11\" total over the period."
+      "forecast": "Sun: 5\" \u2192 Fri: 1\" \u2192 Sat: 3\". ~10\" total over the period."
     },
     {
       "region": "Utah",
