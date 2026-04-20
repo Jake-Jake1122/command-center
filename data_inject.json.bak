@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 20, 2026 at 09:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 4\" | Fri: 1\" | Sat: 2\" | Sun: 8\""
+      "forecast": "Dry"
     },
     {
       "resort": "Copper Mountain",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Wed: 3\" | Thu: 3\" | Sat: 1\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -310,11 +310,6 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 19 at 9:47AM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 20 at 3:40AM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
       "severity": "Moderate"
@@ -333,17 +328,17 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Mon: 4\" \u2192 Fri: 1\" \u2192 Sat: 2\" \u2192 Sun: 8\". ~15\" total over the period."
+      "forecast": "Mon: 3\" \u2192 Fri: 1\" \u2192 Sat: 2\" \u2192 Sun: 5\". ~11\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 2\" \u2192 Wed: 3\" \u2192 Thu: 3\" \u2192 Sun: 3\". ~11\" total over the period."
+      "forecast": "Wed: 2\" \u2192 Thu: 3\" \u2192 Sun: 2\". ~7\" total over the period."
     }
   ],
   "socialWorthy": [
     {
-      "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Colorado: Sun 8\" - powder alert content"
+      "icon": "\u2600\ufe0f",
+      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
     },
     {
       "icon": "\ud83d\udcda",

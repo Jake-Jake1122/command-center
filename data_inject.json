@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 09:01 AM MDT",
+  "lastUpdated": "Apr 20, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 4\" | Fri: 1\" | Sat: 2\" | Sun: 8\""
     },
     {
       "resort": "Copper Mountain",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 2\" | Wed: 3\" | Thu: 3\" | Sat: 1\""
     }
   ],
   "calendar": [],
@@ -308,37 +308,21 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 20 at 3:40AM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 20 at 2:41AM PDT until April 21 at 11:00AM PDT by NWS Medford O...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 20 at 1:50AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
-      "severity": "Severe"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Mon: 3\" \u2192 Fri: 1\" \u2192 Sat: 2\" \u2192 Sun: 5\". ~11\" total over the period."
+      "forecast": "Mon: 4\" \u2192 Fri: 1\" \u2192 Sat: 2\" \u2192 Sun: 8\". ~15\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 2\" \u2192 Thu: 3\" \u2192 Sun: 2\". ~7\" total over the period."
+      "forecast": "Mon: 2\" \u2192 Wed: 3\" \u2192 Thu: 3\" \u2192 Sun: 3\". ~11\" total over the period."
     }
   ],
   "socialWorthy": [
     {
-      "icon": "\u2600\ufe0f",
-      "text": "Dry spell continues - good time for gear/prep content or throwback posts"
+      "icon": "\ud83c\udf28\ufe0f",
+      "text": "Storm incoming - Colorado: Sun 8\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
