@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 20, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -308,7 +308,23 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 20 at 9:10AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 20 at 8:56AM PDT until April 22 at 5:00PM PDT by NWS Sacramento CA",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 20 at 3:40AM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
+      "severity": "Moderate"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
