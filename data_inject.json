@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "57\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
@@ -308,7 +308,23 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Winter Storm Watch",
+      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Watch",
+      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 20 at 10:41AM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
+      "severity": "Moderate"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
