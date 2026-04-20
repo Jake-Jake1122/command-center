@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 08:00 PM MDT",
+  "lastUpdated": "Apr 19, 2026 at 09:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "27\u00b0F",
+      "temp": "28\u00b0F",
       "humidity": ""
     },
     {
@@ -307,6 +307,21 @@
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 19 at 9:47AM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 19 at 5:35PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 19 at 1:09PM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 19 at 12:42PM PDT until April 21 at 11:00AM PDT by NWS Medford ...",
       "severity": "Moderate"
     }
   ],
