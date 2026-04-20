@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 20, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,14 +9,14 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "57\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "80\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
@@ -310,18 +310,18 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 20 at 9:10AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "type": "Winter Storm Watch",
+      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
       "severity": "Severe"
     },
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 20 at 8:56AM PDT until April 22 at 5:00PM PDT by NWS Sacramento CA",
+      "type": "Winter Storm Watch",
+      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
       "severity": "Severe"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 20 at 3:40AM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
+      "headline": "Winter Weather Advisory issued April 20 at 10:41AM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
       "severity": "Moderate"
     }
   ],
