@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 03:00 AM MDT",
+  "lastUpdated": "Apr 20, 2026 at 04:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf24\ufe0f",
-      "temp": "29\u00b0F",
+      "temp": "28\u00b0F",
       "humidity": ""
     },
     {
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 12,
+    "unreadCount": 14,
     "important": [
+      {
+        "from": "Danylo N. via Upwork",
+        "subject": "Danylo N. sent you a message",
+        "date": "2026-04-20 09:45"
+      },
       {
         "from": "Adobe Express",
         "subject": "Employees are the new influencers",
@@ -310,6 +315,11 @@
       "severity": "Moderate"
     },
     {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 20 at 2:41AM PDT until April 21 at 11:00AM PDT by NWS Medford O...",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Storm Watch",
       "headline": "Winter Storm Watch issued April 20 at 1:50AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
@@ -317,11 +327,6 @@
     {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 19 at 10:52PM PDT until April 21 at 11:00AM PDT by NWS Eureka C...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 19 at 12:42PM PDT until April 21 at 11:00AM PDT by NWS Medford ...",
       "severity": "Moderate"
     }
   ],

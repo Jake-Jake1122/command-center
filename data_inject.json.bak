@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Apr 20, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -310,14 +310,14 @@
       "severity": "Moderate"
     },
     {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 20 at 1:50AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 19 at 10:52PM PDT until April 21 at 11:00AM PDT by NWS Eureka C...",
       "severity": "Moderate"
-    },
-    {
-      "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 19 at 5:35PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
-      "severity": "Severe"
     },
     {
       "type": "Winter Weather Advisory",
@@ -352,7 +352,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 9\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -372,7 +372,7 @@
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 3\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
