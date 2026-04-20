@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 09:00 PM MDT",
+  "lastUpdated": "Apr 19, 2026 at 10:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -304,11 +304,6 @@
     }
   ],
   "specialAdvisories": [
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 19 at 9:47AM MDT until April 20 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
     {
       "type": "Winter Storm Watch",
       "headline": "Winter Storm Watch issued April 19 at 5:35PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
