@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 03:00 PM MDT",
+  "lastUpdated": "Apr 20, 2026 at 04:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -310,6 +310,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 20 at 2:11PM PDT until April 22 at 5:00PM PDT by NWS Sacramento CA",
+      "severity": "Severe"
+    },
+    {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 20 at 12:59PM PDT until April 21 at 11:00AM PDT by NWS Medford ...",
       "severity": "Moderate"
@@ -318,11 +323,6 @@
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 20 at 12:47PM PDT until April 21 at 11:00AM PDT by NWS Eureka C...",
       "severity": "Moderate"
-    },
-    {
-      "type": "Winter Storm Watch",
-      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
-      "severity": "Severe"
     }
   ],
   "stormWatch": [
