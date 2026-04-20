@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 20, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 16,
+    "unreadCount": 17,
     "important": [
+      {
+        "from": "DigitalOcean",
+        "subject": "8 days left - and seats are going fast",
+        "date": "2026-04-20 22:12"
+      },
       {
         "from": "Cihan Boraer via TestFlight",
         "subject": "Cihan Boraer has invited you to test OpenAI Ads GPT.",
@@ -87,11 +92,6 @@
         "from": "Phani sree Doppalapudi",
         "subject": "Scale with Google Cloud",
         "date": "2026-04-17 14:38"
-      },
-      {
-        "from": "Vercel",
-        "subject": "Observability Plus now costs less",
-        "date": "2026-04-16 20:45"
       }
     ]
   },
