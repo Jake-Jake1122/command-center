@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 19, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 20, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -43,30 +43,30 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 3\" | Fri: 1\" | Sat: 3\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Mon: 1\" | Thu: 1\" | Fri: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Wed: 3\" | Thu: 4\" | Sat: 1\""
+      "forecast": "Sun: 1\" | Wed: 2\" | Thu: 4\" | Sat: 1\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Wed: 4\" | Thu: 4\" | Sat: 1\""
+      "forecast": "Sun: 2\" | Wed: 3\" | Thu: 4\" | Sat: 1\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 11,
+    "unreadCount": 12,
     "important": [
       {
         "from": "Adobe Express",
@@ -310,14 +310,14 @@
       "severity": "Moderate"
     },
     {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 19 at 10:52PM PDT until April 21 at 11:00AM PDT by NWS Eureka C...",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Storm Watch",
       "headline": "Winter Storm Watch issued April 19 at 5:35PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 19 at 1:09PM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
-      "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
@@ -328,11 +328,11 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 5\" \u2192 Mon: 1\" \u2192 Fri: 1\" \u2192 Sat: 3\". ~11\" total over the period."
+      "forecast": "Sun: 5\" \u2192 Fri: 1\" \u2192 Sat: 3\". ~10\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 2\" \u2192 Wed: 4\" \u2192 Thu: 4\" \u2192 Sat: 1\". ~11\" total over the period."
+      "forecast": "Sun: 2\" \u2192 Wed: 3\" \u2192 Thu: 4\" \u2192 Sat: 1\". ~10\" total over the period."
     }
   ],
   "socialWorthy": [
