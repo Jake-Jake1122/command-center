@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 20, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "57\u00b0F",
       "humidity": ""
     },
@@ -22,7 +22,7 @@
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "70\u00b0F",
+      "temp": "69\u00b0F",
       "humidity": ""
     }
   ],
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Sat: 1\" | Sun: 4\""
+      "forecast": "Mon: 3\" | Sat: 1\" | Sun: 5\""
     },
     {
       "resort": "Winter Park",
@@ -49,25 +49,30 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Thu: 1\" | Fri: 1\" | Sat: 2\""
+      "forecast": "Mon: 2\" | Thu: 1\" | Fri: 1\" | Sun: 3\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Wed: 2\" | Thu: 3\" | Sat: 1\""
+      "forecast": "Mon: 1\" | Wed: 3\" | Thu: 3\" | Sun: 2\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Wed: 3\" | Thu: 3\" | Sat: 1\""
+      "forecast": "Mon: 2\" | Wed: 3\" | Thu: 4\" | Sun: 2\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 15,
+    "unreadCount": 16,
     "important": [
+      {
+        "from": "Cihan Boraer via TestFlight",
+        "subject": "Cihan Boraer has invited you to test OpenAI Ads GPT.",
+        "date": "2026-04-20 19:43"
+      },
       {
         "from": "Danylo N. via Upwork",
         "subject": "Danylo N. sent you a message",
@@ -87,11 +92,6 @@
         "from": "Vercel",
         "subject": "Observability Plus now costs less",
         "date": "2026-04-16 20:45"
-      },
-      {
-        "from": "Upwork",
-        "subject": "Jake, here's how to grow without adding headcount",
-        "date": "2026-04-16 17:01"
       }
     ]
   },
@@ -308,15 +308,31 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 20 at 12:59PM PDT until April 21 at 11:00AM PDT by NWS Medford ...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 20 at 12:47PM PDT until April 21 at 11:00AM PDT by NWS Eureka C...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Storm Watch",
+      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
+      "severity": "Severe"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Mon: 4\" \u2192 Fri: 1\" \u2192 Sat: 2\" \u2192 Sun: 8\". ~15\" total over the period."
+      "forecast": "Mon: 4\" \u2192 Fri: 1\" \u2192 Sat: 2\" \u2192 Sun: 8\". ~16\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Mon: 2\" \u2192 Wed: 3\" \u2192 Thu: 3\" \u2192 Sun: 3\". ~11\" total over the period."
+      "forecast": "Mon: 2\" \u2192 Wed: 3\" \u2192 Thu: 4\" \u2192 Sun: 2\". ~11\" total over the period."
     }
   ],
   "socialWorthy": [
