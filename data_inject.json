@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 21, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,7 +55,7 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 1\" | Wed: 3\" | Thu: 4\" | Sun: 2\""
     },
     {
       "resort": "Alta",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 17,
+    "unreadCount": 18,
     "important": [
+      {
+        "from": "Vercel Security",
+        "subject": "Vercel Security Update",
+        "date": "2026-04-21 05:57"
+      },
       {
         "from": "DigitalOcean",
         "subject": "8 days left - and seats are going fast",
@@ -87,11 +92,6 @@
         "from": "Adobe Express",
         "subject": "Employees are the new influencers",
         "date": "2026-04-17 16:37"
-      },
-      {
-        "from": "Phani sree Doppalapudi",
-        "subject": "Scale with Google Cloud",
-        "date": "2026-04-17 14:38"
       }
     ]
   },
