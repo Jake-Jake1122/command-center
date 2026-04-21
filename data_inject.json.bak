@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 21, 2026 at 05:01 AM MDT",
+  "lastUpdated": "Apr 21, 2026 at 06:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "?",
-      "temp": "N/A",
+      "icon": "\u2600\ufe0f",
+      "temp": "28\u00b0F",
       "humidity": ""
     },
     {
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sun: 5\" | Mon: 2\""
     },
     {
       "resort": "Winter Park",
