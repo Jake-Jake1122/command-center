@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "Apr 21, 2026 at 01:01 AM MDT",
+  "lastUpdated": "Apr 21, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf24\ufe0f",
+      "icon": "\u2600\ufe0f",
       "temp": "49\u00b0F",
       "humidity": ""
     },
@@ -15,7 +15,7 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf24\ufe0f",
       "temp": "55\u00b0F",
       "humidity": ""
     },
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sun: 5\" | Mon: 2\""
     },
     {
       "resort": "Winter Park",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Thu: 1\" | Fri: 1\" | Sun: 2\" | Mon: 1\""
     },
     {
       "resort": "Brighton",
@@ -310,25 +310,25 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 21 at 12:38AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 20 at 8:51PM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
+      "headline": "Winter Weather Advisory issued April 21 at 12:11AM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
       "severity": "Moderate"
     },
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 20 at 5:33PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
-      "severity": "Severe"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 20 at 2:11PM PDT until April 22 at 5:00PM PDT by NWS Sacramento CA",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 21 at 12:11AM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 7\" \u2192 Mon: 3\". ~10\" total over the period."
+      "forecast": "Thu: 1\" \u2192 Sun: 7\" \u2192 Mon: 3\". ~12\" total over the period."
     },
     {
       "region": "Utah",
