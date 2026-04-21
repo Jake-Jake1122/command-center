@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 20, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 20, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "80\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "49\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "57\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "30\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "80\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "54\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "69\u00b0F",
+      "temp": "44\u00b0F",
       "humidity": ""
     }
   ],
@@ -311,17 +311,17 @@
   "specialAdvisories": [
     {
       "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 20 at 5:33PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 20 at 2:11PM PDT until April 22 at 5:00PM PDT by NWS Sacramento CA",
       "severity": "Severe"
     },
     {
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 20 at 12:59PM PDT until April 21 at 11:00AM PDT by NWS Medford ...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 20 at 12:47PM PDT until April 21 at 11:00AM PDT by NWS Eureka C...",
       "severity": "Moderate"
     }
   ],
