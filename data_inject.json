@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 21, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 21, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "59\u00b0F",
+      "temp": "61\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Fri: 1\" | Sun: 2\" | Mon: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
@@ -66,8 +66,18 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 20,
+    "unreadCount": 22,
     "important": [
+      {
+        "from": "Stripe",
+        "subject": "[Sessions 2026] The final countdown",
+        "date": "2026-04-21 17:31"
+      },
+      {
+        "from": "Sticker Mule",
+        "subject": "Don't miss this magnificent deal",
+        "date": "2026-04-21 17:18"
+      },
       {
         "from": "DigitalOcean Support",
         "subject": "SFO2 Network Maintenance",
@@ -82,16 +92,6 @@
         "from": "DigitalOcean",
         "subject": "8 days left - and seats are going fast",
         "date": "2026-04-20 22:12"
-      },
-      {
-        "from": "Cihan Boraer via TestFlight",
-        "subject": "Cihan Boraer has invited you to test OpenAI Ads GPT.",
-        "date": "2026-04-20 19:43"
-      },
-      {
-        "from": "Danylo N. via Upwork",
-        "subject": "Danylo N. sent you a message",
-        "date": "2026-04-20 09:45"
       }
     ]
   },
@@ -320,25 +320,25 @@
       "severity": "Severe"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 21 at 5:49AM PDT until April 21 at 11:00AM PDT by NWS Eureka CA",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 21 at 3:06AM PDT until April 21 at 11:00AM PDT by NWS Medford O...",
-      "severity": "Moderate"
-    },
-    {
       "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 21 at 12:38AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "headline": "Winter Storm Warning issued April 21 at 10:45AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 21 at 12:11AM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 21 at 12:11AM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Thu: 1\" \u2192 Sun: 7\" \u2192 Mon: 3\". ~12\" total over the period."
+      "forecast": "Sun: 7\" \u2192 Mon: 3\". ~10\" total over the period."
     },
     {
       "region": "Utah",
