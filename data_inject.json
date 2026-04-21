@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 21, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 21, 2026 at 05:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "29\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 5\" | Mon: 2\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -310,14 +310,14 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 21 at 3:06AM PDT until April 21 at 11:00AM PDT by NWS Medford O...",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 21 at 12:38AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 21 at 12:11AM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
-      "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
