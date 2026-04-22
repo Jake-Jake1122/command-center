@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 03:00 AM MDT",
+  "lastUpdated": "Apr 22, 2026 at 04:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Wed: 4\" | Thu: 6\" | Sun: 10\" | Mon: 5\""
     }
   ],
   "calendar": [],
@@ -326,7 +326,7 @@
     },
     {
       "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 21 at 6:47PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "headline": "Winter Storm Warning issued April 22 at 2:41AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
     },
     {
@@ -342,13 +342,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Wed: 3\" \u2192 Thu: 4\" \u2192 Sun: 8\" \u2192 Mon: 3\". ~17\" total over the period."
+      "forecast": "Wed: 4\" \u2192 Thu: 6\" \u2192 Sun: 10\" \u2192 Mon: 5\". ~25\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Sun 8\" - powder alert content"
+      "text": "Storm incoming - Utah: Sun 10\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
