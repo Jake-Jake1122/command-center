@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 22, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 25,
+    "unreadCount": 26,
     "important": [
+      {
+        "from": "Sticker Mule",
+        "subject": "Get 50 magnets for $29",
+        "date": "2026-04-22 16:08"
+      },
       {
         "from": "Phani sree Doppalapudi",
         "subject": "Saving you time with Automation & AI",
@@ -87,11 +92,6 @@
         "from": "DigitalOcean Support",
         "subject": "SFO2 Network Maintenance",
         "date": "2026-04-21 12:43"
-      },
-      {
-        "from": "Vercel Security",
-        "subject": "Vercel Security Update",
-        "date": "2026-04-21 05:57"
       }
     ]
   },
@@ -325,9 +325,9 @@
       "severity": "Severe"
     },
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 22 at 2:41AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 21 at 1:46PM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
+      "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
