@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 22, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 29,
+    "unreadCount": 25,
     "important": [
       {
         "from": "Phani sree Doppalapudi",
@@ -310,14 +310,24 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued April 22 at 2:41AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 22 at 9:54AM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 22 at 9:54AM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 22 at 9:54AM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Severe"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 21 at 1:46PM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
-      "severity": "Moderate"
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 22 at 2:41AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
+      "severity": "Severe"
     },
     {
       "type": "Winter Weather Advisory",
