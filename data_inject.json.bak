@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 22, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "55\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "85\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "31\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "56\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "49\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "58\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "39\u00b0F",
+      "icon": "\ud83c\udf21\ufe0f",
+      "temp": "48\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 26,
+    "unreadCount": 28,
     "important": [
       {
         "from": "Phani sree Doppalapudi",
