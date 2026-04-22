@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 21, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 21, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "60\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "30\u00b0F",
       "humidity": ""
     },
     {
@@ -5098,7 +5098,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I fall from the sky but I'm not rain...",
-    "a": "Snow \u2744\ufe0f"
+    "q": "I go up but never come down...",
+    "a": "Your age \ud83c\udf82"
   }
 }
