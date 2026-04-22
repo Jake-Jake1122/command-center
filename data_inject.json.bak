@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 12:01 PM MDT",
+  "lastUpdated": "Apr 22, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf21\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "48\u00b0F",
       "humidity": ""
     }
@@ -43,13 +43,13 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sun: 1\" | Mon: 1\" | Tue: 1\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sun: 1\" | Mon: 3\" | Tue: 1\""
     },
     {
       "resort": "Brighton",
@@ -325,20 +325,20 @@
       "severity": "Severe"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 21 at 1:46PM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
-      "severity": "Moderate"
+      "type": "Winter Storm Watch",
+      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
+      "severity": "Severe"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 21 at 1:46PM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
-      "severity": "Moderate"
+      "type": "Winter Storm Watch",
+      "headline": "The Winter Storm Watch has been replaced. Please see the latest information from NWS Reno NV on this...",
+      "severity": "Severe"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 3\" \u2192 Sun: 4\" \u2192 Mon: 2\". ~9\" total over the period."
+      "forecast": "Wed: 3\" \u2192 Sun: 4\" \u2192 Mon: 3\". ~10\" total over the period."
     },
     {
       "region": "Utah",
