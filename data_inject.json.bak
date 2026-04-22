@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 21, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 21, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf27\ufe0f",
+      "icon": "\u2600\ufe0f",
       "temp": "60\u00b0F",
       "humidity": ""
     },
