@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 21, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Apr 21, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf24\ufe0f",
+      "icon": "\u2600\ufe0f",
       "temp": "39\u00b0F",
       "humidity": ""
     }
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Sun: 2\" | Mon: 1\""
+      "forecast": "Sun: 1\" | Mon: 2\""
     },
     {
       "resort": "Brighton",
@@ -310,14 +310,29 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 21 at 9:41AM MDT until April 23 at 9:00AM MDT by NWS Salt Lake City UT",
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 21 at 10:22PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 21 at 10:22PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 21 at 10:22PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 21 at 6:47PM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 21 at 9:41AM MDT until April 23 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 21 at 1:46PM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
