@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 22, 2026 at 05:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -310,24 +310,14 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 21 at 10:22PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 21 at 10:22PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 21 at 10:22PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 22 at 2:41AM PDT until April 22 at 5:00PM PDT by NWS Hanford CA",
       "severity": "Severe"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 21 at 1:46PM PDT until April 22 at 5:00PM PDT by NWS Reno NV",
+      "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
