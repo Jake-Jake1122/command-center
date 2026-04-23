@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 22, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "85\u00b0F",
+      "temp": "46\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "56\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "25\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "58\u00b0F",
+      "temp": "40\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "48\u00b0F",
+      "temp": "29\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,13 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 3,
+    "unreadCount": 2,
     "important": [
-      {
-        "from": "Sticker Mule",
-        "subject": "Your order shipped! R050261228",
-        "date": "2026-04-22 23:51"
-      },
       {
         "from": "UPS",
         "subject": "Your Package Has Shipped",
@@ -301,28 +296,28 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 22 at 9:54AM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 22 at 6:05PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 22 at 9:54AM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 22 at 6:05PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 22 at 9:54AM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Severe"
-    },
-    {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
-      "severity": "Minor"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 22 at 6:05PM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
       "severity": "Moderate"
+    },
+    {
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     }
   ],
   "stormWatch": [
