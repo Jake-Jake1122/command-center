@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 05:00 AM MDT",
+  "lastUpdated": "Apr 23, 2026 at 06:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,18 +55,18 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 4\" | Sun: 8\" | Mon: 8\" | Tue: 2\""
+      "forecast": "Thu: 3\" | Sun: 8\" | Mon: 8\" | Tue: 2\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 6\" | Sun: 11\" | Mon: 11\" | Tue: 2\""
+      "forecast": "Thu: 5\" | Sun: 11\" | Mon: 11\" | Tue: 2\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 2,
+    "unreadCount": 4,
     "important": [
       {
         "from": "UPS",
@@ -296,23 +296,23 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 22 at 6:05PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 23 at 5:07AM MDT until April 24 at 8:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 22 at 6:05PM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 23 at 5:15AM MDT until April 23 at 10:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 22 at 6:05PM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 23 at 5:15AM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued April 22 at 11:03PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
-      "severity": "Minor"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 23 at 5:15AM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
@@ -327,7 +327,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 6\" \u2192 Sun: 11\" \u2192 Mon: 11\" \u2192 Tue: 2\" \u2192 Wed: 1\". ~30\" total over the period."
+      "forecast": "Thu: 5\" \u2192 Sun: 11\" \u2192 Mon: 11\" \u2192 Tue: 2\" \u2192 Wed: 1\". ~30\" total over the period."
     }
   ],
   "socialWorthy": [
