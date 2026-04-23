@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 3\" | Sun: 5\" | Mon: 2\" | Tue: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Copper Mountain",
@@ -323,7 +323,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 3\" \u2192 Thu: 2\" \u2192 Sun: 5\" \u2192 Mon: 4\". ~13\" total over the period."
+      "forecast": "Wed: 2\" \u2192 Thu: 2\" \u2192 Sun: 3\" \u2192 Mon: 4\". ~10\" total over the period."
     },
     {
       "region": "Utah",
