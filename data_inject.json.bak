@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 23, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "46\u00b0F",
+      "temp": "66\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "23\u00b0F",
+      "temp": "46\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "40\u00b0F",
+      "temp": "57\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "29\u00b0F",
+      "temp": "46\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 4,
+    "unreadCount": 6,
     "important": [
+      {
+        "from": "Zeno from Resend",
+        "subject": "Automations, Open Source Editor, Resend CLI 2.0, and more",
+        "date": "2026-04-23 12:52"
+      },
       {
         "from": "UPS",
         "subject": "Your Package Has Shipped",
