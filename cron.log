@@ -31254,3 +31254,16 @@ Time: 2026-04-22 18:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 81f1eb1] Dashboard refresh - 2026-04-22 18:00
+ 4 files changed, 106 insertions(+), 37 deletions(-)
+   Snowbird: 🟢 0"
+      Fetching SNOTEL for station 366:UT...
+To https://github.com/Jake-Jake1122/command-center.git
+   0b88300..81f1eb1  main -> main
+✅ Dashboard updated!
+   Brighton: 🟢 0"
+      Fetching SNOTEL for station 415:CO...
+   Copper Mountain: 🟢 0"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
