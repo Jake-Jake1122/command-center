@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 11:01 AM MDT",
+  "lastUpdated": "Apr 23, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Thu: 1\" | Sun: 1\" | Mon: 3\" | Tue: 1\""
     },
     {
       "resort": "Brighton",
@@ -323,7 +323,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Thu: 9\" \u2192 Sun: 6\" \u2192 Mon: 3\" \u2192 Wed: 4\". ~22\" total over the period."
+      "forecast": "Thu: 9\" \u2192 Sun: 6\" \u2192 Mon: 3\" \u2192 Tue: 1\" \u2192 Wed: 4\". ~24\" total over the period."
     },
     {
       "region": "Utah",

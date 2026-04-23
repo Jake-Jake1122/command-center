@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 23, 2026 at 11:01 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Sun: 1\" | Mon: 3\" | Tue: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Brighton",
@@ -66,8 +66,18 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 4,
+    "unreadCount": 6,
     "important": [
+      {
+        "from": "Ahmet KANCAMAN via TestFlight",
+        "subject": "Ahmet KANCAMAN has invited you to test OpenAI Ads GPT.",
+        "date": "2026-04-23 16:34"
+      },
+      {
+        "from": "Adobe Express",
+        "subject": "Quit juggling your content calendar",
+        "date": "2026-04-23 16:22"
+      },
       {
         "from": "Zeno from Resend",
         "subject": "Automations, Open Source Editor, Resend CLI 2.0, and more",
@@ -317,7 +327,7 @@
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 5\" \u2192 Sun: 11\" \u2192 Mon: 11\" \u2192 Tue: 2\" \u2192 Wed: 1\". ~30\" total over the period."
+      "forecast": "Thu: 5\" \u2192 Sun: 11\" \u2192 Mon: 11\" \u2192 Tue: 2\" \u2192 Wed: 1\". ~29\" total over the period."
     }
   ],
   "socialWorthy": [
