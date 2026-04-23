@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 23, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Wed: 3\" | Sun: 5\" | Mon: 2\" | Tue: 1\""
     },
     {
       "resort": "Copper Mountain",
@@ -310,20 +310,20 @@
       "severity": "Moderate"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
-      "severity": "Moderate"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 22 at 11:03PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     },
     {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
-      "severity": "Minor"
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 22 at 11:03PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 2\" \u2192 Thu: 2\" \u2192 Sun: 3\" \u2192 Mon: 4\". ~10\" total over the period."
+      "forecast": "Wed: 3\" \u2192 Thu: 2\" \u2192 Sun: 5\" \u2192 Mon: 4\". ~13\" total over the period."
     },
     {
       "region": "Utah",
