@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 23, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -64,36 +64,17 @@
       "forecast": "Thu: 3\" | Sun: 10\" | Mon: 7\" | Tue: 1\""
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "day": "24",
+      "month": "APR",
+      "title": "Teleconference with Vandana Koelsch and Jake Chesbro re: TheSnowLine",
+      "time": "10:00"
+    }
+  ],
   "emails": {
-    "unreadCount": 7,
-    "important": [
-      {
-        "from": "DigitalOcean",
-        "subject": "Claude Opus 4.7 is now live on DigitalOcean Serverless Infer",
-        "date": "2026-04-23 18:13"
-      },
-      {
-        "from": "Ahmet KANCAMAN via TestFlight",
-        "subject": "Ahmet KANCAMAN has invited you to test OpenAI Ads GPT.",
-        "date": "2026-04-23 16:34"
-      },
-      {
-        "from": "Adobe Express",
-        "subject": "Quit juggling your content calendar",
-        "date": "2026-04-23 16:22"
-      },
-      {
-        "from": "Zeno from Resend",
-        "subject": "Automations, Open Source Editor, Resend CLI 2.0, and more",
-        "date": "2026-04-23 12:52"
-      },
-      {
-        "from": "Ads GPT Platform Tech via Test",
-        "subject": "Ads GPT Platform Tech has invited you to test OpenAl Meta Ad",
-        "date": "2026-04-22 22:32"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
