@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 22, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 22, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 2\" | Sun: 3\" | Mon: 1\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -66,32 +66,12 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 16,
+    "unreadCount": 1,
     "important": [
       {
-        "from": "Sticker Mule",
-        "subject": "Get 50 magnets for $29",
-        "date": "2026-04-22 16:08"
-      },
-      {
-        "from": "Phani sree Doppalapudi",
-        "subject": "Saving you time with Automation & AI",
-        "date": "2026-04-21 19:22"
-      },
-      {
-        "from": "portal@telnyx.com",
-        "subject": "[Telnyx LLC] Payment Success",
-        "date": "2026-04-21 18:08"
-      },
-      {
-        "from": "Stripe",
-        "subject": "[Sessions 2026] The final countdown",
-        "date": "2026-04-21 17:31"
-      },
-      {
-        "from": "DigitalOcean Support",
-        "subject": "SFO2 Network Maintenance",
-        "date": "2026-04-21 12:43"
+        "from": "Ads GPT Platform Tech via Test",
+        "subject": "Ads GPT Platform Tech has invited you to test OpenAl Meta Ad",
+        "date": "2026-04-22 22:32"
       }
     ]
   },
@@ -325,14 +305,14 @@
       "severity": "Severe"
     },
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
-      "severity": "Moderate"
-    },
-    {
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
       "severity": "Minor"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 22 at 1:40PM PDT until April 23 at 8:00AM PDT by NWS Eureka CA",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
