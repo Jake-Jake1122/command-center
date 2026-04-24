@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 24, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 24, 2026 at 05:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -73,22 +73,17 @@
     }
   ],
   "emails": {
-    "unreadCount": 6,
+    "unreadCount": 5,
     "important": [
       {
-        "from": "UPS",
-        "subject": "UPS Pre-Arrival: Your Driver is Arriving Soon! Follow on a L",
-        "date": "2026-04-24 21:31"
-      },
-      {
-        "from": "Anthropic, PBC",
-        "subject": "Your receipt from Anthropic, PBC #2667-9641-6526",
-        "date": "2026-04-24 21:16"
+        "from": "Sticker Mule",
+        "subject": "Your order R050261228 arrived!",
+        "date": "2026-04-24 22:54"
       },
       {
         "from": "UPS",
-        "subject": "Your Package Is Coming Today",
-        "date": "2026-04-24 16:20"
+        "subject": "UPS Update: Package Delivered",
+        "date": "2026-04-24 22:45"
       }
     ]
   },
@@ -339,22 +334,22 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa Timeout",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa Timeout",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 3\"",
+      "status": "\u26aa N/A",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa Timeout",
       "match": true
     },
     {
