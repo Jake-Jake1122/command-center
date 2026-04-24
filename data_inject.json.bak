@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 23, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Thu: 3\" | Sun: 10\" | Mon: 7\" | Tue: 1\""
     }
   ],
   "calendar": [
@@ -313,13 +313,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 2\" \u2192 Sun: 7\" \u2192 Mon: 5\". ~15\" total over the period."
+      "forecast": "Thu: 3\" \u2192 Sun: 10\" \u2192 Mon: 7\" \u2192 Tue: 1\". ~21\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Sun 7\" | Colorado: Thu 10\" - powder alert content"
+      "text": "Storm incoming - Utah: Sun 10\", Mon 7\" | Colorado: Thu 10\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -5069,7 +5069,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "What has hands but can't clap?",
-    "a": "A clock \u23f0"
+    "q": "I fall from the sky but I'm not rain...",
+    "a": "Snow \u2744\ufe0f"
   }
 }
