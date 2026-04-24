@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 24, 2026 at 10:00 AM MDT",
+  "lastUpdated": "Apr 24, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -73,8 +73,14 @@
     }
   ],
   "emails": {
-    "unreadCount": 2,
-    "important": []
+    "unreadCount": 3,
+    "important": [
+      {
+        "from": "UPS",
+        "subject": "Your Package Is Coming Today",
+        "date": "2026-04-24 16:20"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
