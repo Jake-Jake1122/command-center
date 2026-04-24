@@ -292,11 +292,6 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 23 at 10:24PM MDT until April 24 at 8:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 23 at 10:11PM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
