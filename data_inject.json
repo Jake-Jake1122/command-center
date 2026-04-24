@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 24, 2026 at 03:00 PM MDT",
+  "lastUpdated": "Apr 24, 2026 at 04:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -73,8 +73,18 @@
     }
   ],
   "emails": {
-    "unreadCount": 4,
+    "unreadCount": 6,
     "important": [
+      {
+        "from": "UPS",
+        "subject": "UPS Pre-Arrival: Your Driver is Arriving Soon! Follow on a L",
+        "date": "2026-04-24 21:31"
+      },
+      {
+        "from": "Anthropic, PBC",
+        "subject": "Your receipt from Anthropic, PBC #2667-9641-6526",
+        "date": "2026-04-24 21:16"
+      },
       {
         "from": "UPS",
         "subject": "Your Package Is Coming Today",
