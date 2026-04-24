@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 23, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 24, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,19 +49,19 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\" | Sun: 1\" | Mon: 2\" | Tue: 1\""
+      "forecast": "Thu: 1\" | Mon: 2\" | Tue: 2\""
     },
     {
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 2\" | Sun: 7\" | Mon: 5\" | Tue: 1\""
+      "forecast": "Sun: 7\" | Mon: 5\" | Tue: 1\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 3\" | Sun: 10\" | Mon: 7\" | Tue: 1\""
+      "forecast": "Sun: 10\" | Mon: 7\" | Tue: 1\""
     }
   ],
   "calendar": [
@@ -314,11 +314,11 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Thu: 10\" \u2192 Sun: 5\" \u2192 Mon: 3\" \u2192 Tue: 1\" \u2192 Wed: 5\". ~24\" total over the period."
+      "forecast": "Thu: 10\" \u2192 Sun: 5\" \u2192 Mon: 3\" \u2192 Tue: 2\" \u2192 Wed: 5\". ~25\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Thu: 3\" \u2192 Sun: 10\" \u2192 Mon: 7\" \u2192 Tue: 1\". ~21\" total over the period."
+      "forecast": "Sun: 10\" \u2192 Mon: 7\" \u2192 Tue: 1\". ~17\" total over the period."
     }
   ],
   "socialWorthy": [
