@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 24, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 24, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Tue: 1\" | Thu: 1\""
+      "forecast": "Sun: 1\" | Mon: 2\" | Tue: 2\" | Thu: 1\""
     },
     {
       "resort": "Brighton",
@@ -292,7 +292,7 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 23 at 10:11PM MDT until April 25 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 24 at 9:20AM MDT until April 25 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     }
   ],
