@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 24, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 24, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "39\u00b0F",
+      "temp": "73\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\u2600\ufe0f",
-      "temp": "19\u00b0F",
+      "temp": "52\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "39\u00b0F",
+      "temp": "63\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "29\u00b0F",
+      "temp": "55\u00b0F",
       "humidity": ""
     }
   ],
@@ -73,7 +73,7 @@
     }
   ],
   "emails": {
-    "unreadCount": 1,
+    "unreadCount": 2,
     "important": []
   },
   "tasks": {
@@ -290,6 +290,11 @@
     }
   ],
   "specialAdvisories": [
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 23 at 10:24PM MDT until April 24 at 8:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 23 at 10:11PM MDT until April 24 at 9:00AM MDT by NWS Salt Lake City UT",
