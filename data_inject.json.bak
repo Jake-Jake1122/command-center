@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 25, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 6,
+    "unreadCount": 7,
     "important": [
+      {
+        "from": "Sticker Mule",
+        "subject": "Your recent order with Sticker Mule",
+        "date": "2026-04-25 06:17"
+      },
       {
         "from": "Sticker Mule",
         "subject": "Your order R050261228 arrived!",
