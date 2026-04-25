@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 05:00 AM MDT",
+  "lastUpdated": "Apr 25, 2026 at 06:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\u26c5",
-      "temp": "27\u00b0F",
+      "temp": "30\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Mon: 2\" | Tue: 4\" | Fri: 1\""
+      "forecast": "Mon: 2\" | Tue: 4\" | Fri: 1\""
     },
     {
       "resort": "Brighton",
@@ -298,7 +298,13 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [],
+  "specialAdvisories": [
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 24 at 10:51PM MDT until April 25 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    }
+  ],
   "stormWatch": [
     {
       "region": "Colorado",

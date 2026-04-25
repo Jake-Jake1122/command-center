@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 25, 2026 at 05:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -298,13 +298,7 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 24 at 10:51PM MDT until April 25 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
