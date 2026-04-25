@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 24, 2026 at 05:01 PM MDT",
+  "lastUpdated": "Apr 24, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "52\u00b0F",
+      "icon": "\u26c5",
+      "temp": "26\u00b0F",
       "humidity": ""
     },
     {
@@ -73,7 +73,7 @@
     }
   ],
   "emails": {
-    "unreadCount": 5,
+    "unreadCount": 6,
     "important": [
       {
         "from": "Sticker Mule",
@@ -334,22 +334,22 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\u26aa Timeout",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa Timeout",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Snowbird",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 3\"",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\u26aa Timeout",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
@@ -5070,7 +5070,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I fall from the sky but I'm not rain...",
-    "a": "Snow \u2744\ufe0f"
+    "q": "I go up but never come down...",
+    "a": "Your age \ud83c\udf82"
   }
 }
