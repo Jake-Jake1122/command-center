@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Apr 25, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u26c5",
-      "temp": "27\u00b0F",
+      "icon": "?",
+      "temp": "N/A",
       "humidity": ""
     },
     {
@@ -342,7 +342,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 3\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
