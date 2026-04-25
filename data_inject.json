@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 25, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "60\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "57\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "50\u00b0F",
       "humidity": ""
     },
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "56\u00b0F",
       "humidity": ""
     }
@@ -43,13 +43,13 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Mon: 1\" | Tue: 2\" | Thu: 4\""
+      "forecast": "Mon: 1\" | Tue: 2\" | Wed: 1\" | Thu: 3\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 2\" | Tue: 4\" | Fri: 1\""
+      "forecast": "Mon: 3\" | Tue: 4\""
     },
     {
       "resort": "Brighton",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 9\" | Mon: 10\" | Tue: 3\""
+      "forecast": "Sun: 12\" | Mon: 7\" | Tue: 2\""
     }
   ],
   "calendar": [],
@@ -285,6 +285,11 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 25 at 1:19PM MDT until April 27 at 12:00AM MDT by NWS Grand Jun...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 25 at 12:42PM MDT until April 27 at 12:00AM MDT by NWS Pueblo C...",
       "severity": "Moderate"
     }
@@ -296,13 +301,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 9\" \u2192 Mon: 10\" \u2192 Tue: 3\". ~23\" total over the period."
+      "forecast": "Sun: 12\" \u2192 Mon: 7\" \u2192 Tue: 2\". ~21\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Sun 9\", Mon 10\" - powder alert content"
+      "text": "Storm incoming - Utah: Sun 12\", Mon 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
