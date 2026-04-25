@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 24, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 24, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "73\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "37\u00b0F",
       "humidity": ""
     },
     {
@@ -16,13 +16,13 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "63\u00b0F",
+      "temp": "37\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "55\u00b0F",
+      "temp": "28\u00b0F",
       "humidity": ""
     }
   ],
