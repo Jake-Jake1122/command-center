@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 25, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -282,18 +282,7 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 25 at 1:19PM MDT until April 27 at 12:00AM MDT by NWS Grand Jun...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 25 at 12:42PM MDT until April 27 at 12:00AM MDT by NWS Pueblo C...",
-      "severity": "Moderate"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
