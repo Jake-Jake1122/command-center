@@ -34804,3 +34804,14 @@ Time: 2026-04-25 12:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 2fdc5ae] Dashboard refresh - 2026-04-25 12:01
+ 4 files changed, 90 insertions(+), 25 deletions(-)
+   Brighton: 🟢 0"
+      Fetching SNOTEL for station 415:CO...
+To https://github.com/Jake-Jake1122/command-center.git
+   5157a52..2fdc5ae  main -> main
+✅ Dashboard updated!
+   Copper Mountain: 🟢 0"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
