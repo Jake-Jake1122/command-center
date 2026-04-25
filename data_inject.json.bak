@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 25, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Mon: 1\" | Tue: 1\" | Thu: 3\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -66,24 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 8,
-    "important": [
-      {
-        "from": "Sticker Mule",
-        "subject": "Your recent order with Sticker Mule",
-        "date": "2026-04-25 06:17"
-      },
-      {
-        "from": "Sticker Mule",
-        "subject": "Your order R050261228 arrived!",
-        "date": "2026-04-24 22:54"
-      },
-      {
-        "from": "UPS",
-        "subject": "UPS Update: Package Delivered",
-        "date": "2026-04-24 22:45"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
