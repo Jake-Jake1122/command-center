@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 26, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,8 +21,8 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "45\u00b0F",
+      "icon": "\ud83c\udf21\ufe0f",
+      "temp": "46\u00b0F",
       "humidity": ""
     }
   ],
@@ -285,12 +285,17 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 26 at 11:44AM MDT until April 27 at 12:00AM MDT by NWS Grand Ju...",
+      "headline": "Winter Weather Advisory issued April 26 at 12:57PM MDT until April 27 at 12:00AM MDT by NWS Grand Ju...",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 26 at 9:03AM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
+      "headline": "Winter Weather Advisory issued April 26 at 12:57PM MDT until April 27 at 6:00AM MDT by NWS Grand Jun...",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 26 at 12:53PM MDT until April 27 at 6:00AM MDT by NWS Denver CO",
       "severity": "Moderate"
     }
   ],
