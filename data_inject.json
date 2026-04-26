@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Apr 26, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,7 +31,7 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 3\" | Mon: 3\" | Tue: 3\" | Wed: 1\""
+      "forecast": "Sun: 2\" | Mon: 2\" | Tue: 3\" | Wed: 1\""
     },
     {
       "resort": "Copper Mountain",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 1\" | Mon: 2\" | Tue: 3\" | Wed: 1\""
+      "forecast": "Mon: 1\" | Tue: 2\" | Wed: 1\" | Thu: 3\""
     },
     {
       "resort": "Steamboat",
@@ -297,7 +297,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 3\" \u2192 Mon: 3\" \u2192 Tue: 4\" \u2192 Wed: 1\" \u2192 Thu: 5\" \u2192 Fri: 4\". ~20\" total over the period."
+      "forecast": "Sun: 2\" \u2192 Mon: 3\" \u2192 Tue: 4\" \u2192 Wed: 1\" \u2192 Thu: 5\" \u2192 Fri: 4\". ~18\" total over the period."
     },
     {
       "region": "Utah",
@@ -336,7 +336,7 @@
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\ud83d\udfe2 1\"",
       "match": true
     },
     {
