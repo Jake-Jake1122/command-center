@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 25, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Mon: 2\" | Tue: 2\" | Thu: 3\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -5057,7 +5057,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I go up but never come down...",
-    "a": "Your age \ud83c\udf82"
+    "q": "What has hands but can't clap?",
+    "a": "A clock \u23f0"
   }
 }

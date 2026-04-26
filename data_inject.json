@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 25, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 25, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "57\u00b0F",
+      "temp": "38\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "51\u00b0F",
+      "temp": "28\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
-      "temp": "63\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "46\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "56\u00b0F",
+      "temp": "36\u00b0F",
       "humidity": ""
     }
   ],
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Sun: 2\" | Mon: 2\" | Tue: 2\" | Thu: 3\""
     },
     {
       "resort": "Winter Park",
@@ -285,12 +285,12 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 25 at 1:19PM MDT until April 27 at 12:00AM MDT by NWS Grand Jun...",
+      "headline": "Winter Weather Advisory issued April 25 at 5:59PM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
       "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 25 at 12:42PM MDT until April 27 at 12:00AM MDT by NWS Pueblo C...",
+      "headline": "Winter Weather Advisory issued April 25 at 1:19PM MDT until April 27 at 12:00AM MDT by NWS Grand Jun...",
       "severity": "Moderate"
     }
   ],
