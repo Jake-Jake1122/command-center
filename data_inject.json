@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 26, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -285,7 +285,7 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 26 at 1:19AM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
+      "headline": "Winter Weather Advisory issued April 26 at 9:03AM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
       "severity": "Moderate"
     },
     {
