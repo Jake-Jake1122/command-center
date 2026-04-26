@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 26, 2026 at 02:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "58\u00b0F",
+      "temp": "53\u00b0F",
       "humidity": ""
     },
     {
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Mon: 2\" | Tue: 3\" | Wed: 1\""
+      "forecast": "Sun: 3\" | Mon: 2\" | Tue: 3\" | Wed: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 2\" | Mon: 2\" | Tue: 2\" | Thu: 2\""
+      "forecast": "Sun: 2\" | Mon: 2\" | Tue: 2\" | Thu: 4\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 2\" | Wed: 1\" | Thu: 3\""
+      "forecast": "Dry"
     },
     {
       "resort": "Steamboat",
@@ -55,18 +55,18 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 8\" | Mon: 8\" | Tue: 2\""
+      "forecast": "Sun: 6\" | Mon: 7\" | Tue: 2\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 13\" | Mon: 9\" | Tue: 2\""
+      "forecast": "Sun: 10\" | Mon: 8\" | Tue: 2\""
     }
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 2,
+    "unreadCount": 0,
     "important": []
   },
   "tasks": {
@@ -285,34 +285,39 @@
   "specialAdvisories": [
     {
       "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 26 at 1:09PM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 26 at 1:09PM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 26 at 12:57PM MDT until April 27 at 12:00AM MDT by NWS Grand Ju...",
       "severity": "Moderate"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 26 at 12:57PM MDT until April 27 at 6:00AM MDT by NWS Grand Jun...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 26 at 12:53PM MDT until April 27 at 6:00AM MDT by NWS Denver CO",
-      "severity": "Moderate"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 26 at 12:26PM PDT until April 27 at 9:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Sun: 2\" \u2192 Mon: 3\" \u2192 Tue: 3\" \u2192 Wed: 1\" \u2192 Thu: 5\" \u2192 Fri: 4\". ~18\" total over the period."
+      "forecast": "Sun: 3\" \u2192 Mon: 3\" \u2192 Tue: 3\" \u2192 Wed: 1\" \u2192 Thu: 7\" \u2192 Fri: 4\". ~21\" total over the period."
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 13\" \u2192 Mon: 9\" \u2192 Tue: 2\". ~25\" total over the period."
+      "forecast": "Sun: 10\" \u2192 Mon: 8\" \u2192 Tue: 2\". ~20\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Sun 13\", Mon 9\" - powder alert content"
+      "text": "Storm incoming - Utah: Sun 10\", Mon 8\" | Colorado: Thu 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
