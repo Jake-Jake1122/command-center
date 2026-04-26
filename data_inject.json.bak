@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 02:01 PM MDT",
+  "lastUpdated": "Apr 26, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 1\" | Tue: 2\" | Wed: 1\" | Thu: 4\""
     },
     {
       "resort": "Steamboat",
@@ -297,6 +297,11 @@
       "type": "Winter Weather Advisory",
       "headline": "Winter Weather Advisory issued April 26 at 12:57PM MDT until April 27 at 12:00AM MDT by NWS Grand Ju...",
       "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 26 at 2:25PM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Severe"
     },
     {
       "type": "Frost Advisory",
