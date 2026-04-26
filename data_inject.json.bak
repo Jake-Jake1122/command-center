@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 03:00 PM MDT",
+  "lastUpdated": "Apr 26, 2026 at 04:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -55,13 +55,13 @@
       "resort": "Brighton",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 6\" | Mon: 7\" | Tue: 2\""
+      "forecast": "Sun: 5\" | Mon: 7\" | Tue: 2\""
     },
     {
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Sun: 10\" | Mon: 8\" | Tue: 2\""
+      "forecast": "Sun: 8\" | Mon: 8\" | Tue: 2\""
     }
   ],
   "calendar": [],
@@ -316,13 +316,13 @@
     },
     {
       "region": "Utah",
-      "forecast": "Sun: 10\" \u2192 Mon: 8\" \u2192 Tue: 2\". ~20\" total over the period."
+      "forecast": "Sun: 8\" \u2192 Mon: 8\" \u2192 Tue: 2\". ~18\" total over the period."
     }
   ],
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Utah: Sun 10\", Mon 8\" | Colorado: Thu 7\" - powder alert content"
+      "text": "Storm incoming - Utah: Sun 8\", Mon 8\" | Colorado: Thu 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
