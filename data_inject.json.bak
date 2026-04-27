@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 27, 2026 at 05:00 AM MDT",
+  "lastUpdated": "Apr 27, 2026 at 06:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,13 +10,13 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "21\u00b0F",
+      "temp": "24\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "39\u00b0F",
+      "temp": "52\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 4\" | Tue: 4\""
+      "forecast": "Mon: 3\" | Tue: 4\""
     },
     {
       "resort": "Brighton",
@@ -284,19 +284,9 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 26 at 11:51PM MDT until April 27 at 6:00AM MDT by NWS Grand Jun...",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 26 at 12:53PM MDT until April 27 at 6:00AM MDT by NWS Denver CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Watch",
-      "headline": "Freeze Watch issued April 26 at 2:25PM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Severe"
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 26 at 9:21PM PDT until April 27 at 9:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     }
   ],
   "stormWatch": [
