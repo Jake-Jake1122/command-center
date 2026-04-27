@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 06:00 PM MDT",
+  "lastUpdated": "Apr 26, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "53\u00b0F",
+      "icon": "\u26c5",
+      "temp": "40\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "41\u00b0F",
+      "temp": "21\u00b0F",
       "humidity": ""
     },
     {
@@ -21,8 +21,8 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf21\ufe0f",
-      "temp": "46\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "30\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 0,
+    "unreadCount": 2,
     "important": []
   },
   "tasks": {
@@ -283,6 +283,21 @@
     }
   ],
   "specialAdvisories": [
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 26 at 6:31PM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 26 at 6:31PM MDT until April 27 at 12:00AM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 26 at 12:57PM MDT until April 27 at 12:00AM MDT by NWS Grand Ju...",
+      "severity": "Moderate"
+    },
     {
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 26 at 2:25PM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
