@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 27, 2026 at 12:00 PM MDT",
+  "lastUpdated": "Apr 27, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -21,7 +21,7 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
+      "icon": "\ud83c\udf21\ufe0f",
       "temp": "43\u00b0F",
       "humidity": ""
     }
@@ -289,6 +289,11 @@
     }
   ],
   "specialAdvisories": [
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 27 at 12:45PM MDT until April 28 at 9:00AM MDT by NWS Grand Junction CO",
+      "severity": "Moderate"
+    },
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 27 at 10:27AM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
