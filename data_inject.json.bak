@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 27, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 27, 2026 at 05:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -297,11 +297,6 @@
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 26 at 2:25PM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Severe"
-    },
-    {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued April 26 at 9:21PM PDT until April 27 at 9:00AM PDT by NWS Eureka CA",
-      "severity": "Minor"
     }
   ],
   "stormWatch": [
