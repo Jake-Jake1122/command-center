@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 26, 2026 at 05:01 PM MDT",
+  "lastUpdated": "Apr 26, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -16,7 +16,7 @@
     {
       "location": "Salt Lake City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "52\u00b0F",
+      "temp": "39\u00b0F",
       "humidity": ""
     },
     {
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Mon: 1\" | Tue: 2\" | Wed: 1\" | Thu: 4\""
     },
     {
       "resort": "Steamboat",
@@ -287,6 +287,11 @@
       "type": "Freeze Watch",
       "headline": "Freeze Watch issued April 26 at 2:25PM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Severe"
+    },
+    {
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued April 26 at 12:26PM PDT until April 27 at 9:00AM PDT by NWS Eureka CA",
+      "severity": "Minor"
     }
   ],
   "stormWatch": [
@@ -5052,7 +5057,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "What has hands but can't clap?",
-    "a": "A clock \u23f0"
+    "q": "I fall from the sky but I'm not rain...",
+    "a": "Snow \u2744\ufe0f"
   }
 }
