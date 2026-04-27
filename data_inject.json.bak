@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "Apr 27, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 27, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf2b\ufe0f",
-      "temp": "40\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "59\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "24\u00b0F",
+      "temp": "44\u00b0F",
       "humidity": ""
     },
     {
@@ -22,7 +22,7 @@
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "30\u00b0F",
+      "temp": "43\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 1,
+    "unreadCount": 2,
     "important": []
   },
   "tasks": {
@@ -283,6 +283,11 @@
     }
   ],
   "specialAdvisories": [
+    {
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 26 at 2:25PM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Severe"
+    },
     {
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued April 26 at 9:21PM PDT until April 27 at 9:00AM PDT by NWS Eureka CA",
