@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 27, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 27, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,8 +66,14 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 3,
-    "important": []
+    "unreadCount": 4,
+    "important": [
+      {
+        "from": "DigitalOcean Support",
+        "subject": "Core Infrastructure Maintenance May 4, 2026, 13:00 UTC",
+        "date": "2026-04-27 15:31"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
@@ -284,9 +290,9 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued April 26 at 9:21PM PDT until April 27 at 9:00AM PDT by NWS Eureka CA",
-      "severity": "Minor"
+      "type": "Freeze Watch",
+      "headline": "Freeze Watch issued April 26 at 2:25PM MDT until April 28 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Severe"
     }
   ],
   "stormWatch": [
