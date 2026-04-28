@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 28, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "39\u00b0F",
+      "temp": "37\u00b0F",
       "humidity": ""
     },
     {
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 5,
+    "unreadCount": 7,
     "important": []
   },
   "tasks": {
