@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 28, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -15,7 +15,7 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "58\u00b0F",
       "humidity": ""
     },
