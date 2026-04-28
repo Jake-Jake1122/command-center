@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 27, 2026 at 10:00 PM MDT",
+  "lastUpdated": "Apr 27, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 2,
+    "unreadCount": 3,
     "important": []
   },
   "tasks": {
@@ -285,7 +285,7 @@
   "specialAdvisories": [
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 27 at 12:45PM MDT until April 28 at 9:00AM MDT by NWS Grand Junction CO",
+      "headline": "Freeze Warning issued April 27 at 10:06PM MDT until April 28 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
