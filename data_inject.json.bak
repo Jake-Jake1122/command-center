@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 01:00 PM MDT",
+  "lastUpdated": "Apr 28, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,13 +37,13 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\" | Wed: 1\" | Thu: 5\" | Fri: 4\""
+      "forecast": "Tue: 3\" | Wed: 1\" | Thu: 6\" | Fri: 4\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Thu: 5\" | Fri: 4\""
+      "forecast": "Tue: 2\" | Wed: 1\" | Thu: 5\" | Fri: 4\""
     },
     {
       "resort": "Steamboat",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 10,
+    "unreadCount": 11,
     "important": [
       {
         "from": "OpenAl Company, LLC via TestFl",
@@ -303,7 +303,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 4\" \u2192 Wed: 1\" \u2192 Thu: 8\" \u2192 Fri: 6\" \u2192 Mon: 2\". ~20\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Wed: 1\" \u2192 Thu: 8\" \u2192 Fri: 6\" \u2192 Mon: 2\". ~19\" total over the period."
     },
     {
       "region": "Utah",
@@ -332,7 +332,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\u26aa N/A",
+      "status": "\ud83d\udfe2 16\"",
       "match": true
     },
     {
