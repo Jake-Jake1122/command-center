@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 28, 2026 at 12:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 4\""
+      "forecast": "Tue: 3\""
     },
     {
       "resort": "Brighton",
@@ -66,8 +66,13 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 10,
+    "unreadCount": 11,
     "important": [
+      {
+        "from": "Sticker Mule",
+        "subject": "Keychains",
+        "date": "2026-04-28 17:02"
+      },
       {
         "from": "Madison Stevens",
         "subject": "The Snowline Logo Designs",
