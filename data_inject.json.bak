@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 27, 2026 at 08:00 PM MDT",
+  "lastUpdated": "Apr 27, 2026 at 09:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,14 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 4,
-    "important": [
-      {
-        "from": "DigitalOcean Support",
-        "subject": "Core Infrastructure Maintenance May 4, 2026, 13:00 UTC",
-        "date": "2026-04-27 15:31"
-      }
-    ]
+    "unreadCount": 2,
+    "important": []
   },
   "tasks": {
     "bugs": [
