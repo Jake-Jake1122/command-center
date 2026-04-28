@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 28, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "38\u00b0F",
+      "temp": "58\u00b0F",
       "humidity": ""
     },
     {
@@ -15,14 +15,14 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "37\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "59\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "27\u00b0F",
+      "temp": "49\u00b0F",
       "humidity": ""
     }
   ],
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 7,
+    "unreadCount": 9,
     "important": []
   },
   "tasks": {
