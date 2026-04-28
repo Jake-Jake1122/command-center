@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Apr 28, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "37\u00b0F",
+      "temp": "38\u00b0F",
       "humidity": ""
     },
     {
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 5\" | Wed: 1\" | Thu: 5\" | Fri: 4\""
+      "forecast": "Tue: 4\" | Wed: 1\" | Thu: 5\" | Fri: 4\""
     },
     {
       "resort": "Winter Park",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 6\""
+      "forecast": "Tue: 5\""
     },
     {
       "resort": "Brighton",
@@ -307,7 +307,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 6\" \u2192 Thu: 7\" \u2192 Fri: 5\". ~18\" total over the period."
+      "forecast": "Tue: 6\" \u2192 Wed: 1\" \u2192 Thu: 7\" \u2192 Fri: 5\". ~19\" total over the period."
     },
     {
       "region": "Utah",
@@ -317,7 +317,7 @@
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Colorado: Tue 6\", Thu 7\" - powder alert content"
+      "text": "Storm incoming - Colorado: Thu 7\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
@@ -331,7 +331,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 1\"",
+      "status": "\ud83d\udfe2 3\"",
       "match": true
     },
     {
@@ -341,17 +341,17 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 13\"",
+      "status": "\ud83d\udfe2 4\"",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 12\"",
+      "status": "\ud83d\udfe2 3\"",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 2\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     }
   ],
