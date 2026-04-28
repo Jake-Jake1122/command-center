@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 04:00 PM MDT",
+  "lastUpdated": "Apr 28, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\" | Wed: 1\" | Thu: 6\" | Fri: 4\""
+      "forecast": "Dry"
     },
     {
       "resort": "Winter Park",
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 3\""
+      "forecast": "Tue: 1\""
     },
     {
       "resort": "Brighton",
@@ -303,7 +303,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 1\" \u2192 Thu: 8\" \u2192 Fri: 6\" \u2192 Mon: 2\". ~19\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Thu: 8\" \u2192 Fri: 6\" \u2192 Mon: 2\". ~18\" total over the period."
     },
     {
       "region": "Utah",
