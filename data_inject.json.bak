@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 04:00 AM MDT",
+  "lastUpdated": "Apr 28, 2026 at 05:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -336,7 +336,7 @@
     },
     {
       "resort": "Steamboat",
-      "status": "\ud83d\udfe2 6\"",
+      "status": "\ud83d\udfe2 16\"",
       "match": true
     },
     {
