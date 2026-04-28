@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 10:01 AM MDT",
+  "lastUpdated": "Apr 28, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -43,7 +43,7 @@
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 3\" | Thu: 5\" | Fri: 4\""
     },
     {
       "resort": "Steamboat",
@@ -66,8 +66,14 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 9,
-    "important": []
+    "unreadCount": 10,
+    "important": [
+      {
+        "from": "Madison Stevens",
+        "subject": "The Snowline Logo Designs",
+        "date": "2026-04-28 16:35"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
