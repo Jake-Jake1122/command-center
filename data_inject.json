@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 29, 2026 at 02:00 AM MDT",
+  "lastUpdated": "Apr 29, 2026 at 03:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 4\" | Thu: 6\" | Fri: 5\" | Tue: 1\""
+      "forecast": "Wed: 4\" | Thu: 4\" | Fri: 4\" | Tue: 1\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 3\" | Thu: 5\" | Fri: 4\" | Tue: 1\""
+      "forecast": "Wed: 3\" | Thu: 4\" | Fri: 3\" | Tue: 1\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 4\" | Fri: 4\""
+      "forecast": "Wed: 1\" | Thu: 4\" | Fri: 3\""
     },
     {
       "resort": "Steamboat",
@@ -313,7 +313,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 4\" \u2192 Thu: 6\" \u2192 Fri: 5\" \u2192 Tue: 1\". ~16\" total over the period."
+      "forecast": "Wed: 4\" \u2192 Thu: 4\" \u2192 Fri: 4\" \u2192 Tue: 1\". ~14\" total over the period."
     },
     {
       "region": "Utah",
@@ -337,7 +337,7 @@
   "dailyDigest": [
     {
       "resort": "Winter Park",
-      "status": "\ud83d\udfe2 3\"",
+      "status": "\ud83d\udfe2 7\"",
       "match": true
     },
     {
@@ -347,17 +347,17 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 4\"",
+      "status": "\ud83d\udfe2 1\"",
       "match": true
     },
     {
       "resort": "Brighton",
-      "status": "\ud83d\udfe2 3\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
       "resort": "Copper Mountain",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\ud83d\udfe2 4\"",
       "match": true
     }
   ],
