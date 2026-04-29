@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "Apr 29, 2026 at 06:00 AM MDT",
+  "lastUpdated": "Apr 29, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "38\u00b0F",
+      "temp": "58\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u26c5",
-      "temp": "23\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "50\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "38\u00b0F",
+      "temp": "63\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "29\u00b0F",
+      "temp": "54\u00b0F",
       "humidity": ""
     }
   ],
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Wed: 3\" | Thu: 4\" | Fri: 3\" | Tue: 1\""
     },
     {
       "resort": "Winter Park",
@@ -66,7 +66,7 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 12,
+    "unreadCount": 13,
     "important": [
       {
         "from": "OpenAl Company, LLC via TestFl",
@@ -291,12 +291,12 @@
   "specialAdvisories": [
     {
       "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 29 at 12:39AM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
+      "headline": "Winter Storm Watch issued April 29 at 6:11AM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
       "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 29 at 12:39AM MDT until May 1 at 6:00PM MDT by NWS Pueblo CO",
+      "headline": "Winter Storm Watch issued April 29 at 6:11AM MDT until May 1 at 6:00PM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
