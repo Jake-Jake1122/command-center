@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 28, 2026 at 05:00 PM MDT",
+  "lastUpdated": "Apr 28, 2026 at 06:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -37,7 +37,7 @@
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Dry"
+      "forecast": "Tue: 3\" | Wed: 1\" | Thu: 6\" | Fri: 4\""
     },
     {
       "resort": "Winter Park",
@@ -303,7 +303,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Thu: 8\" \u2192 Fri: 6\" \u2192 Mon: 2\". ~18\" total over the period."
+      "forecast": "Tue: 3\" \u2192 Wed: 1\" \u2192 Thu: 8\" \u2192 Fri: 6\" \u2192 Mon: 2\". ~19\" total over the period."
     },
     {
       "region": "Utah",
@@ -5063,7 +5063,7 @@
     }
   ],
   "dailyRiddle": {
-    "q": "I go up but never come down...",
-    "a": "Your age \ud83c\udf82"
+    "q": "What has hands but can't clap?",
+    "a": "A clock \u23f0"
   }
 }
