@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 29, 2026 at 12:01 PM MDT",
+  "lastUpdated": "Apr 29, 2026 at 01:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -15,13 +15,13 @@
     },
     {
       "location": "Salt Lake City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "63\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf27\ufe0f",
       "temp": "54\u00b0F",
       "humidity": ""
     }
@@ -66,14 +66,8 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 1,
-    "important": [
-      {
-        "from": "Telnyx Support",
-        "subject": "[Telnyx #2836245] Conversation with Jake Chesbro",
-        "date": "2026-04-29 17:44"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
@@ -290,14 +284,19 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 29 at 6:11AM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued April 29 at 12:34PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
       "severity": "Severe"
     },
     {
-      "type": "Winter Storm Watch",
-      "headline": "Winter Storm Watch issued April 29 at 6:11AM MDT until May 1 at 6:00PM MDT by NWS Pueblo CO",
-      "severity": "Severe"
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 29 at 12:34PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 29 at 12:34PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
+      "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",

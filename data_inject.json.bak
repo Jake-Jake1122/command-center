@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 29, 2026 at 11:00 AM MDT",
+  "lastUpdated": "Apr 29, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -66,12 +66,12 @@
   ],
   "calendar": [],
   "emails": {
-    "unreadCount": 8,
+    "unreadCount": 1,
     "important": [
       {
-        "from": "OpenAl Company, LLC via TestFl",
-        "subject": "OpenAl Company, LLC has invited you to test OpenAI Ads GPT.",
-        "date": "2026-04-28 18:47"
+        "from": "Telnyx Support",
+        "subject": "[Telnyx #2836245] Conversation with Jake Chesbro",
+        "date": "2026-04-29 17:44"
       }
     ]
   },
