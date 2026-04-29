@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 29, 2026 at 12:00 AM MDT",
+  "lastUpdated": "Apr 29, 2026 at 01:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -289,6 +289,16 @@
     }
   ],
   "specialAdvisories": [
+    {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 29 at 12:39AM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
+      "severity": "Severe"
+    },
+    {
+      "type": "Winter Storm Watch",
+      "headline": "Winter Storm Watch issued April 29 at 12:39AM MDT until May 1 at 6:00PM MDT by NWS Pueblo CO",
+      "severity": "Severe"
+    },
     {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 28 at 9:39PM MDT until April 29 at 9:00AM MDT by NWS Grand Junction CO",
