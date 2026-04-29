@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 29, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 29, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -298,6 +298,16 @@
       "type": "Winter Storm Watch",
       "headline": "Winter Storm Watch issued April 29 at 6:11AM MDT until May 1 at 6:00PM MDT by NWS Pueblo CO",
       "severity": "Severe"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 29 at 9:56AM MDT until April 30 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 29 at 9:56AM MDT until May 1 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
     }
   ],
   "stormWatch": [
