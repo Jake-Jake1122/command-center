@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 30, 2026 at 09:00 AM MDT",
+  "lastUpdated": "Apr 30, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -318,7 +318,12 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 30 at 1:33AM MDT until May 1 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 30 at 9:43AM MDT until May 1 at 9:00AM MDT by NWS Salt Lake City UT",
+      "severity": "Moderate"
+    },
+    {
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 30 at 9:43AM MDT until May 1 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     }
   ],
