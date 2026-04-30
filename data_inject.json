@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 30, 2026 at 01:00 AM MDT",
+  "lastUpdated": "Apr 30, 2026 at 02:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
+      "icon": "\u2600\ufe0f",
       "temp": "21\u00b0F",
       "humidity": ""
     },
@@ -31,25 +31,25 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 9\" | Thu: 4\" | Fri: 6\" | Tue: 3\""
+      "forecast": "Thu: 5\" | Fri: 4\" | Mon: 2\" | Tue: 4\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 7\" | Thu: 3\" | Fri: 5\" | Tue: 2\""
+      "forecast": "Thu: 4\" | Fri: 4\" | Mon: 1\" | Tue: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 2\" | Thu: 3\" | Fri: 3\""
+      "forecast": "Thu: 4\" | Fri: 3\" | Wed: 4\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 1\" | Thu: 1\""
+      "forecast": "Thu: 1\""
     },
     {
       "resort": "Brighton",
@@ -306,19 +306,19 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 29 at 9:56AM MDT until April 30 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 30 at 1:33AM MDT until April 30 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 29 at 9:56AM MDT until May 1 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued April 30 at 1:33AM MDT until May 1 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     }
   ],
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Wed: 9\" \u2192 Thu: 4\" \u2192 Fri: 6\" \u2192 Tue: 3\". ~22\" total over the period."
+      "forecast": "Thu: 5\" \u2192 Fri: 4\" \u2192 Mon: 2\" \u2192 Tue: 4\" \u2192 Wed: 9\". ~24\" total over the period."
     },
     {
       "region": "Utah",
