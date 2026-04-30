@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 30, 2026 at 08:00 AM MDT",
+  "lastUpdated": "Apr 30, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -64,10 +64,22 @@
       "forecast": "Dry"
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "day": "1",
+      "month": "MAY",
+      "title": "TheSnowLine",
+      "time": "10:30"
+    }
+  ],
   "emails": {
-    "unreadCount": 8,
+    "unreadCount": 9,
     "important": [
+      {
+        "from": "Vandana Koelsch",
+        "subject": "TheSnowLine",
+        "date": "2026-04-30 14:22"
+      },
       {
         "from": "DigitalOcean Support",
         "subject": "SFO2 Network Maintenance",
@@ -306,11 +318,6 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 30 at 1:33AM MDT until April 30 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 30 at 1:33AM MDT until May 1 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     }
@@ -352,7 +359,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 1\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {
