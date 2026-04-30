@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 30, 2026 at 02:00 PM MDT",
+  "lastUpdated": "Apr 30, 2026 at 03:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -73,19 +73,8 @@
     }
   ],
   "emails": {
-    "unreadCount": 6,
-    "important": [
-      {
-        "from": "Jack Chesbro",
-        "subject": "FW: Crystal Mountain\u2019s new leader ready for the long haul as",
-        "date": "2026-04-30 19:58"
-      },
-      {
-        "from": "DigitalOcean Support",
-        "subject": "SFO2 Network Maintenance",
-        "date": "2026-04-30 06:28"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
@@ -302,14 +291,14 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 30 at 2:47PM MDT until May 1 at 6:00AM MDT by NWS Denver CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 30 at 12:39PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
       "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 30 at 12:39PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
-      "severity": "Moderate"
     },
     {
       "type": "Winter Weather Advisory",
