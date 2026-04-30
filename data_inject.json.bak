@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 29, 2026 at 11:00 PM MDT",
+  "lastUpdated": "Apr 30, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,7 +9,7 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
+      "icon": "\ud83c\udf24\ufe0f",
       "temp": "21\u00b0F",
       "humidity": ""
     },
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Thu: 1\""
+      "forecast": "Wed: 1\" | Thu: 1\""
     },
     {
       "resort": "Brighton",
@@ -284,6 +284,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 29 at 11:31PM MDT until May 1 at 6:00AM MDT by NWS Denver CO",
+      "severity": "Moderate"
+    },
+    {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued April 29 at 10:37PM MDT until April 30 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
@@ -292,11 +297,6 @@
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued April 29 at 7:52PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
       "severity": "Severe"
-    },
-    {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 29 at 7:52PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
-      "severity": "Moderate"
     },
     {
       "type": "Freeze Warning",
