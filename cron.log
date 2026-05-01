@@ -42537,3 +42537,17 @@ Time: 2026-05-01 12:00 MDT
 ✅ Data updated
 ✅ HTML injected
 📤 Pushing to GitHub...
+[main 487a509] Dashboard refresh - 2026-05-01 12:00
+ 4 files changed, 94 insertions(+), 15 deletions(-)
+To https://github.com/Jake-Jake1122/command-center.git
+   25a935a..487a509  main -> main
+✅ Dashboard updated!
+      SNOTEL request timed out for 766
+   Snowbird: ⚪ Timeout
+      Fetching SNOTEL for station 366:UT...
+   Brighton: 🟢 0"
+      Fetching SNOTEL for station 415:CO...
+   Copper Mountain: 🟢 4"
+✅ Data updated
+✅ HTML injected
+📤 Pushing to GitHub...
