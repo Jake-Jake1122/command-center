@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 01, 2026 at 09:00 AM MDT",
+  "lastUpdated": "May 01, 2026 at 10:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -73,24 +73,8 @@
     }
   ],
   "emails": {
-    "unreadCount": 4,
-    "important": [
-      {
-        "from": "DigitalOcean Support",
-        "subject": "[DigitalOcean] Your 2026-04 invoice is available",
-        "date": "2026-05-01 05:24"
-      },
-      {
-        "from": "DigitalOcean Support",
-        "subject": "DigitalOcean - Received $12 payment",
-        "date": "2026-05-01 05:24"
-      },
-      {
-        "from": "Meta for Business",
-        "subject": "Automatically include more detailed page and product informa",
-        "date": "2026-05-01 00:20"
-      }
-    ]
+    "unreadCount": 0,
+    "important": []
   },
   "tasks": {
     "bugs": [
@@ -323,7 +307,7 @@
     },
     {
       "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 30 at 9:59PM MDT until May 2 at 9:00AM MDT by NWS Salt Lake City UT",
+      "headline": "Freeze Warning issued May 1 at 9:09AM MDT until May 2 at 9:00AM MDT by NWS Salt Lake City UT",
       "severity": "Moderate"
     }
   ],
@@ -364,7 +348,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 1\"",
+      "status": "\ud83d\udfe2 0\"",
       "match": true
     },
     {

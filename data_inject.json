@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 01, 2026 at 10:00 AM MDT",
+  "lastUpdated": "May 01, 2026 at 11:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -292,18 +292,18 @@
   "specialAdvisories": [
     {
       "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued May 1 at 2:52AM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
-      "severity": "Severe"
+      "headline": "The Winter Storm Warning has been cancelled.",
+      "severity": "Minor"
     },
     {
       "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued May 1 at 2:52AM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
-      "severity": "Moderate"
+      "headline": "The Winter Weather Advisory has been cancelled.",
+      "severity": "Minor"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued May 1 at 2:52AM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
-      "severity": "Moderate"
+      "type": "Winter Storm Warning",
+      "headline": "The Winter Storm Warning has been cancelled.",
+      "severity": "Minor"
     },
     {
       "type": "Freeze Warning",
