@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 01, 2026 at 11:00 AM MDT",
+  "lastUpdated": "May 01, 2026 at 12:01 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -10,7 +10,7 @@
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "48\u00b0F",
+      "temp": "46\u00b0F",
       "humidity": ""
     },
     {
@@ -291,13 +291,13 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Winter Storm Warning",
-      "headline": "The Winter Storm Warning has been cancelled.",
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued May 1 at 11:17AM MDT until May 2 at 8:00AM MDT by NWS Goodland KS",
       "severity": "Minor"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "The Winter Weather Advisory has been cancelled.",
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued May 1 at 11:13AM MDT until May 2 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Minor"
     },
     {
@@ -348,7 +348,7 @@
     },
     {
       "resort": "Snowbird",
-      "status": "\ud83d\udfe2 0\"",
+      "status": "\u26aa Timeout",
       "match": true
     },
     {
