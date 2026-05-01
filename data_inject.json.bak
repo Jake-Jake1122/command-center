@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Apr 30, 2026 at 11:00 PM MDT",
+  "lastUpdated": "May 01, 2026 at 12:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -73,8 +73,18 @@
     }
   ],
   "emails": {
-    "unreadCount": 1,
+    "unreadCount": 3,
     "important": [
+      {
+        "from": "DigitalOcean Support",
+        "subject": "[DigitalOcean] Your 2026-04 invoice is available",
+        "date": "2026-05-01 05:24"
+      },
+      {
+        "from": "DigitalOcean Support",
+        "subject": "DigitalOcean - Received $12 payment",
+        "date": "2026-05-01 05:24"
+      },
       {
         "from": "Meta for Business",
         "subject": "Automatically include more detailed page and product informa",
@@ -297,13 +307,13 @@
   ],
   "specialAdvisories": [
     {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued April 30 at 9:41PM MDT until May 1 at 9:00AM MDT by NWS Grand Junction CO",
+      "type": "Winter Weather Advisory",
+      "headline": "Winter Weather Advisory issued April 30 at 11:02PM MDT until May 1 at 6:00AM MDT by NWS Denver CO",
       "severity": "Moderate"
     },
     {
-      "type": "Winter Weather Advisory",
-      "headline": "Winter Weather Advisory issued April 30 at 7:53PM MDT until May 1 at 12:00PM MDT by NWS Pueblo CO",
+      "type": "Freeze Warning",
+      "headline": "Freeze Warning issued April 30 at 9:41PM MDT until May 1 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
     },
     {
