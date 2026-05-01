@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "Apr 30, 2026 at 06:01 PM MDT",
+  "lastUpdated": "Apr 30, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "45\u00b0F",
+      "temp": "37\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "48\u00b0F",
+      "temp": "19\u00b0F",
       "humidity": ""
     },
     {
@@ -21,8 +21,8 @@
     },
     {
       "location": "Park City, UT",
-      "icon": "\ud83c\udf21\ufe0f",
-      "temp": "54\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "30\u00b0F",
       "humidity": ""
     }
   ],
@@ -73,8 +73,14 @@
     }
   ],
   "emails": {
-    "unreadCount": 0,
-    "important": []
+    "unreadCount": 1,
+    "important": [
+      {
+        "from": "Meta for Business",
+        "subject": "Automatically include more detailed page and product informa",
+        "date": "2026-05-01 00:20"
+      }
+    ]
   },
   "tasks": {
     "bugs": [
