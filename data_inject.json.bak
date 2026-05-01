@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "May 01, 2026 at 06:00 AM MDT",
+  "lastUpdated": "May 01, 2026 at 07:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\ud83c\udf27\ufe0f",
-      "temp": "37\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "62\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "19\u00b0F",
+      "icon": "\ud83c\udf27\ufe0f",
+      "temp": "48\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "41\u00b0F",
+      "temp": "68\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "30\u00b0F",
+      "temp": "59\u00b0F",
       "humidity": ""
     }
   ],
@@ -73,7 +73,7 @@
     }
   ],
   "emails": {
-    "unreadCount": 3,
+    "unreadCount": 4,
     "important": [
       {
         "from": "DigitalOcean Support",
