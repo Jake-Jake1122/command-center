@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 01, 2026 at 04:00 PM MDT",
+  "lastUpdated": "May 01, 2026 at 05:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -73,7 +73,7 @@
     }
   ],
   "emails": {
-    "unreadCount": 1,
+    "unreadCount": 0,
     "important": []
   },
   "tasks": {
@@ -291,6 +291,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued May 1 at 4:04PM MDT until May 2 at 12:00AM MDT by NWS Pueblo CO",
+      "severity": "Severe"
+    },
+    {
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued May 1 at 11:17AM MDT until May 2 at 8:00AM MDT by NWS Goodland KS",
       "severity": "Minor"
@@ -298,11 +303,6 @@
     {
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued May 1 at 11:13AM MDT until May 2 at 8:00AM MDT by NWS Pueblo CO",
-      "severity": "Minor"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "The Winter Storm Warning has been cancelled.",
       "severity": "Minor"
     },
     {
