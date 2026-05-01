@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 01, 2026 at 04:00 AM MDT",
+  "lastUpdated": "May 01, 2026 at 05:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,19 +31,19 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 3\" | Mon: 2\" | Tue: 6\" | Wed: 4\""
+      "forecast": "Fri: 2\" | Mon: 2\" | Tue: 6\" | Wed: 4\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Mon: 1\" | Tue: 4\" | Wed: 2\""
+      "forecast": "Fri: 1\" | Mon: 1\" | Tue: 4\" | Wed: 2\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Fri: 2\" | Tue: 2\" | Wed: 1\""
+      "forecast": "Fri: 1\" | Tue: 2\" | Wed: 1\""
     },
     {
       "resort": "Steamboat",
@@ -335,7 +335,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Fri: 3\" \u2192 Mon: 2\" \u2192 Tue: 6\" \u2192 Wed: 4\". ~15\" total over the period."
+      "forecast": "Fri: 2\" \u2192 Mon: 2\" \u2192 Tue: 6\" \u2192 Wed: 4\". ~14\" total over the period."
     },
     {
       "region": "Utah",
