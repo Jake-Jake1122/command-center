@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 02, 2026 at 01:00 PM MDT",
+  "lastUpdated": "May 02, 2026 at 02:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -31,25 +31,25 @@
       "resort": "Arapahoe Basin",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 3\" | Wed: 8\""
+      "forecast": "Mon: 1\" | Tue: 5\" | Wed: 9\""
     },
     {
       "resort": "Copper Mountain",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Mon: 1\" | Tue: 2\" | Wed: 7\""
+      "forecast": "Mon: 1\" | Tue: 3\" | Wed: 7\""
     },
     {
       "resort": "Winter Park",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 1\" | Wed: 7\""
+      "forecast": "Tue: 4\" | Wed: 7\""
     },
     {
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 3\""
+      "forecast": "Wed: 2\""
     },
     {
       "resort": "Brighton",
@@ -61,7 +61,7 @@
       "resort": "Alta",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Tue: 1\" | Wed: 1\""
+      "forecast": "Dry"
     }
   ],
   "calendar": [],
@@ -286,7 +286,7 @@
   "stormWatch": [
     {
       "region": "Colorado",
-      "forecast": "Tue: 3\" \u2192 Wed: 8\". ~12\" total over the period."
+      "forecast": "Mon: 1\" \u2192 Tue: 5\" \u2192 Wed: 9\". ~15\" total over the period."
     },
     {
       "region": "Utah",
@@ -296,7 +296,7 @@
   "socialWorthy": [
     {
       "icon": "\ud83c\udf28\ufe0f",
-      "text": "Storm incoming - Colorado: Wed 8\" - powder alert content"
+      "text": "Storm incoming - Colorado: Wed 9\" - powder alert content"
     },
     {
       "icon": "\ud83d\udcda",
