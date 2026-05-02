@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 02, 2026 at 08:00 AM MDT",
+  "lastUpdated": "May 02, 2026 at 09:00 AM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -282,18 +282,7 @@
       "description": "Still lurking on N/NE aspects at upper elevations. Vail/Summit and San Juans have active Dry January Layer issues."
     }
   ],
-  "specialAdvisories": [
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued May 1 at 9:44PM MDT until May 2 at 9:00AM MDT by NWS Grand Junction CO",
-      "severity": "Moderate"
-    },
-    {
-      "type": "Freeze Warning",
-      "headline": "Freeze Warning issued May 1 at 9:57PM MDT until May 2 at 9:00AM MDT by NWS Salt Lake City UT",
-      "severity": "Moderate"
-    }
-  ],
+  "specialAdvisories": [],
   "stormWatch": [
     {
       "region": "Colorado",
