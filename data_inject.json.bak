@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "May 01, 2026 at 06:00 PM MDT",
+  "lastUpdated": "May 01, 2026 at 07:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
-      "icon": "\u2600\ufe0f",
-      "temp": "62\u00b0F",
+      "icon": "\ud83c\udf24\ufe0f",
+      "temp": "39\u00b0F",
       "humidity": ""
     },
     {
       "location": "Silverton, CO",
       "icon": "\ud83c\udf27\ufe0f",
-      "temp": "46\u00b0F",
+      "temp": "21\u00b0F",
       "humidity": ""
     },
     {
       "location": "Salt Lake City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "67\u00b0F",
+      "temp": "43\u00b0F",
       "humidity": ""
     },
     {
       "location": "Park City, UT",
       "icon": "\u2600\ufe0f",
-      "temp": "58\u00b0F",
+      "temp": "35\u00b0F",
       "humidity": ""
     }
   ],
@@ -73,7 +73,7 @@
     }
   ],
   "emails": {
-    "unreadCount": 0,
+    "unreadCount": 1,
     "important": []
   },
   "tasks": {
@@ -291,6 +291,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued May 1 at 6:56PM MDT until May 2 at 8:00AM MDT by NWS Pueblo CO",
+      "severity": "Minor"
+    },
+    {
       "type": "Winter Storm Warning",
       "headline": "Winter Storm Warning issued May 1 at 4:04PM MDT until May 2 at 12:00AM MDT by NWS Pueblo CO",
       "severity": "Severe"
@@ -298,11 +303,6 @@
     {
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued May 1 at 11:17AM MDT until May 2 at 8:00AM MDT by NWS Goodland KS",
-      "severity": "Minor"
-    },
-    {
-      "type": "Frost Advisory",
-      "headline": "Frost Advisory issued May 1 at 11:13AM MDT until May 2 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Minor"
     },
     {
