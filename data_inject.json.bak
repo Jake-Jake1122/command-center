@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 01, 2026 at 10:00 PM MDT",
+  "lastUpdated": "May 01, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -291,6 +291,11 @@
   ],
   "specialAdvisories": [
     {
+      "type": "Frost Advisory",
+      "headline": "Frost Advisory issued May 1 at 10:51PM MDT until May 2 at 8:00AM MDT by NWS Goodland KS",
+      "severity": "Minor"
+    },
+    {
       "type": "Freeze Warning",
       "headline": "Freeze Warning issued May 1 at 9:44PM MDT until May 2 at 9:00AM MDT by NWS Grand Junction CO",
       "severity": "Moderate"
@@ -299,11 +304,6 @@
       "type": "Frost Advisory",
       "headline": "Frost Advisory issued May 1 at 6:56PM MDT until May 2 at 8:00AM MDT by NWS Pueblo CO",
       "severity": "Minor"
-    },
-    {
-      "type": "Winter Storm Warning",
-      "headline": "Winter Storm Warning issued May 1 at 4:04PM MDT until May 2 at 12:00AM MDT by NWS Pueblo CO",
-      "severity": "Severe"
     },
     {
       "type": "Freeze Warning",
