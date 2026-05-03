@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "May 02, 2026 at 10:00 PM MDT",
+  "lastUpdated": "May 02, 2026 at 11:00 PM MDT",
   "weather": [
     {
       "location": "Denver, CO",
@@ -9,8 +9,8 @@
     },
     {
       "location": "Silverton, CO",
-      "icon": "\ud83c\udf24\ufe0f",
-      "temp": "23\u00b0F",
+      "icon": "\u2600\ufe0f",
+      "temp": "22\u00b0F",
       "humidity": ""
     },
     {
@@ -49,7 +49,7 @@
       "resort": "Steamboat",
       "snow24": 0,
       "snow48": 0,
-      "forecast": "Wed: 2\""
+      "forecast": "Tue: 1\" | Wed: 2\""
     },
     {
       "resort": "Brighton",
